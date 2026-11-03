@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.tsbuildinfo
+*.log
+.env
+.env.*
+!.env.example
+.cache/
+docs/evidence/*.b64
+public/__qa.html
+public/__sourceqa.html
+public/media/607d7aaa5c-reel-full.mp4
+public/media/1efe739a04-aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4
+public/media/*.preparing-*

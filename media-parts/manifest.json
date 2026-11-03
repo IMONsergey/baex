@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "target": "public/media/607d7aaa5c-reel-full.mp4",
+      "size": 25065715,
+      "sha256": "acb8326fbe7f0a6b557545bb3660c1d717f34a4dd8a67281bfb837c8fac1c5fb",
+      "parts": [
+        {
+          "path": "media-parts/607d7aaa5c-reel-full.mp4/000.part",
+          "size": 8388608,
+          "sha256": "05d82361f770f75d28e70628711cde5b9ebe65847becc17dda53f57c30f0a81e"
+        },
+        {
+          "path": "media-parts/607d7aaa5c-reel-full.mp4/001.part",
+          "size": 8388608,
+          "sha256": "d421347edf2fc13bb7f7e2012df885252a9d9f01d10ff1f7884620ab040ff8f7"
+        },
+        {
+          "path": "media-parts/607d7aaa5c-reel-full.mp4/002.part",
+          "size": 8288499,
+          "sha256": "af128afbeb0f25893214743149851c840e2f1a22d9270231f0c7fcf300d0f655"
+        }
+      ]
+    },
+    {
+      "target": "public/media/1efe739a04-aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4",
+      "size": 16295872,
+      "sha256": "f97c3cd2c2ba6b1aea595e372f875ec0732cee09d71c64cb1be5e59ca7c25eff",
+      "parts": [
+        {
+          "path": "media-parts/1efe739a04-aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4/000.part",
+          "size": 8388608,
+          "sha256": "f10ac0464947ca222194e478cee5c1ade883c1abc7380020919e0e4490bdda0e"
+        },
+        {
+          "path": "media-parts/1efe739a04-aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4/001.part",
+          "size": 7907264,
+          "sha256": "416e80aaa3b3a2ca28edeb2659f4320fcf5c2af35b18e7cd81980898733e87a1"
+        }
+      ]
+    }
+  ]
+}

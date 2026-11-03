@@ -1,0 +1,4669 @@
+{
+  "schemaVersion": 1,
+  "edition": {
+    "mode": "reference",
+    "sourceBrand": "REJOUICE",
+    "sourceUrl": "https://www.rejouice.com/",
+    "capturedAt": "2026-11-03",
+    "adaptationTarget": "BAEV",
+    "copy": "Original condensed descriptions of the reference projects. Client names and factual roles retain their source attribution."
+  },
+  "site": {
+    "name": "REJOUICE",
+    "tagline": "Independent thinking.\nConnected expertise.",
+    "nav": [
+      {
+        "label": "Home",
+        "path": "/"
+      },
+      {
+        "label": "Work",
+        "path": "/work"
+      },
+      {
+        "label": "About",
+        "path": "/about"
+      },
+      {
+        "label": "Services",
+        "path": "/services"
+      },
+      {
+        "label": "Contact",
+        "path": "/contact"
+      }
+    ],
+    "socials": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rejouice.studio/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/company/rejouice/"
+      }
+    ],
+    "businessEmail": "hello@rejouice.com",
+    "careersEmail": "jobs@rejouice.com",
+    "offices": [
+      {
+        "city": "San Diego",
+        "country": "USA",
+        "address": [
+          "4375 30th Street",
+          "California, 92104",
+          "USA"
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      {
+        "city": "Paris",
+        "country": "France",
+        "address": [
+          "26 rue du Chalet",
+          "75010 Paris",
+          "France"
+        ],
+        "timeZone": "Europe/Paris"
+      }
+    ],
+    "footerTitle": "Build it with care.\nMake it count.",
+    "newsletter": {
+      "enabled": false,
+      "label": "Studio updates",
+      "placeholder": "Email address",
+      "endpoint": null,
+      "successMessage": null
+    },
+    "reel": {
+      "assetKey": "607d7aaa5c",
+      "sourceUrl": "https://www.rejouice.com/static/reel-full.mp4",
+      "kind": "video",
+      "name": "reel-full.mp4",
+      "alt": "REJOUICE showreel"
+    }
+  },
+  "routes": [
+    {
+      "path": "/",
+      "type": "home",
+      "title": "Home"
+    },
+    {
+      "path": "/work",
+      "type": "work",
+      "title": "Work"
+    },
+    {
+      "path": "/about",
+      "type": "about",
+      "title": "About"
+    },
+    {
+      "path": "/services",
+      "type": "services",
+      "title": "Services"
+    },
+    {
+      "path": "/contact",
+      "type": "contact",
+      "title": "Contact"
+    },
+    {
+      "path": "/work/icomat",
+      "type": "project",
+      "title": "ICOMAT",
+      "projectSlug": "icomat"
+    },
+    {
+      "path": "/work/tensor",
+      "type": "project",
+      "title": "Tensor",
+      "projectSlug": "tensor"
+    },
+    {
+      "path": "/work/terminal-industries",
+      "type": "project",
+      "title": "Terminal Industries",
+      "projectSlug": "terminal-industries"
+    },
+    {
+      "path": "/work/rivian",
+      "type": "project",
+      "title": "Rivian",
+      "projectSlug": "rivian"
+    },
+    {
+      "path": "/work/du-chateau",
+      "type": "project",
+      "title": "Du Chateau",
+      "projectSlug": "du-chateau"
+    },
+    {
+      "path": "/work/oura-ring",
+      "type": "project",
+      "title": "Oura Ring",
+      "projectSlug": "oura-ring"
+    },
+    {
+      "path": "/work/intrepid",
+      "type": "project",
+      "title": "Intrepid",
+      "projectSlug": "intrepid"
+    },
+    {
+      "path": "/work/moxion-power",
+      "type": "project",
+      "title": "Moxion Power",
+      "projectSlug": "moxion-power"
+    },
+    {
+      "path": "/work/hyperframe",
+      "type": "project",
+      "title": "Hyperframe",
+      "projectSlug": "hyperframe"
+    },
+    {
+      "path": "/work/noovo",
+      "type": "project",
+      "title": "Noovo",
+      "projectSlug": "noovo"
+    },
+    {
+      "path": "/work/gencell-website",
+      "type": "project",
+      "title": "GenCell",
+      "projectSlug": "gencell-website"
+    },
+    {
+      "path": "/work/proof",
+      "type": "project",
+      "title": "Proof",
+      "projectSlug": "proof"
+    },
+    {
+      "path": "/work/tenzr",
+      "type": "project",
+      "title": "Tenzr",
+      "projectSlug": "tenzr"
+    },
+    {
+      "path": "/work/unspun",
+      "type": "project",
+      "title": "Unspun",
+      "projectSlug": "unspun"
+    },
+    {
+      "path": "/work/list-across",
+      "type": "project",
+      "title": "List Across",
+      "projectSlug": "list-across"
+    },
+    {
+      "path": "/work/ov-loop",
+      "type": "project",
+      "title": "OV Loop",
+      "projectSlug": "ov-loop"
+    },
+    {
+      "path": "/work/connect-homes",
+      "type": "project",
+      "title": "Connect Homes",
+      "projectSlug": "connect-homes"
+    },
+    {
+      "path": "/work/engineered-floors",
+      "type": "project",
+      "title": "Engineered Floors",
+      "projectSlug": "engineered-floors"
+    },
+    {
+      "path": "/work/pinch-bank",
+      "type": "project",
+      "title": "Pinch Bank",
+      "projectSlug": "pinch-bank"
+    },
+    {
+      "path": "/legal",
+      "type": "legal",
+      "title": "Reference information"
+    }
+  ],
+  "home": {
+    "hero": {
+      "left": "Strategy. Design.\nGrowth.",
+      "right": "Independent ideas.\nGlobal reach.",
+      "reelLabel": "Play reel",
+      "desktopVideo": {
+        "assetKey": "6f7fb4b8e5",
+        "sourceUrl": "https://www.rejouice.com/static/reel-short.mp4",
+        "kind": "video",
+        "name": "reel-short.mp4",
+        "alt": "REJOUICE hero film"
+      },
+      "mobileVideo": {
+        "assetKey": "7987eed68a",
+        "sourceUrl": "https://www.rejouice.com/static/reel-short-mobile.mp4",
+        "kind": "video",
+        "name": "reel-short-mobile.mp4",
+        "alt": "REJOUICE hero film"
+      }
+    },
+    "intro": "We connect brand strategy, visual design and digital delivery. A focused team works with founders from the first idea through launch and growth.",
+    "keyValue": {
+      "title": "Fewer projects.\nDeeper involvement.",
+      "body": "Five client partnerships each year allow a focused team to stay closely involved across strategy, design and delivery.",
+      "link": {
+        "label": "Our services",
+        "path": "/services"
+      }
+    },
+    "selectedTitle": "Selected work",
+    "selected": [
+      {
+        "projectSlug": "rivian",
+        "large": true,
+        "thumbnail": {
+          "assetKey": "fd0ff6f36a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5Y5bqstJ98aaF_rivian.jpg",
+          "alt": "Rivian",
+          "width": 2880,
+          "height": 1656
+        },
+        "hoverVideo": {
+          "assetKey": "23f07f4e27",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZfpbqstJ98kkB_RJ-HIGHLIGHT-Work-01.mp4",
+          "kind": "video",
+          "name": "Rivian-Work-01.mp4",
+          "alt": ""
+        },
+        "logo": {
+          "assetKey": "5b2e77b669",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+          "kind": "image",
+          "name": "Z0ck9pbqstJ970bM_rivian-white.svg",
+          "alt": "",
+          "width": 92,
+          "height": 18
+        }
+      },
+      {
+        "projectSlug": "oura-ring",
+        "large": false,
+        "thumbnail": {
+          "assetKey": "0f4b299109",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z2AYnZbqstJ98i2G_oura-abdul-ovaice-photography-cd-21.png?auto=format,compress",
+          "kind": "image",
+          "name": "Z2AYnZbqstJ98i2G_oura-abdul-ovaice-photography-cd-21.png",
+          "alt": "Oura Ring",
+          "width": 1340,
+          "height": 1740
+        },
+        "hoverVideo": {
+          "assetKey": "c6881cb55b",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZoJbqstJ98kkL_RJ-HIGHLIGHT-Work-02.mp4",
+          "kind": "video",
+          "name": "oura-Work-02.mp4",
+          "alt": ""
+        },
+        "logo": {
+          "assetKey": "164ce65b01",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+          "kind": "image",
+          "name": "Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+          "alt": "",
+          "width": 57,
+          "height": 19
+        }
+      },
+      {
+        "projectSlug": "moxion-power",
+        "large": false,
+        "thumbnail": {
+          "assetKey": "499e0a1906",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z2AYnJbqstJ98i2E_moxionpower.2023.04.onlocation-17821.png?auto=format,compress",
+          "kind": "image",
+          "name": "Z2AYnJbqstJ98i2E_moxionpower.2023.04.onlocation-17821.png",
+          "alt": "Moxion Power",
+          "width": 1336,
+          "height": 1740
+        },
+        "hoverVideo": {
+          "assetKey": "cd18daf01e",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZvpbqstJ98kkM_RJ-HIGHLIGHT-Work-03.mp4",
+          "kind": "video",
+          "name": "moxion-Work-03.mp4",
+          "alt": ""
+        },
+        "logo": {
+          "assetKey": "ee33c57217",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae9pbqstJ98i6h_mixion-logo-white.svg",
+          "kind": "image",
+          "name": "Z2Ae9pbqstJ98i6h_mixion-logo-white.svg",
+          "alt": "",
+          "width": 79,
+          "height": 14
+        }
+      }
+    ],
+    "logos": [
+      {
+        "assetKey": "6a0826ecfa",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+        "kind": "image",
+        "name": "Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+        "alt": "1",
+        "width": 128,
+        "height": 26
+      },
+      {
+        "assetKey": "2cdfe33f91",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+        "kind": "image",
+        "name": "Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+        "alt": "2",
+        "width": 62,
+        "height": 20
+      },
+      {
+        "assetKey": "cd7aa3a702",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LneZbqstJ98pKu_Moxion.svg",
+        "kind": "image",
+        "name": "Z2LneZbqstJ98pKu_Moxion.svg",
+        "alt": "3",
+        "width": 644,
+        "height": 185
+      },
+      {
+        "assetKey": "9b4f079519",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z1r07ZbqstJ98aSL_8VCVCFirm.svg",
+        "kind": "image",
+        "name": "Z1r07ZbqstJ98aSL_8VCVCFirm.svg",
+        "alt": "4",
+        "width": 73,
+        "height": 29
+      },
+      {
+        "assetKey": "0d2d59647d",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+        "kind": "image",
+        "name": "Z2LlrpbqstJ98pJz_RAPPI.svg",
+        "alt": "5",
+        "width": 224,
+        "height": 94
+      },
+      {
+        "assetKey": "b39ac9bc92",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Lo5ZbqstJ98pLj_HYPERFRAME.svg",
+        "kind": "image",
+        "name": "Z2Lo5ZbqstJ98pLj_HYPERFRAME.svg",
+        "alt": "6",
+        "width": 968,
+        "height": 185
+      },
+      {
+        "assetKey": "7477df7454",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAypbqstJ970Cs_Frame1073714684.svg",
+        "kind": "image",
+        "name": "Z0cAypbqstJ970Cs_Frame1073714684.svg",
+        "alt": "7",
+        "width": 92,
+        "height": 22
+      },
+      {
+        "assetKey": "28da7ebdd5",
+        "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2HXc5bqstJ98naA_Proof.svg",
+        "kind": "image",
+        "name": "Z2HXc5bqstJ98naA_Proof.svg",
+        "alt": "8",
+        "width": 305,
+        "height": 77
+      }
+    ],
+    "reel": {
+      "assetKey": "8ad3ef24f5",
+      "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "kind": "video",
+      "name": "REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "alt": "Selected REJOUICE projects"
+    },
+    "glanceTitle": "The studio in numbers",
+    "glanceCards": [
+      {
+        "id": "glance-1",
+        "variant": "defaultWidget",
+        "title": "60 brands\nlaunched since 2013",
+        "size": "small",
+        "theme": "dark",
+        "logos": [
+          {
+            "assetKey": "1e58e592e4",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+            "kind": "image",
+            "name": "Z2Fmb5bqstJ98mHM_tensr-white.svg",
+            "alt": "1",
+            "width": 85,
+            "height": 23
+          },
+          {
+            "assetKey": "10738abc48",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLyZbqstJ98mpr_MOXION.svg",
+            "kind": "image",
+            "name": "Z2GLyZbqstJ98mpr_MOXION.svg",
+            "alt": "2",
+            "width": 245,
+            "height": 42
+          },
+          {
+            "assetKey": "5b2e77b669",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+            "kind": "image",
+            "name": "Z0ck9pbqstJ970bM_rivian-white.svg",
+            "alt": "3",
+            "width": 92,
+            "height": 18
+          },
+          {
+            "assetKey": "fe8a71d2e0",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+            "kind": "image",
+            "name": "Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+            "alt": "4",
+            "width": 404,
+            "height": 39
+          },
+          {
+            "assetKey": "164ce65b01",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+            "kind": "image",
+            "name": "Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+            "alt": "5",
+            "width": 57,
+            "height": 19
+          },
+          {
+            "assetKey": "71fb62392e",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlV5bqstJ98mF6_rappi-white.svg",
+            "kind": "image",
+            "name": "Z2FlV5bqstJ98mF6_rappi-white.svg",
+            "alt": "6",
+            "width": 224,
+            "height": 94
+          }
+        ]
+      },
+      {
+        "id": "glance-2",
+        "variant": "autoScrollValue",
+        "title": "Across industries",
+        "size": "full",
+        "theme": "dark",
+        "logos": [],
+        "background": {
+          "assetKey": "d16abb7c82",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1m0HZbqstJ98VgZ_oura-abdul-ovaice-3d-cd-031.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "oura-abdul-ovaice-3d-cd-03 1.png",
+          "alt": "",
+          "width": 440,
+          "height": 503
+        },
+        "items": [
+          "Technology",
+          "Finance",
+          "E-commerce",
+          "BioTech",
+          "Automotive",
+          "Healthcare",
+          "Real Estate",
+          "Fashion",
+          "Energy",
+          "Retail",
+          "Manufacturing",
+          "Software",
+          "Consumer Goods",
+          "Transportation",
+          "Hospitality",
+          "Defense",
+          "Logistics"
+        ]
+      },
+      {
+        "id": "glance-3",
+        "variant": "defaultWidget",
+        "title": "70+ awards\nfor creative work",
+        "size": "small",
+        "theme": "light",
+        "logos": [
+          {
+            "assetKey": "2d97e789fe",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzvpbqstJ98jdY_fwa-logo.svg",
+            "kind": "image",
+            "name": "Z2AzvpbqstJ98jdY_fwa-logo.svg",
+            "alt": "1",
+            "width": 79,
+            "height": 24
+          },
+          {
+            "assetKey": "3278dccd5e",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2E1SJbqstJ98lgU_Awwards-logotype-2018.svg",
+            "kind": "image",
+            "name": "Z2E1SJbqstJ98lgU_Awwards-logotype-2018.svg",
+            "alt": "2",
+            "width": 141,
+            "height": 22
+          },
+          {
+            "assetKey": "d27f914b4c",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkCZbqstJ98mFM_Behance.svg",
+            "kind": "image",
+            "name": "Z2FkCZbqstJ98mFM_Behance.svg",
+            "alt": "3",
+            "width": 311,
+            "height": 58
+          },
+          {
+            "assetKey": "454ff57ba7",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkFZbqstJ98mFO_Webby-Awards-Logo1.svg",
+            "kind": "image",
+            "name": "Z2FkFZbqstJ98mFO_Webby-Awards-Logo1.svg",
+            "alt": "4",
+            "width": 293,
+            "height": 169
+          }
+        ]
+      },
+      {
+        "id": "glance-4",
+        "variant": "defaultWidget",
+        "title": "Over a decade\nin e-commerce",
+        "size": "full",
+        "theme": "dark",
+        "logos": [],
+        "background": {
+          "assetKey": "d8d406e420",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1m0-JbqstJ98Vh9_pergola-module-floor-1-360-grey-blue-bioclimatic-ceiling-and-curtains2.png?auto=format,compress",
+          "kind": "image",
+          "name": "Z1m0-JbqstJ98Vh9_pergola-module-floor-1-360-grey-blue-bioclimatic-ceiling-and-curtains2.png",
+          "alt": "",
+          "width": 440,
+          "height": 503
+        }
+      },
+      {
+        "id": "glance-5",
+        "variant": "defaultWidget",
+        "title": "Two ways\nto work together",
+        "size": "small",
+        "theme": "dark",
+        "logos": [],
+        "link": {
+          "label": "Explore",
+          "path": "/services"
+        }
+      },
+      {
+        "id": "glance-6",
+        "variant": "drive",
+        "title": "150%",
+        "size": "small",
+        "theme": "light",
+        "logos": [],
+        "value": 150,
+        "subtitle": "Reported average LTV:CAC measure"
+      },
+      {
+        "id": "glance-7",
+        "variant": "defaultWidget",
+        "title": "Approximately 71,000\nRivian pre-orders",
+        "size": "medium",
+        "theme": "dark",
+        "logos": [
+          {
+            "assetKey": "5b2e77b669",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+            "kind": "image",
+            "name": "Z0ck9pbqstJ970bM_rivian-white.svg",
+            "alt": "1",
+            "width": 92,
+            "height": 18
+          }
+        ],
+        "background": {
+          "assetKey": "23a731c951",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2lj25bqstJ98yZV_RJ-WIDGET-RIVIAN.mp4",
+          "kind": "video",
+          "name": "RJ-WIDGET-RIVIAN.mp4",
+          "alt": ""
+        }
+      },
+      {
+        "id": "glance-8",
+        "variant": "defaultWidget",
+        "title": "$5M+ in new business\nwithin 90 days",
+        "size": "small",
+        "theme": "light",
+        "logos": [
+          {
+            "assetKey": "37b8d71b9a",
+            "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzLZbqstJ98jbf_noovo-logo.svg",
+            "kind": "image",
+            "name": "Z2AzLZbqstJ98jbf_noovo-logo.svg",
+            "alt": "1",
+            "width": 72,
+            "height": 14
+          }
+        ],
+        "link": {
+          "label": "Explore",
+          "path": "/work"
+        }
+      }
+    ],
+    "approachTitle": "How we work",
+    "approach": [
+      {
+        "title": "Attention over volume.",
+        "body": "A small number of partnerships gives each project room for research, iteration and careful execution."
+      },
+      {
+        "title": "A reason to care.\nA reason to choose.",
+        "body": "A useful brand combines emotional relevance with a clear product experience and measurable commercial purpose."
+      }
+    ],
+    "next": {
+      "label": "Meet the studio",
+      "title": "About us",
+      "path": "/about"
+    }
+  },
+  "work": {
+    "intro": "Ambitious products need a clear story. Explore the brands and digital experiences developed by REJOUICE.",
+    "projectOrder": [
+      "icomat",
+      "tensor",
+      "terminal-industries",
+      "rivian",
+      "du-chateau",
+      "oura-ring",
+      "intrepid",
+      "moxion-power",
+      "hyperframe",
+      "noovo",
+      "gencell-website",
+      "proof",
+      "tenzr",
+      "unspun",
+      "list-across",
+      "ov-loop",
+      "connect-homes",
+      "engineered-floors",
+      "pinch-bank"
+    ],
+    "slides": [
+      {
+        "type": "project",
+        "projectSlug": "icomat",
+        "thumbnail": {
+          "assetKey": "699986de01",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "abAKaVxvIZEnjhr7_Hero-CGI.jpg",
+          "alt": "ICOMAT",
+          "width": 2880,
+          "height": 1620
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "tensor",
+        "thumbnail": {
+          "assetKey": "00b5f2b104",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+          "alt": "Tensor",
+          "width": 2720,
+          "height": 1530
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "terminal-industries",
+        "thumbnail": {
+          "assetKey": "50856a96f2",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png?auto=format,compress",
+          "kind": "image",
+          "name": "aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png",
+          "alt": "Terminal Industries",
+          "width": 2880,
+          "height": 1904
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "rivian",
+        "thumbnail": {
+          "assetKey": "fd0ff6f36a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5Y5bqstJ98aaF_rivian.jpg",
+          "alt": "Rivian",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "du-chateau",
+        "thumbnail": {
+          "assetKey": "06b65d4ddb",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3xV4pbqstJ99GIi_Duchateau-Cover.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z3xV4pbqstJ99GIi_Duchateau-Cover.jpg",
+          "alt": "Du Chateau",
+          "width": 2049,
+          "height": 1265
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "oura-ring",
+        "thumbnail": {
+          "assetKey": "cd5cb0079e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5X5bqstJ98aZ9_oura.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5X5bqstJ98aZ9_oura.jpg",
+          "alt": "Oura Ring",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "intrepid",
+        "thumbnail": {
+          "assetKey": "d49b91372f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5W5bqstJ98aZ2_intreprid.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5W5bqstJ98aZ2_intreprid.jpg",
+          "alt": "Intrepid",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "statement",
+        "text": "Creative perspective.\nPractical ambition."
+      },
+      {
+        "type": "project",
+        "projectSlug": "moxion-power",
+        "thumbnail": {
+          "assetKey": "fcfb56f060",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5XZbqstJ98aZ6_moxion.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5XZbqstJ98aZ6_moxion.jpg",
+          "alt": "Moxion Power",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "hyperframe",
+        "thumbnail": {
+          "assetKey": "2aa85d7111",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5WpbqstJ98aZ1_hyperframe.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5WpbqstJ98aZ1_hyperframe.jpg",
+          "alt": "Hyperframe",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "noovo",
+        "thumbnail": {
+          "assetKey": "326468fa08",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5XpbqstJ98aZ8_noovo.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5XpbqstJ98aZ8_noovo.jpg",
+          "alt": "Noovo",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "statement",
+        "text": "From an idea\nto a complete brand."
+      },
+      {
+        "type": "project",
+        "projectSlug": "gencell-website",
+        "thumbnail": {
+          "assetKey": "bc19b79e8b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5WZbqstJ98aZz_gencell-website.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5WZbqstJ98aZz_gencell-website.jpg",
+          "alt": "GenCell",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "proof",
+        "thumbnail": {
+          "assetKey": "f0aff6d262",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3R385bqstJ986dE_Untitled-2.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z3R385bqstJ986dE_Untitled-2.jpg",
+          "alt": "Proof",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "tenzr",
+        "thumbnail": {
+          "assetKey": "6b868f0fea",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3R3CZbqstJ986cq_Untitled-2.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z3R3CZbqstJ986cq_Untitled-2.jpg",
+          "alt": "Tenzr",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "type": "statement",
+        "text": "Thoughtful work,\ncarried through."
+      },
+      {
+        "type": "project",
+        "projectSlug": "unspun",
+        "thumbnail": {
+          "assetKey": "35d117c518",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5ZZbqstJ98aaI_unspun.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5ZZbqstJ98aaI_unspun.jpg",
+          "alt": "Unspun",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "list-across",
+        "thumbnail": {
+          "assetKey": "0ffd41f72f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5XJbqstJ98aZ4_list-across.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5XJbqstJ98aZ4_list-across.jpg",
+          "alt": "List Across",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "ov-loop",
+        "thumbnail": {
+          "assetKey": "3eb4fd108e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5YJbqstJ98aaA_ov-loop.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5YJbqstJ98aaA_ov-loop.jpg",
+          "alt": "OV Loop",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "statement",
+        "text": "Build it with care.\nMake it count."
+      },
+      {
+        "type": "project",
+        "projectSlug": "connect-homes",
+        "thumbnail": {
+          "assetKey": "e0e591a864",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5V5bqstJ98aZx_connect-homes.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5V5bqstJ98aZx_connect-homes.jpg",
+          "alt": "Connect Homes",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "engineered-floors",
+        "thumbnail": {
+          "assetKey": "a1c7bbe5ee",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5WJbqstJ98aZy_engineered-floors.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5WJbqstJ98aZy_engineered-floors.jpg",
+          "alt": "Engineered Floors",
+          "width": 2880,
+          "height": 1656
+        }
+      },
+      {
+        "type": "project",
+        "projectSlug": "pinch-bank",
+        "thumbnail": {
+          "assetKey": "6d996bb4ed",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z1r5YZbqstJ98aaB_pinch.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z1r5YZbqstJ98aaB_pinch.jpg",
+          "alt": "Pinch Bank",
+          "width": 2880,
+          "height": 1656
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "icomat",
+      "path": "/work/icomat",
+      "title": "ICOMAT",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/icomat",
+      "heroCaption": "Composite engineering,\nready to scale.",
+      "summary": "A brand and digital introduction to ICOMAT’s composite manufacturing technology. REJOUICE used messaging, motion and 3D to make the Rapid Tow Shearing process easier to understand.",
+      "introductionParagraphs": [
+        "A brand and digital introduction to ICOMAT’s composite manufacturing technology. REJOUICE used messaging, motion and 3D to make the Rapid Tow Shearing process easier to understand."
+      ],
+      "roles": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ],
+      "hero": {
+        "assetKey": "699986de01",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Hero - CGI.jpg",
+        "alt": "ICOMAT project cover",
+        "width": 2880,
+        "height": 1620
+      },
+      "gallery": [
+        {
+          "assetKey": "1eac9a9082",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALKlxvIZEnjhsT_Icomat-Casestudy00Logo16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 00 Logo 16x9.mp4",
+          "alt": "ICOMAT project image 1"
+        },
+        {
+          "assetKey": "4940821bd1",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALXlxvIZEnjhsZ_Icomat-Casestudy0116x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 01 16x9.mp4",
+          "alt": "ICOMAT project image 2"
+        },
+        {
+          "assetKey": "b52d517c8c",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abALd1xvIZEnjhsd_Diptych.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Diptych.png",
+          "alt": "ICOMAT project image 3",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "ba385209f3",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMJVxvIZEnjhsy_Icomat-Casestudy02Desktopwebsite16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 02 Desktop website 16x9.mp4",
+          "alt": "ICOMAT project image 4"
+        },
+        {
+          "assetKey": "8aed633377",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abAMTVxvIZEnjhs3_Brand-Hero.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Hero.jpg",
+          "alt": "ICOMAT project image 5",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "6dfdc57a9b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abAV0VxvIZEnjhzM_Web6.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 6.jpg",
+          "alt": "ICOMAT project image 6",
+          "width": 2720,
+          "height": 5959
+        },
+        {
+          "assetKey": "088ba630fa",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMtlxvIZEnjhtV_Icomat-Casestudy053D16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 05 3D 16x9.mp4",
+          "alt": "ICOMAT project image 7"
+        },
+        {
+          "assetKey": "a9bd5ea228",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMyFxvIZEnjhtX_Icomat-Casestudy07Branding16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 07 Branding 16x9.mp4",
+          "alt": "ICOMAT project image 8"
+        },
+        {
+          "assetKey": "eadfd10782",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abANPVxvIZEnjhuc_Brand-Hero-02.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Hero- 02.jpg",
+          "alt": "ICOMAT project image 9",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "caa0e38e85",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAN5FxvIZEnjhus_Icomat-Casestudy08BrandGuidelinesFlash-16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 08  Brand Guidelines Flash - 16x9.mp4",
+          "alt": "ICOMAT project image 10"
+        },
+        {
+          "assetKey": "73fd93959f",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOClxvIZEnjhut_Icomat-Casestudy04Videocut16x9_2.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 04 Video cut 16x9_2.mp4",
+          "alt": "ICOMAT project image 11"
+        },
+        {
+          "assetKey": "e3e73efaac",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOIlxvIZEnjhuv_Icomat-Casestudy063D16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 06 3D 16x9.mp4",
+          "alt": "ICOMAT project image 12"
+        },
+        {
+          "assetKey": "a5b3381228",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOQlxvIZEnjhuz_Icomat-Casestudy03MobileWebsite16x9.mp4",
+          "kind": "video",
+          "name": "Icomat - Case study 03 Mobile Website 16x9.mp4",
+          "alt": "ICOMAT project image 13"
+        },
+        {
+          "assetKey": "43184b5e72",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abAV3VxvIZEnjhzS_Web9.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 9.jpg",
+          "alt": "ICOMAT project image 14",
+          "width": 2720,
+          "height": 5959
+        },
+        {
+          "assetKey": "6da2dba1e6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/abAOY1xvIZEnjhu2_Brand-Hero03.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Hero 03.jpg",
+          "alt": "ICOMAT project image 15",
+          "width": 2720,
+          "height": 1530
+        }
+      ],
+      "nextProjectSlug": "tensor",
+      "nextProjectImage": {
+        "assetKey": "0626f95041",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg?auto=format,compress&rect=0,217,2720,1096&w=2880&h=1160",
+        "kind": "image",
+        "name": "aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+        "alt": "Tensor",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": []
+    },
+    {
+      "slug": "tensor",
+      "path": "/work/tensor",
+      "title": "Tensor",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/tensor",
+      "heroCaption": "Autonomy, reimagined.",
+      "summary": "An integrated launch for an independently owned autonomous vehicle. The scope covered naming, identity, launch imagery, the website and the systems supporting its commercial debut.",
+      "introductionParagraphs": [
+        "Tensor’s brief centered on a Level 4 autonomous vehicle that customers could own. REJOUICE worked with the team on a complete brand and launch program over three months, covering company and product naming, positioning, identity and the language used to explain the new category.",
+        "The launch brought strategy and visual production together. Art direction, copy and CGI established a consistent way to present the vehicle, while a coordinated introduction connected the product, its technology and Tensor’s ambitions across automotive and artificial intelligence.",
+        "The digital work extended beyond the website’s appearance. It included the customer journey and the technology supporting hosting, commerce, content, customer data and reporting. These connected systems gave the launch a practical foundation for consumer engagement and the ongoing management of the new brand."
+      ],
+      "roles": [
+        "Brand Strategy",
+        "Naming",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design",
+        "Go-To-Market Strategy"
+      ],
+      "hero": {
+        "assetKey": "4589b4ed7e",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aJfcaaTt2nPbaHC6_Hero-CGI.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Hero - CGI.png",
+        "alt": "Tensor project cover",
+        "width": 2880,
+        "height": 1620
+      },
+      "gallery": [
+        {
+          "assetKey": "b50003d22c",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfdPaTt2nPbaHC8_TENSOR-CASESTUDY-02.mp4",
+          "kind": "video",
+          "name": "TENSOR-CASESTUDY-02.mp4",
+          "alt": "Tensor project image 1"
+        },
+        {
+          "assetKey": "fe1ade51a9",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi3BKTt2nPbaH5z_TENSOR-CASESTUDY-02.mp4",
+          "kind": "video",
+          "name": "TENSOR-CASESTUDY-02.mp4",
+          "alt": "Tensor project image 2"
+        },
+        {
+          "assetKey": "01df7b9b71",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aJfdrKTt2nPbaHC-_Brand-Hero.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Hero.jpg",
+          "alt": "Tensor project image 3",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "517ce1d41c",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfd1KTt2nPbaHC__TENSOR-CASESTUDY-01.mp4",
+          "kind": "video",
+          "name": "TENSOR-CASESTUDY-01.mp4",
+          "alt": "Tensor project image 4"
+        },
+        {
+          "assetKey": "00b5f2b104",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - CGI3-gigapixel-standard v2-1x.jpg",
+          "alt": "Tensor project image 5",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "749d549575",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4kY55xUNkB17f0_TensorBrandGIFOct2025.mp4",
+          "kind": "video",
+          "name": "Tensor Brand GIF Oct 2025.mp4",
+          "alt": "Tensor project image 6"
+        },
+        {
+          "assetKey": "de32b0cc3d",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRIGqTt2nPbac-B_Diptych3-gigapixel-standardv2-1x.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Diptych3-gigapixel-standard v2-1x.jpg",
+          "alt": "Tensor project image 7",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "99c57d2bc2",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRNZ6Tt2nPbadDG_OOH.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "OOH.jpg",
+          "alt": "Tensor project image 8",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "dfd643fbaf",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aJjBPKTt2nPbaH7F_Brand-Copy.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Copy.png",
+          "alt": "Tensor project image 9",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "bc9962f90a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aKRN2KTt2nPbadDb_Brand-Static.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - Static.jpg",
+          "alt": "Tensor project image 10",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "6ed9305c61",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXtz7pReVYa4b3Q_TENSOR-HOMEPAGE-MULTIMODALSENSOR.mp4",
+          "kind": "video",
+          "name": "TENSOR-HOMEPAGE-MULTIMODAL SENSOR.mp4",
+          "alt": "Tensor project image 11"
+        },
+        {
+          "assetKey": "86df4cffb2",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aJfe3qTt2nPbaHDL_Diptychd.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Diptychd.jpg",
+          "alt": "Tensor project image 12",
+          "width": 2720,
+          "height": 1530
+        },
+        {
+          "assetKey": "3942698dc1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aJffGqTt2nPbaHDP_Brand-CGI.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Brand - CGI.jpg",
+          "alt": "Tensor project image 13",
+          "width": 2720,
+          "height": 1948
+        },
+        {
+          "assetKey": "960d6e0026",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aJffGaTt2nPbaHDO_Web1.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 1.jpg",
+          "alt": "Tensor project image 14",
+          "width": 2720,
+          "height": 1531
+        },
+        {
+          "assetKey": "609448ab26",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4jD55xUNkB17eu_TENSOR-HOMEPAGE-TRANSITION-SCROLLANIMATION_1.mp4",
+          "kind": "video",
+          "name": "TENSOR-HOMEPAGE-TRANSITION-SCROLLANIMATION_1.mp4",
+          "alt": "Tensor project image 15"
+        },
+        {
+          "assetKey": "523fcb16b1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aO4jPJ5xUNkB17e2_Web3.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 3.jpg",
+          "alt": "Tensor project image 16",
+          "width": 2720,
+          "height": 3362
+        },
+        {
+          "assetKey": "f4d5f0b8c7",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aO4jZ55xUNkB17fF_Web4-4.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 4-4.jpg",
+          "alt": "Tensor project image 17",
+          "width": 2720,
+          "height": 1531
+        },
+        {
+          "assetKey": "c26d1c7ad5",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJffqKTt2nPbaHDa_TENSOR-CASESTUDY-03.mp4",
+          "kind": "video",
+          "name": "TENSOR-CASESTUDY-03.mp4",
+          "alt": "Tensor project image 18"
+        },
+        {
+          "assetKey": "e96ddd25a9",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aO4jf55xUNkB17fQ_Web6.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 6.jpg",
+          "alt": "Tensor project image 19",
+          "width": 2720,
+          "height": 5959
+        },
+        {
+          "assetKey": "2a7c46e9ff",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvtrpReVYa4b44_TENSOR-HOMEPAGE-09.mp4",
+          "kind": "video",
+          "name": "TENSOR-HOMEPAGE-09.mp4",
+          "alt": "Tensor project image 20"
+        },
+        {
+          "assetKey": "3b5dc62619",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aO4jyJ5xUNkB17fV_Web8.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Web 8.jpg",
+          "alt": "Tensor project image 21",
+          "width": 2720,
+          "height": 5163
+        },
+        {
+          "assetKey": "ca54422dae",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi_rqTt2nPbaH6u_TENSOR-CASESTUDY-04-.mp4",
+          "kind": "video",
+          "name": "TENSOR-CASESTUDY-04-.mp4",
+          "alt": "Tensor project image 22"
+        },
+        {
+          "assetKey": "1e4342741e",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvHbpReVYa4b4T_TENSOR-HOMEPAGE-08.mp4",
+          "kind": "video",
+          "name": "TENSOR-HOMEPAGE-08.mp4",
+          "alt": "Tensor project image 23"
+        }
+      ],
+      "nextProjectSlug": "rivian",
+      "nextProjectImage": {
+        "assetKey": "81bc566fd7",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg?auto=format,compress&rect=0,279,2160,870&w=2880&h=1160",
+        "kind": "image",
+        "name": "aFMaEbNJEFaPYFQr_Rivian-cover.jpg",
+        "alt": "Rivian",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": []
+    },
+    {
+      "slug": "terminal-industries",
+      "path": "/work/terminal-industries",
+      "title": "Terminal Industries",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/terminal-industries",
+      "heroCaption": "A clearer view\nof the connected yard.",
+      "summary": "Brand and digital work for Terminal Industries’ Yard Operating System. The project explains how real-time information helps teams manage movement and operations across the supply chain.",
+      "introductionParagraphs": [
+        "Brand and digital work for Terminal Industries’ Yard Operating System. The project explains how real-time information helps teams manage movement and operations across the supply chain."
+      ],
+      "roles": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ],
+      "hero": {
+        "assetKey": "50856a96f2",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "dwdw3-gigapixel-low resolution v2-2x 1.png",
+        "alt": "Terminal Industries project cover",
+        "width": 2880,
+        "height": 1904
+      },
+      "gallery": [
+        {
+          "assetKey": "d8774e96a8",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOGmlGsbswqTQS9_TERMINAL-CASESTUDY-01.mp4",
+          "kind": "video",
+          "name": "TERMINAL-CASESTUDY-01.mp4",
+          "alt": "Terminal Industries project image 1"
+        },
+        {
+          "assetKey": "711d665f3e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOH31GsbswqTQTe_Frame1171277257.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 1171277257.png",
+          "alt": "Terminal Industries project image 2",
+          "width": 2720,
+          "height": 1582
+        },
+        {
+          "assetKey": "c68f1060cd",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOLQVGsbswqTQXI_TERMINAL-CASESTUDY-03.mp4",
+          "kind": "video",
+          "name": "TERMINAL-CASESTUDY-03.mp4",
+          "alt": "Terminal Industries project image 3"
+        },
+        {
+          "assetKey": "bfba1a32ed",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOIf1GsbswqTQT4_Wireframe-73.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Wireframe - 73.png",
+          "alt": "Terminal Industries project image 4",
+          "width": 2720,
+          "height": 1582
+        },
+        {
+          "assetKey": "d0502fb61c",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOI3FGsbswqTQUD_02_MacBook-Pro-Standard-Mockup-25-main23-gigapixel-lowresolutionv2-2x.mp4",
+          "kind": "video",
+          "name": "02_MacBook-Pro-Standard-Mockup-25-main23-gigapixel-low resolution v2-2x.mp4",
+          "alt": "Terminal Industries project image 5"
+        },
+        {
+          "assetKey": "1efe739a04",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4",
+          "kind": "video",
+          "name": "TERMINAL-CASESTUDY-02_2.mp4",
+          "alt": "Terminal Industries project image 6"
+        },
+        {
+          "assetKey": "749179eda2",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOKZ1GsbswqTQVu_TERMINAL-CASESTUDY-05.mp4",
+          "kind": "video",
+          "name": "TERMINAL-CASESTUDY-05.mp4",
+          "alt": "Terminal Industries project image 7"
+        },
+        {
+          "assetKey": "83f1fda081",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOKJ1GsbswqTQVL_Wireframe-76.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Wireframe - 76.png",
+          "alt": "Terminal Industries project image 8",
+          "width": 2720,
+          "height": 1582
+        },
+        {
+          "assetKey": "f7237ed227",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIO9J1GsbswqTQ5Y_BL113-gigapixel-lowresolutionv2-2x2.mp4",
+          "kind": "video",
+          "name": "BL113-gigapixel-low resolution v2-2x 2.mp4",
+          "alt": "Terminal Industries project image 9"
+        }
+      ],
+      "nextProjectSlug": "du-chateau",
+      "nextProjectImage": {
+        "assetKey": "f103aa9e4e",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aIOPwlGsbswqTQai_1458_22_V32_SET_02_THE_CUT_01_Post1.png?auto=format,compress&rect=0,209,1882,758&w=2880&h=1160",
+        "kind": "image",
+        "name": "aIOPwlGsbswqTQai_1458_22_V32_SET_02_THE_CUT_01_Post1.png",
+        "alt": "Du Chateau",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of The day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "AWWWARDS",
+          "entries": [
+            "Site of The Day",
+            "Developer Award",
+            "Site of The Month"
+          ]
+        }
+      ],
+      "testimonial": {
+        "name": "Leanne Kawahigashi",
+        "role": "VP of Design",
+        "nameParts": [
+          "Leanne Kawahigashi",
+          "VP of Design"
+        ],
+        "summary": "Leanne Kawahigashi praises the team’s collaboration, craft and delivery.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "f8fc84d031",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aIkcoVGsbswqTb5M_HeadshotFinal.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "aIkcoVGsbswqTb5M_HeadshotFinal.jpg",
+          "alt": "Leanne Kawahigashi",
+          "width": 800,
+          "height": 800
+        }
+      }
+    },
+    {
+      "slug": "rivian",
+      "path": "/work/rivian",
+      "title": "Rivian",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/rivian",
+      "heroCaption": "Electric vehicles.\nBuilt for exploration.",
+      "summary": "A brand launch and digital platform for Rivian’s electric adventure vehicles. The work introduced the company’s vision, presented its technology and supported the first wave of customer reservations.",
+      "introductionParagraphs": [
+        "A brand launch and digital platform for Rivian’s electric adventure vehicles. The work introduced the company’s vision, presented its technology and supported the first wave of customer reservations."
+      ],
+      "roles": [
+        "Brand Strategy",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "479e0e0155",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Rivian-cover.jpg",
+        "alt": "Rivian project cover",
+        "width": 2160,
+        "height": 1428
+      },
+      "gallery": [
+        {
+          "assetKey": "08d6674eb2",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbCbNJEFaPYFQx_RIVIAN-CASESTUDY-01.mp4",
+          "kind": "video",
+          "name": "RIVIAN-CASESTUDY-01.mp4",
+          "alt": "Rivian project image 1"
+        },
+        {
+          "assetKey": "3e2abfa4d1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcJLNJEFaPYFRB_Rivian-02.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-02.jpg",
+          "alt": "Rivian project image 2",
+          "width": 2720,
+          "height": 1639
+        },
+        {
+          "assetKey": "6adb5dab8a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcJbNJEFaPYFRD_Rivian-04.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-04.jpg",
+          "alt": "Rivian project image 3",
+          "width": 2720,
+          "height": 1639
+        },
+        {
+          "assetKey": "73ec787060",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcJrNJEFaPYFRF_Rivian-05.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-05.jpg",
+          "alt": "Rivian project image 4",
+          "width": 2720,
+          "height": 1639
+        },
+        {
+          "assetKey": "a5a6331564",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcJ7NJEFaPYFRG_Rivian-06.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-06.jpg",
+          "alt": "Rivian project image 5",
+          "width": 2720,
+          "height": 1638
+        },
+        {
+          "assetKey": "a6cb241c3d",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcKLNJEFaPYFRH_Rivian-07.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-07.jpg",
+          "alt": "Rivian project image 6",
+          "width": 2720,
+          "height": 3246
+        },
+        {
+          "assetKey": "25efa5a581",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbI7NJEFaPYFQz_RIVIAN-CASESTUDY-02.mp4",
+          "kind": "video",
+          "name": "RIVIAN-CASESTUDY-02.mp4",
+          "alt": "Rivian project image 7"
+        },
+        {
+          "assetKey": "6813d72f34",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcKbNJEFaPYFRI_Rivian-09.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-09.jpg",
+          "alt": "Rivian project image 8",
+          "width": 2720,
+          "height": 3156
+        },
+        {
+          "assetKey": "f2d43fd15b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/aFMcKrNJEFaPYFRJ_Rivian-10.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rivian-10.jpg",
+          "alt": "Rivian project image 9",
+          "width": 2720,
+          "height": 1638
+        },
+        {
+          "assetKey": "c53959595e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/adaW0Z1ZCF7ES_Vy_Untitled-2p.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Untitled-2p.png",
+          "alt": "Rivian project image 10",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "assetKey": "d965175db3",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/adaW0p1ZCF7ES_V0_image-23-.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "image (23).png",
+          "alt": "Rivian project image 11",
+          "width": 1920,
+          "height": 1372
+        }
+      ],
+      "nextProjectSlug": "oura-ring",
+      "nextProjectImage": {
+        "assetKey": "ac9ad927c5",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg?auto=format,compress&rect=0,307,2200,886&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg",
+        "alt": "Oura Ring",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of the day"
+          ]
+        }
+      ],
+      "externalUrl": "https://rivian.com"
+    },
+    {
+      "slug": "du-chateau",
+      "path": "/work/du-chateau",
+      "title": "Du Chateau",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/du-chateau",
+      "heroCaption": "Interiors,\nwith distinction.",
+      "summary": "Brand positioning and digital design for Du Chateau. The work connects its materials and bespoke interiors with the visual language of contemporary fashion.",
+      "introductionParagraphs": [
+        "Brand positioning and digital design for Du Chateau. The work connects its materials and bespoke interiors with the visual language of contemporary fashion."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "528d9313e8",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3wvjZbqstJ99F7S_Duchateau-Cover.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Duchateau-Cover.jpg",
+        "alt": "Du Chateau project cover",
+        "width": 2433,
+        "height": 1521
+      },
+      "gallery": [
+        {
+          "assetKey": "c8508dbe73",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xRMJbqstJ99GG4_01-Duchateau-Video.mp4",
+          "kind": "video",
+          "name": "01 - Duchateau - Video.mp4",
+          "alt": "Du Chateau project image 1"
+        },
+        {
+          "assetKey": "929f8434dc",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3HTf5bqstJ984SO_Frame21133.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21133.jpg",
+          "alt": "Du Chateau project image 2",
+          "width": 2720,
+          "height": 4424
+        },
+        {
+          "assetKey": "7b74779936",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HRb5bqstJ984SK_Duchateau-WebsiteDemox5.mp4",
+          "kind": "video",
+          "name": "Duchateau - Website Demo x5.mp4",
+          "alt": "Du Chateau project image 3"
+        },
+        {
+          "assetKey": "b2b95e7fd5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3HWh5bqstJ984Ss_Group1073714238.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 1073714238.jpg",
+          "alt": "Du Chateau project image 4",
+          "width": 2720,
+          "height": 6628
+        },
+        {
+          "assetKey": "74287062c3",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HVPJbqstJ984Sm_01-WEBSITE-DUCHATEAU6d.mp4",
+          "kind": "video",
+          "name": "01-WEBSITE-DUCHATEAU 6d.mp4",
+          "alt": "Du Chateau project image 5"
+        },
+        {
+          "assetKey": "684e870673",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3HTjpbqstJ984SP_Group1073714236.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 1073714236.jpg",
+          "alt": "Du Chateau project image 6",
+          "width": 2720,
+          "height": 5336
+        },
+        {
+          "assetKey": "cd5a6e6269",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HTsJbqstJ984SQ_Duchateau-WebsiteDemox6.mp4",
+          "kind": "video",
+          "name": "Duchateau - Website Demo x6.mp4",
+          "alt": "Du Chateau project image 7"
+        }
+      ],
+      "nextProjectSlug": "oura-ring",
+      "nextProjectImage": {
+        "assetKey": "ca53718603",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg?auto=format,compress&rect=0,382,2720,1096&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg",
+        "alt": "Oura Ring",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://duchateau-git-master-rejouice.vercel.app"
+    },
+    {
+      "slug": "oura-ring",
+      "path": "/work/oura-ring",
+      "title": "Oura Ring",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/oura-ring",
+      "heroCaption": "Wellbeing, worn.",
+      "summary": "Brand and digital design for Oura’s wearable health technology. The identity combines product imagery with a personal, inclusive view of sleep, activity and recovery.",
+      "introductionParagraphs": [
+        "Brand and digital design for Oura’s wearable health technology. The identity combines product imagery with a personal, inclusive view of sleep, activity and recovery."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "2e58931fea",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "oura-abdul-ovaice-photography-cd-3.jpg",
+        "alt": "Oura Ring project cover",
+        "width": 2200,
+        "height": 1500
+      },
+      "gallery": [
+        {
+          "assetKey": "fe3f60030b",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xbLZbqstJ99GKJ_01-OURA-Video2.mp4",
+          "kind": "video",
+          "name": "01 - OURA- Video 2.mp4",
+          "alt": "Oura Ring project image 1"
+        },
+        {
+          "assetKey": "3e22c4f394",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z215hpbqstJ981qQ_Oura-01.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Oura-01.png",
+          "alt": "Oura Ring project image 2",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "257b14b859",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218X5bqstJ981q6_Group3922.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3922.png",
+          "alt": "Oura Ring project image 3",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "2e58931fea",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "oura-abdul-ovaice-photography-cd-3.jpg",
+          "alt": "Oura Ring project image 4",
+          "width": 2200,
+          "height": 1500
+        },
+        {
+          "assetKey": "f7a9aa721e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218opbqstJ981rL_Group3919.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3919.png",
+          "alt": "Oura Ring project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "02cc8509f6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3FO0JbqstJ984Gf_Untitled-1.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Untitled-1.png",
+          "alt": "Oura Ring project image 6",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "assetKey": "8516e0b0f6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z218yZbqstJ981rO_Frame21108s.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21108s.png",
+          "alt": "Oura Ring project image 7",
+          "width": 2720,
+          "height": 3032
+        },
+        {
+          "assetKey": "ca2ffe00ea",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3fSX5bqstJ99A_s_Oura-3d-render-01.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Oura-3d-render-01.png",
+          "alt": "Oura Ring project image 8",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "d69a73b025",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z2186pbqstJ981rQ_Group3919.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3919.png",
+          "alt": "Oura Ring project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "152e0958df",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Oura-3d-render-02.jpg",
+          "alt": "Oura Ring project image 10",
+          "width": 2720,
+          "height": 1860
+        }
+      ],
+      "nextProjectSlug": "intrepid",
+      "nextProjectImage": {
+        "assetKey": "e6ce78d8a4",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png?auto=format,compress&rect=0,261,3408,1373&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22E05bqstJ981tX_Intrepid-Cover.png",
+        "alt": "Intrepid",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ],
+      "externalUrl": "http://ouraring.com",
+      "testimonial": {
+        "name": "Abdul Ovaice",
+        "role": "Creative Director at Oura",
+        "nameParts": [
+          "Abdul Ovaice",
+          "Creative Director at Oura"
+        ],
+        "summary": "Abdul Ovaice reports that the launch supported improved conversion rather than the decline the team had anticipated.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "b5912a2ce1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22DwZbqstJ981s9_7fcac628-7584-47b3-a3c7-ac619cdf95a3_Abdul.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z22DwZbqstJ981s9_7fcac628-7584-47b3-a3c7-ac619cdf95a3_Abdul.avif",
+          "alt": "Abdul Ovaice",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "intrepid",
+      "path": "/work/intrepid",
+      "title": "Intrepid",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/intrepid",
+      "heroCaption": "Precision manufacturing.\nA clear digital story.",
+      "summary": "A website and brand presentation for Intrepid Automation’s digital casting technology. The experience translates a technical manufacturing system into benefits that industrial buyers can evaluate.",
+      "introductionParagraphs": [
+        "A website and brand presentation for Intrepid Automation’s digital casting technology. The experience translates a technical manufacturing system into benefits that industrial buyers can evaluate."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "5248c29a78",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Intrepid-Cover.png",
+        "alt": "Intrepid project cover",
+        "width": 3408,
+        "height": 1894
+      },
+      "gallery": [
+        {
+          "assetKey": "205d1308a4",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xSKJbqstJ99GHC_01-INTREPID-Video.mp4",
+          "kind": "video",
+          "name": "01 - INTREPID- Video.mp4",
+          "alt": "Intrepid project image 1"
+        },
+        {
+          "assetKey": "4204cbd784",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22FnpbqstJ981tl_GH-INTREPID-04.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "GH-INTREPID-04.png",
+          "alt": "Intrepid project image 2",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "e046a55cb5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22F-JbqstJ981ts_Frame1073714620.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 1073714620.png",
+          "alt": "Intrepid project image 3",
+          "width": 2720,
+          "height": 3033
+        },
+        {
+          "assetKey": "458c8f070d",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GBpbqstJ981tt_GH-INTREPID2.mp4",
+          "kind": "video",
+          "name": "GH-INTREPID 2.mp4",
+          "alt": "Intrepid project image 4"
+        },
+        {
+          "assetKey": "416d246be5",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22Gf5bqstJ981ty_GH-INTREPID3.mp4",
+          "kind": "video",
+          "name": "GH-INTREPID 3.mp4",
+          "alt": "Intrepid project image 5"
+        },
+        {
+          "assetKey": "a1959a5b0a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22GX5bqstJ981tv_Group3919.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3919.png",
+          "alt": "Intrepid project image 6",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "b987a7747d",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GcpbqstJ981tw_GH-INTREPID4.mp4",
+          "kind": "video",
+          "name": "GH-INTREPID 4.mp4",
+          "alt": "Intrepid project image 7"
+        }
+      ],
+      "nextProjectSlug": "moxion-power",
+      "nextProjectImage": {
+        "assetKey": "a264cf1185",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png?auto=format,compress&rect=0,398,2804,1129&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22KFpbqstJ981ua_IMG_87781.png",
+        "alt": "Moxion Power",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of the Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of the Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://www.intrepidautomation.com/",
+      "testimonial": {
+        "name": "Merrin Muxlow",
+        "role": "Head of Marketing",
+        "nameParts": [
+          "Merrin Muxlow",
+          "Head of Marketing"
+        ],
+        "summary": "Merrin Muxlow describes greater clarity in the company’s industrial branding and a positive collaboration.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "3f4236ac49",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4g5u5bqstJ99gpB_MerrinM_230622_022.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z4g5u5bqstJ99gpB_MerrinM_230622_022.jpg",
+          "alt": "Merrin Muxlow",
+          "width": 478,
+          "height": 515
+        }
+      }
+    },
+    {
+      "slug": "moxion-power",
+      "path": "/work/moxion-power",
+      "title": "Moxion Power",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/moxion-power",
+      "heroCaption": "Power on the move.",
+      "summary": "A brand built for Moxion Power’s mobile battery systems. Strategy, identity and digital design introduce an alternative to diesel power for construction, events and remote locations.",
+      "introductionParagraphs": [
+        "A brand built for Moxion Power’s mobile battery systems. Strategy, identity and digital design introduce an alternative to diesel power for construction, events and remote locations."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "56741a3ec9",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "IMG_8778 1.png",
+        "alt": "Moxion Power project cover",
+        "width": 2804,
+        "height": 1926
+      },
+      "gallery": [
+        {
+          "assetKey": "40eacce132",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22K2ZbqstJ981uv_RJ-CS-MP01.mp4",
+          "kind": "video",
+          "name": "RJ-CS-MP01.mp4",
+          "alt": "Moxion Power project image 1"
+        },
+        {
+          "assetKey": "e7c92f0e01",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22LBJbqstJ981uy_Maskgroup.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Mask group.png",
+          "alt": "Moxion Power project image 2",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "3b0a038397",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LMZbqstJ981u1_RJ-CS-MP02.mp4",
+          "kind": "video",
+          "name": "RJ-CS-MP02.mp4",
+          "alt": "Moxion Power project image 3"
+        },
+        {
+          "assetKey": "152b85c77f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22LaZbqstJ981u4_Frame21196.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21196.png",
+          "alt": "Moxion Power project image 4",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "9a940824b7",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LfJbqstJ981u9_RJ-CS-MP06_1.mp4",
+          "kind": "video",
+          "name": "RJ-CS-MP06_1.mp4",
+          "alt": "Moxion Power project image 5"
+        },
+        {
+          "assetKey": "ed6554bdad",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22Lo5bqstJ981vL_Maskgroups.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Mask groups.png",
+          "alt": "Moxion Power project image 6",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "f80a364478",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LxJbqstJ981vX_RJ-CS-MP05_1.mp4",
+          "kind": "video",
+          "name": "RJ-CS-MP05_1.mp4",
+          "alt": "Moxion Power project image 7"
+        },
+        {
+          "assetKey": "8ed6ebd66d",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22NBZbqstJ981vz_Frame21197.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21197.png",
+          "alt": "Moxion Power project image 8",
+          "width": 2720,
+          "height": 8014
+        },
+        {
+          "assetKey": "fcba56af65",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22MLZbqstJ981vr_Rectangle2305.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rectangle 2305.png",
+          "alt": "Moxion Power project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "fad783eb76",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3FRGZbqstJ984Gt_MP-lastcover.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "MP-lastcover.png",
+          "alt": "Moxion Power project image 10",
+          "width": 2800,
+          "height": 1744
+        },
+        {
+          "assetKey": "d9d48ecd74",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FRtpbqstJ984Gy_MP-INDUSTRY.mp4",
+          "kind": "video",
+          "name": "MP-INDUSTRY.mp4",
+          "alt": "Moxion Power project image 11"
+        },
+        {
+          "assetKey": "683f8bbd60",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4hAu5bqstJ99grN_moxionpower.2023.04.onlocation-1147.fullresolution.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "moxion power.2023.04.on location-1147.full resolution.jpg",
+          "alt": "Moxion Power project image 12",
+          "width": 8192,
+          "height": 5464
+        },
+        {
+          "assetKey": "646aae868d",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4hBcZbqstJ99gru_moxionpower.2023.04.portraits-395.fullresolution.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "moxion power.2023.04.portraits-395.full resolution.jpg",
+          "alt": "Moxion Power project image 13",
+          "width": 8192,
+          "height": 5464
+        }
+      ],
+      "nextProjectSlug": "hyperframe",
+      "nextProjectImage": {
+        "assetKey": "0356806e94",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png?auto=format,compress&rect=0,646,3120,1257&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22P2JbqstJ981wT_Hyp03-2588x18001.png",
+        "alt": "Hyperframe",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        }
+      ],
+      "externalUrl": "http://moxion-preprod.rejouice.io",
+      "testimonial": {
+        "name": "Alex Meek",
+        "role": "Co-Founder & President",
+        "nameParts": [
+          "Alex Meek",
+          "Co-Founder & President"
+        ],
+        "summary": "Alex Meek expresses satisfaction with the partnership and the work delivered for Moxion Power.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "fd13fe0fe0",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4hAWJbqstJ99grK_Screenshot2025-01-15at3.09.44PM.png?auto=format%2Ccompress&rect=1142%2C20%2C2020%2C1413&w=3636&h=2544",
+          "kind": "image",
+          "name": "Z4hAWJbqstJ99grK_Screenshot2025-01-15at3.09.44PM.png",
+          "alt": "Alex Meek",
+          "width": 3636,
+          "height": 2544
+        }
+      }
+    },
+    {
+      "slug": "hyperframe",
+      "path": "/work/hyperframe",
+      "title": "Hyperframe",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/hyperframe",
+      "heroCaption": "Steel, made simple.",
+      "summary": "Brand and digital work for Hyperframe’s software-led construction system. Visual storytelling explains how its components and tools change the process of assembling steel-framed walls.",
+      "introductionParagraphs": [
+        "Brand and digital work for Hyperframe’s software-led construction system. Visual storytelling explains how its components and tools change the process of assembling steel-framed walls."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "3179620819",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Hyp03-2588x1800 1.png",
+        "alt": "Hyperframe project cover",
+        "width": 3120,
+        "height": 2548
+      },
+      "gallery": [
+        {
+          "assetKey": "16e63ec25b",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3G3BZbqstJ984QV_Hyperframe.mp4",
+          "kind": "video",
+          "name": "Hyperframe.mp4",
+          "alt": "Hyperframe project image 1"
+        },
+        {
+          "assetKey": "2f8690d5eb",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22QqJbqstJ981we_Homepage-1.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Homepage-1.png",
+          "alt": "Hyperframe project image 2",
+          "width": 2720,
+          "height": 1700
+        },
+        {
+          "assetKey": "259bef08d5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22R05bqstJ981wp_Frame21234.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21234.png",
+          "alt": "Hyperframe project image 3",
+          "width": 2720,
+          "height": 1940
+        },
+        {
+          "assetKey": "5808952352",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22SkJbqstJ981wy_02_hyper_video.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "02_hyper_video.mp4 (1080p).mp4",
+          "alt": "Hyperframe project image 4"
+        },
+        {
+          "assetKey": "e3e7c443a0",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22StZbqstJ981w0_Group3901.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3901.png",
+          "alt": "Hyperframe project image 5",
+          "width": 2720,
+          "height": 1800
+        },
+        {
+          "assetKey": "d85723f693",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22TAJbqstJ981w3_Group3909.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3909.png",
+          "alt": "Hyperframe project image 6",
+          "width": 2720,
+          "height": 1940
+        },
+        {
+          "assetKey": "ed372c4b09",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22TZJbqstJ981w9_Group3890.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3890.png",
+          "alt": "Hyperframe project image 7",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "05000f8a9b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22Tr5bqstJ981xE_202.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "20 2.png",
+          "alt": "Hyperframe project image 8",
+          "width": 2720,
+          "height": 1700
+        },
+        {
+          "assetKey": "a44d42b102",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22TuZbqstJ981xF_Group3908.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3908.png",
+          "alt": "Hyperframe project image 9",
+          "width": 2720,
+          "height": 1940
+        }
+      ],
+      "nextProjectSlug": "noovo",
+      "nextProjectImage": {
+        "assetKey": "c3b5378565",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg?auto=format,compress&rect=0,151,1360,548&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z0htLpbqstJ973RI_noovo8.jpg",
+        "alt": "Noovo",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://www.hyperframe.com/"
+    },
+    {
+      "slug": "noovo",
+      "path": "/work/noovo",
+      "title": "Noovo",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/noovo",
+      "heroCaption": "A brand for\nlife on the road.",
+      "summary": "Naming, identity, digital design and merchandise for Noovo’s converted vans. First-hand product experience informed a brand focused on the practical details and freedom of full-time van living.",
+      "introductionParagraphs": [
+        "Naming, identity, digital design and merchandise for Noovo’s converted vans. First-hand product experience informed a brand focused on the practical details and freedom of full-time van living."
+      ],
+      "roles": [
+        "Naming",
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "ba141fc4f7",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4r-tZbqstJ99l0w_DSC_2385_0da8e3604d-1-.webp?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "DSC_2385_0da8e3604d (1).webp",
+        "alt": "Noovo project cover",
+        "width": 3936,
+        "height": 2224
+      },
+      "gallery": [
+        {
+          "assetKey": "dea54a0ee0",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FryZbqstJ984J9_NOOVO-VIDEO-WEBSITE.mp4",
+          "kind": "video",
+          "name": "NOOVO-VIDEO-WEBSITE.mp4",
+          "alt": "Noovo project image 1"
+        },
+        {
+          "assetKey": "bce7977ad7",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4r_G5bqstJ99l0y_DSC_2404_84077cabc5-1-.webp?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "DSC_2404_84077cabc5 (1).webp",
+          "alt": "Noovo project image 2",
+          "width": 3698,
+          "height": 2090
+        },
+        {
+          "assetKey": "d34e6acaae",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3FzZpbqstJ984LG_DSC_1756.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "DSC_1756.jpg",
+          "alt": "Noovo project image 3",
+          "width": 2000,
+          "height": 1335
+        },
+        {
+          "assetKey": "627b6d6e63",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0hsuZbqstJ973Qw_Maskgroup.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo2.jpg",
+          "alt": "Noovo project image 4",
+          "width": 2720,
+          "height": 2666
+        },
+        {
+          "assetKey": "6880be1aa8",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyWJbqstJ984K7_logo-reveal_03_video.mp4",
+          "kind": "video",
+          "name": "logo-reveal_03_video.mp4",
+          "alt": "Noovo project image 5"
+        },
+        {
+          "assetKey": "a1a4f42f45",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htK5bqstJ973RF_noovo5.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo5.jpg",
+          "alt": "Noovo project image 6",
+          "width": 2720,
+          "height": 1636
+        },
+        {
+          "assetKey": "2e1739b8ec",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0hs25bqstJ973Q2_noovo3.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo3.jpg",
+          "alt": "Noovo project image 7",
+          "width": 1360,
+          "height": 2249
+        },
+        {
+          "assetKey": "22e28fa840",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htLJbqstJ973RG_noovo6.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo6.jpg",
+          "alt": "Noovo project image 8",
+          "width": 2720,
+          "height": 1636
+        },
+        {
+          "assetKey": "e1b78d0937",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FsipbqstJ984KC_REJOUICE-NOOVO_1.mp4",
+          "kind": "video",
+          "name": "REJOUICE-NOOVO_1.mp4",
+          "alt": "Noovo project image 9"
+        },
+        {
+          "assetKey": "48df3708b8",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htLZbqstJ973RH_noovo7.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo7.jpg",
+          "alt": "Noovo project image 10",
+          "width": 2720,
+          "height": 1636
+        },
+        {
+          "assetKey": "56f56a3c3a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo8.jpg",
+          "alt": "Noovo project image 11",
+          "width": 1360,
+          "height": 850
+        },
+        {
+          "assetKey": "6ca4a7d5ed",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0htL5bqstJ973RJ_noovo9.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "noovo9.jpg",
+          "alt": "Noovo project image 12",
+          "width": 1360,
+          "height": 850
+        },
+        {
+          "assetKey": "63c2e9993c",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyRJbqstJ984K6_REJOUICE-NOOVO2.mp4",
+          "kind": "video",
+          "name": "REJOUICE-NOOVO 2.mp4",
+          "alt": "Noovo project image 13"
+        },
+        {
+          "assetKey": "cdfb022059",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3FzZZbqstJ984LF_SectionCover.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Section Cover.jpg",
+          "alt": "Noovo project image 14",
+          "width": 2540,
+          "height": 1702
+        }
+      ],
+      "nextProjectSlug": "gencell-website",
+      "nextProjectImage": {
+        "assetKey": "ba3510a4bd",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png?auto=format,compress&rect=0,464,3272,1318&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22UbZbqstJ981xL_gencell.production-5301.png",
+        "alt": "Gencell",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://www.noovolife.com/",
+      "testimonial": {
+        "name": "Benoit Lafond",
+        "role": "Co-founder & CEO",
+        "nameParts": [
+          "Benoit Lafond",
+          "Co-founder & CEO"
+        ],
+        "summary": "Benoit Lafond connects the new identity with stronger commercial performance as well as design quality.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "264f3cc87b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4iRQJbqstJ99g5W_Screenshot2025-01-15at8.55.08PM.png?auto=format%2Ccompress&rect=156%2C150%2C617%2C628&w=920&h=936",
+          "kind": "image",
+          "name": "Z4iRQJbqstJ99g5W_Screenshot2025-01-15at8.55.08PM.png",
+          "alt": "Benoit Lafond",
+          "width": 920,
+          "height": 936
+        }
+      }
+    },
+    {
+      "slug": "gencell-website",
+      "path": "/work/gencell-website",
+      "title": "GenCell",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/gencell-website",
+      "heroCaption": "Hydrogen technology.\nMade approachable.",
+      "summary": "A digital introduction to GenCell’s fuel-cell systems and their applications. The work makes complex energy technology more accessible to customers across off-grid, charging and critical-power settings.",
+      "introductionParagraphs": [
+        "A digital introduction to GenCell’s fuel-cell systems and their applications. The work makes complex energy technology more accessible to customers across off-grid, charging and critical-power settings."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "f49f1fb505",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "gencell.production-530 1.png",
+        "alt": "GenCell project cover",
+        "width": 3272,
+        "height": 2246
+      },
+      "gallery": [
+        {
+          "assetKey": "7e0950003f",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22UypbqstJ981xN_RJ-CS-GC01.mp4",
+          "kind": "video",
+          "name": "RJ-CS-GC01.mp4",
+          "alt": "GenCell project image 1"
+        },
+        {
+          "assetKey": "34ced83e3f",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WoJbqstJ981xg_04.mp4",
+          "kind": "video",
+          "name": "04.mp4",
+          "alt": "GenCell project image 2"
+        },
+        {
+          "assetKey": "c3944d5b72",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WtpbqstJ981xh_RJ-CS-GC03.mp4",
+          "kind": "video",
+          "name": "RJ-CS-GC03.mp4",
+          "alt": "GenCell project image 3"
+        },
+        {
+          "assetKey": "143b04c0cc",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WxpbqstJ981xi_RJ-CS-GC02_1.mp4",
+          "kind": "video",
+          "name": "RJ-CS-GC02_1.mp4",
+          "alt": "GenCell project image 4"
+        },
+        {
+          "assetKey": "4b336211a2",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22XFZbqstJ981xl_Frame21199.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21199.jpg",
+          "alt": "GenCell project image 5",
+          "width": 2720,
+          "height": 4302
+        },
+        {
+          "assetKey": "8ba8cb81af",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22YJ5bqstJ981xu_Maskgroup.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Mask group.jpg",
+          "alt": "GenCell project image 6",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "1e38f17cd4",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22X1ZbqstJ981xp_Frame21235.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21235.jpg",
+          "alt": "GenCell project image 7",
+          "width": 2720,
+          "height": 3260
+        }
+      ],
+      "nextProjectSlug": "proof",
+      "nextProjectImage": {
+        "assetKey": "f09bf11b6e",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22dCpbqstJ981yz_Rectangle969.png?auto=format,compress&rect=0,320,2880,1160&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22dCpbqstJ981yz_Rectangle969.png",
+        "alt": "Proof",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://gencell-preprod.rejouice.io/",
+      "testimonial": {
+        "name": "Ariel Machtey",
+        "role": "Head of Marketing at GenCell",
+        "nameParts": [
+          "Ariel Machtey",
+          "Head of Marketing at GenCell"
+        ],
+        "summary": "Ariel Machtey highlights the stronger brand presentation created around GenCell’s hydrogen technology.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "599022e245",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23d65bqstJ982BP_6f21cdf6-d73e-4729-a094-4b9440765f16_gencell.management%2Bportraits-193.low%2Bresolution.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23d65bqstJ982BP_6f21cdf6-d73e-4729-a094-4b9440765f16_gencell.management%2Bportraits-193.low%2Bresolution.avif",
+          "alt": "Ariel Machtey",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "proof",
+      "path": "/work/proof",
+      "title": "Proof",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/proof",
+      "heroCaption": "Impact,\nunderstood through data.",
+      "summary": "Strategy, identity and a digital experience for Proof’s sustainability intelligence platform. Nature-based motion and a structured interface make its data-led proposition easier to follow.",
+      "introductionParagraphs": [
+        "Strategy, identity and a digital experience for Proof’s sustainability intelligence platform. Nature-based motion and a structured interface make its data-led proposition easier to follow."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "3502b7447d",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3Fv-5bqstJ984KU_Rectangle969.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Rectangle 969.png",
+        "alt": "Proof project cover",
+        "width": 2880,
+        "height": 1800
+      },
+      "gallery": [
+        {
+          "assetKey": "827da2286f",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FuyJbqstJ984KO_Proof-VIDEO-WEBSITE3.mp4",
+          "kind": "video",
+          "name": "Proof-VIDEO-WEBSITE 3.mp4",
+          "alt": "Proof project image 1"
+        },
+        {
+          "assetKey": "05d0035585",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22dLJbqstJ981y0_Group4003.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 4003.jpg",
+          "alt": "Proof project image 2",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "a41ab78d5f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22dXZbqstJ981y2_Frame21237.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21237.png",
+          "alt": "Proof project image 3",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "cbebdada37",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22dqpbqstJ981y4_02_proof.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "02_proof.mp4 (1080p).mp4",
+          "alt": "Proof project image 4"
+        },
+        {
+          "assetKey": "b93243d151",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22dypbqstJ981y7_Group4004.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 4004.png",
+          "alt": "Proof project image 5",
+          "width": 2720,
+          "height": 4500
+        },
+        {
+          "assetKey": "b64475844d",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22ef5bqstJ981zG_Proof_ProductOverview.mp4",
+          "kind": "video",
+          "name": "Proof_ProductOverview.mp4",
+          "alt": "Proof project image 6"
+        },
+        {
+          "assetKey": "ac53bf4b09",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22espbqstJ981zI_Group3931.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3931.png",
+          "alt": "Proof project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "1e345d3ce9",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22e05bqstJ981zJ_Group3979.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3979.jpg",
+          "alt": "Proof project image 8",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "186bda53ad",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22e8ZbqstJ981zK_203.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "20 3.png",
+          "alt": "Proof project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "f86f80abf0",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22fSZbqstJ981zY_Proof_ProductOverview2.mp4",
+          "kind": "video",
+          "name": "Proof_ProductOverview 2.mp4",
+          "alt": "Proof project image 10"
+        },
+        {
+          "assetKey": "46e615c8f3",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22fpJbqstJ981za_Group4006.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 4006.jpg",
+          "alt": "Proof project image 11",
+          "width": 2720,
+          "height": 3390
+        },
+        {
+          "assetKey": "41bc6fa70e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22fxpbqstJ981zb_Group4009.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 4009.jpg",
+          "alt": "Proof project image 12",
+          "width": 2720,
+          "height": 2438
+        },
+        {
+          "assetKey": "b08756d6d5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22f3ZbqstJ981zc_d7a218a4-bf7b-4f82-8e1f-37f344e3d8df_banner3.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "d7a218a4-bf7b-4f82-8e1f-37f344e3d8df_banner3.png",
+          "alt": "Proof project image 13",
+          "width": 2720,
+          "height": 1860
+        }
+      ],
+      "nextProjectSlug": "tenzr",
+      "nextProjectImage": {
+        "assetKey": "7d7bb32159",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif?auto=format,compress&rect=0,1081,8192,3300&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif",
+        "alt": "Tenzr",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://proof.io",
+      "testimonial": {
+        "name": "Fleur Heyns",
+        "role": "Co-founder & CEO",
+        "nameParts": [
+          "Fleur Heyns",
+          "Co-founder & CEO"
+        ],
+        "summary": "Fleur Heyns highlights the translation of sustainability data into a memorable visual story.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "d38821907f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z4iVzZbqstJ99g6g_cef1d779d3b1ae1bdaa67a7271f9f9a2.jpeg?auto=format,compress",
+          "kind": "image",
+          "name": "Z4iVzZbqstJ99g6g_cef1d779d3b1ae1bdaa67a7271f9f9a2.jpeg",
+          "alt": "Fleur Heyns",
+          "width": 800,
+          "height": 800
+        }
+      }
+    },
+    {
+      "slug": "tenzr",
+      "path": "/work/tenzr",
+      "title": "Tenzr",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/tenzr",
+      "heroCaption": "Recovery connected\nto play.",
+      "summary": "Digital and software design for Tenzr’s rehabilitation technology. The experience connects therapy devices with an app, using game-like interactions to support engagement with recovery exercises.",
+      "introductionParagraphs": [
+        "Digital and software design for Tenzr’s rehabilitation technology. The experience connects therapy devices with an app, using game-like interactions to support engagement with recovery exercises."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "d46dcc2d84",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif",
+        "alt": "Tenzr project cover",
+        "width": 8192,
+        "height": 5461
+      },
+      "gallery": [
+        {
+          "assetKey": "15248d963b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22gcZbqstJ981zh_Group3973.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3973.jpg",
+          "alt": "Tenzr project image 1",
+          "width": 2720,
+          "height": 3410
+        },
+        {
+          "assetKey": "6b69abcdd2",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22lwpbqstJ9810l_tenzr-cut_01.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "tenzr-cut_01.mp4 (1080p).mp4",
+          "alt": "Tenzr project image 2"
+        },
+        {
+          "assetKey": "9ce6d035c5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22l5ZbqstJ9810m_Group3970.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3970.png",
+          "alt": "Tenzr project image 3",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "d2e09ec5c5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22maZbqstJ9810y_Scene_10_typo.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Scene_10_typo.jpg",
+          "alt": "Tenzr project image 4",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "9a9c8fa1b5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22mdJbqstJ98100_Group3931.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3931.jpg",
+          "alt": "Tenzr project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "e498b8543c",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22mgJbqstJ98101_Group3971.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3971.jpg",
+          "alt": "Tenzr project image 6",
+          "width": 2720,
+          "height": 5486
+        },
+        {
+          "assetKey": "a19879fb5f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22mjZbqstJ98103_203.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "20 3.jpg",
+          "alt": "Tenzr project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "e0745e1751",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22mmJbqstJ98105_Group3972.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3972.jpg",
+          "alt": "Tenzr project image 8",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "01eb8285aa",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22mopbqstJ98106_Scene07_typo.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Scene07_typo.png",
+          "alt": "Tenzr project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "a312337ba5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22muZbqstJ98107_Group3921.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3921.jpg",
+          "alt": "Tenzr project image 10",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "eeaa9222a2",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22m3ZbqstJ98109_tenzr-cut_02.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "tenzr-cut_02.mp4 (1080p).mp4",
+          "alt": "Tenzr project image 11"
+        }
+      ],
+      "nextProjectSlug": "unspun",
+      "nextProjectImage": {
+        "assetKey": "2db6d22f79",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg?auto=format,compress&rect=0,382,2720,1096&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z222zpbqstJ9816a_3-4-2880x1800.jpg",
+        "alt": "Unspun",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://tenzr-preprod.rejouice.io/"
+    },
+    {
+      "slug": "unspun",
+      "path": "/work/unspun",
+      "title": "Unspun",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/unspun",
+      "heroCaption": "Made to fit. Made on demand.",
+      "summary": "A digital shopping experience for Unspun’s personalized denim. The work brings body scanning and real-time customization into a product journey shaped around individual fit and reduced waste.",
+      "introductionParagraphs": [
+        "A digital shopping experience for Unspun’s personalized denim. The work brings body scanning and real-time customization into a product journey shaped around individual fit and reduced waste."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "905e888631",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Group 3935.jpg",
+        "alt": "Unspun project cover",
+        "width": 2720,
+        "height": 1860
+      },
+      "gallery": [
+        {
+          "assetKey": "2a2df84c6d",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zqpbqstJ9815e_01_unspun.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "01_unspun.mp4 (1080p).mp4",
+          "alt": "Unspun project image 1"
+        },
+        {
+          "assetKey": "7cc2bb65e9",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22z7ZbqstJ9815l_Frame21139.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21139.jpg",
+          "alt": "Unspun project image 2",
+          "width": 2720,
+          "height": 4580
+        },
+        {
+          "assetKey": "04d327a4b6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z220B5bqstJ9815n_Group3931.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3931.png",
+          "alt": "Unspun project image 3",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "f06755250f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z220S5bqstJ9815q_5-3-2880x1800.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "5-3-2880x1800.jpg",
+          "alt": "Unspun project image 4",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "13c019aeaa",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "3-4-2880x1800.jpg",
+          "alt": "Unspun project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "8929c6e8f2",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z222-JbqstJ9816b_Frame21141.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21141.jpg",
+          "alt": "Unspun project image 6",
+          "width": 2720,
+          "height": 4580
+        },
+        {
+          "assetKey": "905e888631",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3935.jpg",
+          "alt": "Unspun project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "016e128b7c",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223YJbqstJ9816s_Group3933.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3933.jpg",
+          "alt": "Unspun project image 8",
+          "width": 2720,
+          "height": 4496
+        },
+        {
+          "assetKey": "15b98e7588",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223fZbqstJ9816y_Group3921.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3921.jpg",
+          "alt": "Unspun project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "5e87182032",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223l5bqstJ98162_tiles.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "tiles.jpg",
+          "alt": "Unspun project image 10",
+          "width": 2720,
+          "height": 1860
+        }
+      ],
+      "nextProjectSlug": "list-across",
+      "nextProjectImage": {
+        "assetKey": "eccd241037",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg?auto=format,compress&rect=0,344,3090,1245&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z223-ZbqstJ98164_yellow_2.jpg",
+        "alt": "List Across",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        }
+      ],
+      "externalUrl": "https://unspun-preprod.rejouice.io",
+      "testimonial": {
+        "name": "Beth Esponnette",
+        "role": "Co-Founder at Unspun™",
+        "nameParts": [
+          "Beth Esponnette",
+          "Co-Founder at Unspun™"
+        ],
+        "summary": "Beth Esponnette reports funding, traffic and conversion gains following the brand and website launch.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "a3f3f3b5c7",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23f45bqstJ982Bk_9d30a93a-64e1-47cc-b5c7-a955459fc04e_Beth.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23f45bqstJ982Bk_9d30a93a-64e1-47cc-b5c7-a955459fc04e_Beth.avif",
+          "alt": "Beth Esponnette",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "list-across",
+      "path": "/work/list-across",
+      "title": "List Across",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/list-across",
+      "heroCaption": "One listing.\nMore places to sell.",
+      "summary": "Brand and digital work for a service that distributes a single listing across multiple marketplaces. The experience explains cross-platform selling through one manageable interface.",
+      "introductionParagraphs": [
+        "Brand and digital work for a service that distributes a single listing across multiple marketplaces. The experience explains cross-platform selling through one manageable interface."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "b7ce021035",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "yellow_2.jpg",
+        "alt": "List Across project cover",
+        "width": 3090,
+        "height": 1932
+      },
+      "gallery": [
+        {
+          "assetKey": "3dcd52ab15",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227apbqstJ9817V_01_list_across.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "01_list_across.mp4 (1080p).mp4",
+          "alt": "List Across project image 1"
+        },
+        {
+          "assetKey": "397851bed6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z227lZbqstJ9817W_Group3955.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3955.jpg",
+          "alt": "List Across project image 2",
+          "width": 2720,
+          "height": 2964
+        },
+        {
+          "assetKey": "38be6b4c3f",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227rJbqstJ9817X_02_list_accross.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "02_list_accross.mp4 (1080p).mp4",
+          "alt": "List Across project image 3"
+        },
+        {
+          "assetKey": "2a0d45e87f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22715bqstJ9817Y_Group3951.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3951.jpg",
+          "alt": "List Across project image 4",
+          "width": 2720,
+          "height": 4500
+        },
+        {
+          "assetKey": "4f5b7b1524",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z2278JbqstJ9817c_Group3952.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3952.jpg",
+          "alt": "List Across project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "e83a6e92f1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z228CpbqstJ9817d_Group3947.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3947.jpg",
+          "alt": "List Across project image 6",
+          "width": 2720,
+          "height": 4488
+        },
+        {
+          "assetKey": "0b5c6b0554",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z228IJbqstJ9817e_1-LogIn.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "1 - Log In.jpg",
+          "alt": "List Across project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "55ebbe3c8e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z228OJbqstJ9817f_Group3956.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3956.jpg",
+          "alt": "List Across project image 8",
+          "width": 2720,
+          "height": 3180
+        },
+        {
+          "assetKey": "619f8f2446",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z228SJbqstJ9817g_04_list_across.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "04_list_across.mp4 (1080p).mp4",
+          "alt": "List Across project image 9"
+        }
+      ],
+      "nextProjectSlug": "ov-loop",
+      "nextProjectImage": {
+        "assetKey": "de8640eaa9",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z228oZbqstJ9817i_Rectangle969.jpg?auto=format,compress&rect=0,544,2880,1160&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z228oZbqstJ9817i_Rectangle969.jpg",
+        "alt": "OV Loop",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://www.listacross.com/",
+      "testimonial": {
+        "name": "Brandon McKenzie",
+        "role": "Co-Founder & CEO",
+        "nameParts": [
+          "Brandon McKenzie",
+          "Co-Founder & CEO"
+        ],
+        "summary": "Brandon McKenzie highlights how the team translated the company’s initial vision into visual and digital work.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "f52c35a5be",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23gz5bqstJ982CG_fd83acd1-cd77-4d07-b470-ef3981f43e40_Brandon.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23gz5bqstJ982CG_fd83acd1-cd77-4d07-b470-ef3981f43e40_Brandon.avif",
+          "alt": "Brandon McKenzie",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "ov-loop",
+      "path": "/work/ov-loop",
+      "title": "OV Loop",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/ov-loop",
+      "heroCaption": "Commerce, built on trust.",
+      "summary": "A brand and digital experience for OV Loop’s wallet and point-of-sale platform. The work focuses on clearer transactions, user control and compatibility with existing retail systems.",
+      "introductionParagraphs": [
+        "A brand and digital experience for OV Loop’s wallet and point-of-sale platform. The work focuses on clearer transactions, user control and compatibility with existing retail systems."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "cd385b27ee",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23DIZbqstJ9818r_23fcfc8d-ad26-4f2c-a55f-da974c467a14_ababab.avif?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "23fcfc8d-ad26-4f2c-a55f-da974c467a14_ababab.avif",
+        "alt": "OV Loop project cover",
+        "width": 2880,
+        "height": 1800
+      },
+      "gallery": [
+        {
+          "assetKey": "7ae9372a59",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23CNZbqstJ9818R_OVLOOP-01.mp4",
+          "kind": "video",
+          "name": "OVLOOP-01.mp4",
+          "alt": "OV Loop project image 1"
+        },
+        {
+          "assetKey": "a79b0010f5",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23Ca5bqstJ9818S_Frame3985.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 3985.png",
+          "alt": "OV Loop project image 2",
+          "width": 2720,
+          "height": 4581
+        },
+        {
+          "assetKey": "ed8abfa0e4",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23Ch5bqstJ9818d_Logo_00-copy-Noise2.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Logo_00-copy-Noise 2.jpg",
+          "alt": "OV Loop project image 3",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "8ad16cfbbd",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23Cl5bqstJ9818e_Group3931.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3931.jpg",
+          "alt": "OV Loop project image 4",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "a6be93bb80",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23CqpbqstJ9818f_Frame21209.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21209.jpg",
+          "alt": "OV Loop project image 5",
+          "width": 2720,
+          "height": 3260
+        },
+        {
+          "assetKey": "05a5081db8",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23Cu5bqstJ9818g_105742746.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "105742746.jpg",
+          "alt": "OV Loop project image 6",
+          "width": 2720,
+          "height": 1800
+        },
+        {
+          "assetKey": "ca198c9080",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23Cy5bqstJ9818h_Frame21210.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21210.jpg",
+          "alt": "OV Loop project image 7",
+          "width": 2720,
+          "height": 3260
+        },
+        {
+          "assetKey": "1c76a9fcb6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23C15bqstJ9818j_Ecommerce1.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Ecommerce 1.jpg",
+          "alt": "OV Loop project image 8",
+          "width": 2720,
+          "height": 1700
+        },
+        {
+          "assetKey": "3d5e9953a9",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23C5JbqstJ9818k_Rectangle1015.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Rectangle 1015.jpg",
+          "alt": "OV Loop project image 9",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "060c45d89e",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23C9pbqstJ9818l_Group3989.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3989.jpg",
+          "alt": "OV Loop project image 10",
+          "width": 2720,
+          "height": 3984
+        },
+        {
+          "assetKey": "07b6a1b22b",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23DBJbqstJ9818m_Group3921.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3921.jpg",
+          "alt": "OV Loop project image 11",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "b4ef0fad07",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23DEJbqstJ9818p_Group3988.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3988.jpg",
+          "alt": "OV Loop project image 12",
+          "width": 2720,
+          "height": 1860
+        }
+      ],
+      "nextProjectSlug": "connect-homes",
+      "nextProjectImage": {
+        "assetKey": "52cfed7f01",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg?auto=format,compress&rect=0,351,3150,1269&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z23EApbqstJ9819L_4-2880x18003.jpg",
+        "alt": "Connect Homes",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ],
+      "externalUrl": "https://www.ovloopbrand.com/",
+      "testimonial": {
+        "name": "Will Graylin",
+        "role": "CEO",
+        "nameParts": [
+          "Will Graylin",
+          "CEO"
+        ],
+        "summary": "Will Graylin highlights the clear expression of the company’s purpose through its website.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "904b879ead",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23hbpbqstJ982CN_18ad2845-bb4f-49bc-8589-c8d56cc11538_willAvatar.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23hbpbqstJ982CN_18ad2845-bb4f-49bc-8589-c8d56cc11538_willAvatar.avif",
+          "alt": "Will Graylin",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "connect-homes",
+      "path": "/work/connect-homes",
+      "title": "Connect Homes",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/connect-homes",
+      "heroCaption": "Modern homes.\nA simpler buying journey.",
+      "summary": "Brand and digital design for Connect Homes’ prefabricated houses. Custom 3D imagery and interactive presentation make home configurations easier to explore and compare.",
+      "introductionParagraphs": [
+        "Brand and digital design for Connect Homes’ prefabricated houses. Custom 3D imagery and interactive presentation make home configurations easier to explore and compare."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "6f4ff6fc1b",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "4-2880x1800 3.jpg",
+        "alt": "Connect Homes project cover",
+        "width": 3150,
+        "height": 1970
+      },
+      "gallery": [
+        {
+          "assetKey": "5d90fb7240",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23HKZbqstJ9819h_01_connect_homes-mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "01_connect_homes-mp4 (1080p).mp4",
+          "alt": "Connect Homes project image 1"
+        },
+        {
+          "assetKey": "8b0a762044",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23HTZbqstJ9819j_ConnectHomes_PaloAlto-9-1-2609x1800.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "ConnectHomes_PaloAlto-9-1-2609x1800.jpg",
+          "alt": "Connect Homes project image 2",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "c8a4b9c3da",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23J9ZbqstJ9819y_f327fc4d-8e2c-4b3d-bf3a-f5ff03ad3478_ConnectHomes_CoolidgeAv_023-2880x1800.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "f327fc4d-8e2c-4b3d-bf3a-f5ff03ad3478_ConnectHomes_CoolidgeAv_023-2880x1800.jpg",
+          "alt": "Connect Homes project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "f3cc3da41f",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23J9pbqstJ9819z_Group3964.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3964.png",
+          "alt": "Connect Homes project image 6",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "10d3e91ceb",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23J8ZbqstJ9819w_Group3965.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3965.jpg",
+          "alt": "Connect Homes project image 7",
+          "width": 2720,
+          "height": 4500
+        }
+      ],
+      "nextProjectSlug": "engineered-floors",
+      "nextProjectImage": {
+        "assetKey": "6d09acb6ef",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23LGpbqstJ98193_014.jpg?auto=format,compress&rect=0,479,4378,1763&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z23LGpbqstJ98193_014.jpg",
+        "alt": "Engineered Floors",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "testimonial": {
+        "name": "Jared Levy",
+        "role": "CEO & Co-Founder",
+        "nameParts": [
+          "Jared Levy",
+          "CEO & Co-Founder"
+        ],
+        "summary": "Jared Levy describes a product-focused website that makes the company’s homes easier to understand and explore.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "bc030b35bf",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23iRZbqstJ982CU_5960ec9e-d7de-4477-a773-bb8d832637c2_Jared%2BLevy.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23iRZbqstJ982CU_5960ec9e-d7de-4477-a773-bb8d832637c2_Jared%2BLevy.avif",
+          "alt": "Jared Levy",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "engineered-floors",
+      "path": "/work/engineered-floors",
+      "title": "Engineered Floors",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/engineered-floors",
+      "heroCaption": "Materials, craft\nand digital detail.",
+      "summary": "An interactive website for Engineered Floors. Product storytelling and motion show the materials, processes and customization behind its flooring ranges.",
+      "introductionParagraphs": [
+        "An interactive website for Engineered Floors. Product storytelling and motion show the materials, processes and customization behind its flooring ranges."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "e391689f20",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z3FvvZbqstJ984KR_Ensignium.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "Ensignium.jpg",
+        "alt": "Engineered Floors project cover",
+        "width": 1920,
+        "height": 1440
+      },
+      "gallery": [
+        {
+          "assetKey": "1c836cea50",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23LlJbqstJ981-G_Group3976.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3976.png",
+          "alt": "Engineered Floors project image 1",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "e7b427d4e6",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23MXpbqstJ981-v_0191.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "019 1.jpg",
+          "alt": "Engineered Floors project image 2",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "56c5e6b748",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23MOJbqstJ981-Z_ef-curt_02-mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "ef-curt_02-mp4 (1080p).mp4",
+          "alt": "Engineered Floors project image 3"
+        },
+        {
+          "assetKey": "40a3d21741",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23M0pbqstJ981--_Frame21188.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21188.jpg",
+          "alt": "Engineered Floors project image 4",
+          "width": 2720,
+          "height": 6284
+        },
+        {
+          "assetKey": "c92d05cfd1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23M65bqstJ981_N_105742746.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "105742746.jpg",
+          "alt": "Engineered Floors project image 5",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "1ce3a1c0e7",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23NKZbqstJ981_V_Frame21201.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21201.jpg",
+          "alt": "Engineered Floors project image 6",
+          "width": 2720,
+          "height": 4580
+        },
+        {
+          "assetKey": "0cb60136be",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23NRZbqstJ981_Y_Group3982.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3982.jpg",
+          "alt": "Engineered Floors project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "d4bc04ec73",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23NZZbqstJ981_b_Group3978.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3978.jpg",
+          "alt": "Engineered Floors project image 8",
+          "width": 2720,
+          "height": 2264
+        },
+        {
+          "assetKey": "bcbb33f899",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23NlZbqstJ981_c_Group3981.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3981.jpg",
+          "alt": "Engineered Floors project image 9",
+          "width": 2720,
+          "height": 1700
+        }
+      ],
+      "nextProjectSlug": "pinch-bank",
+      "nextProjectImage": {
+        "assetKey": "960a06a2cd",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg?auto=format,compress&rect=0,324,2880,1160&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z22wdJbqstJ9814o_pinch_2.jpg",
+        "alt": "Pinch Bank",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "externalUrl": "https://engineeredfloors-preprod.rejouice.io",
+      "testimonial": {
+        "name": "Lauryn Little",
+        "role": "Website Manager",
+        "nameParts": [
+          "Lauryn Little",
+          "Website Manager"
+        ],
+        "summary": "Lauryn Little credits the digital experience with communicating the company’s technology and improving its product presentation.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "5e86800cfb",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23jD5bqstJ982Ci_5c2f66b7-f6bd-4017-9099-e1e3325156a8_LaurynL.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23jD5bqstJ982Ci_5c2f66b7-f6bd-4017-9099-e1e3325156a8_LaurynL.avif",
+          "alt": "Lauryn Little",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "slug": "pinch-bank",
+      "path": "/work/pinch-bank",
+      "title": "Pinch Bank",
+      "reference": true,
+      "sourceUrl": "https://www.rejouice.com/work/pinch-bank",
+      "heroCaption": "Finance,\nwith a playful side.",
+      "summary": "Brand and app design for an early-stage banking concept aimed at gamers. The product uses game-inspired interactions to make financial tools feel familiar to its intended community.",
+      "introductionParagraphs": [
+        "Brand and app design for an early-stage banking concept aimed at gamers. The product uses game-inspired interactions to make financial tools feel familiar to its intended community."
+      ],
+      "roles": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "hero": {
+        "assetKey": "128c751158",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "pinch_2.jpg",
+        "alt": "Pinch Bank project cover",
+        "width": 2880,
+        "height": 1808
+      },
+      "gallery": [
+        {
+          "assetKey": "fff0ec3515",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22xFZbqstJ98142_Group3940.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3940.jpg",
+          "alt": "Pinch Bank project image 1",
+          "width": 2720,
+          "height": 4180
+        },
+        {
+          "assetKey": "850e507880",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xH5bqstJ98144_01_pinch.mp4-1080p-.mp4",
+          "kind": "video",
+          "name": "01_pinch.mp4 (1080p).mp4",
+          "alt": "Pinch Bank project image 2"
+        },
+        {
+          "assetKey": "33a6322979",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22xVZbqstJ9814__Frame21139.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Frame 21139.jpg",
+          "alt": "Pinch Bank project image 3",
+          "width": 2720,
+          "height": 4580
+        },
+        {
+          "assetKey": "77366290a1",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22yvpbqstJ9815L_Group3913.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3913.jpg",
+          "alt": "Pinch Bank project image 4",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "acc993580d",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xp5bqstJ9815C_02_pinch.mp4-1440p-.mp4",
+          "kind": "video",
+          "name": "02_pinch.mp4 (1440p).mp4",
+          "alt": "Pinch Bank project image 5"
+        },
+        {
+          "assetKey": "a0cd970817",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22x-5bqstJ9815E_Group3942.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3942.jpg",
+          "alt": "Pinch Bank project image 6",
+          "width": 2720,
+          "height": 3172
+        },
+        {
+          "assetKey": "8f5aa28de0",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22yCJbqstJ9815F_pinch_cover-2-scaled1.jpg?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "pinch_cover-2-scaled 1.jpg",
+          "alt": "Pinch Bank project image 7",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "dd475ab909",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z22yFJbqstJ9815G_Group3914.png?auto=format,compress?auto=compress,format",
+          "kind": "image",
+          "name": "Group 3914.png",
+          "alt": "Pinch Bank project image 8",
+          "width": 2720,
+          "height": 1860
+        },
+        {
+          "assetKey": "abe8bef5a3",
+          "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zBpbqstJ9815P_03_pinch.mp4-1440p-.mp4",
+          "kind": "video",
+          "name": "03_pinch.mp4 (1440p).mp4",
+          "alt": "Pinch Bank project image 9"
+        }
+      ],
+      "nextProjectSlug": "rivian",
+      "nextProjectImage": {
+        "assetKey": "ec90ef09d0",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z21ti5bqstJ981nS_Rivian-Header.png?auto=format,compress&rect=0,400,3316,1336&w=2880&h=1160",
+        "kind": "image",
+        "name": "Z21ti5bqstJ981nS_Rivian-Header.png",
+        "alt": "Rivian",
+        "width": 2880,
+        "height": 1160
+      },
+      "awards": [],
+      "externalUrl": "https://pinch-preprod.rejouice.io/",
+      "testimonial": {
+        "name": "Amit Zilberstein",
+        "role": "Co-Founder of Pinch",
+        "nameParts": [
+          "Amit Zilberstein",
+          "Co-Founder of Pinch"
+        ],
+        "summary": "Amit Zilberstein describes a close contribution to the brand and product from the earliest concept stage.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "fe186bde79",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z23jqZbqstJ982Ct_9324dfaa-0b6c-4199-8a7c-4805ee43239a_Amit%2BZilberstein.avif?auto=format,compress",
+          "kind": "image",
+          "name": "Z23jqZbqstJ982Ct_9324dfaa-0b6c-4199-8a7c-4805ee43239a_Amit%2BZilberstein.avif",
+          "alt": "Amit Zilberstein",
+          "width": 100,
+          "height": 100
+        }
+      }
+    }
+  ],
+  "about": {
+    "intro": "Designers, strategists, developers and growth specialists working together around ambitious products and businesses.",
+    "principlesTitle": "Three working principles",
+    "principles": [
+      {
+        "number": "01",
+        "title": "Start with people.",
+        "body": "Build close relationships with the teams behind the work."
+      },
+      {
+        "number": "02",
+        "title": "Care about the detail.",
+        "body": "Carry the same standard through strategy, design and delivery."
+      },
+      {
+        "number": "03",
+        "title": "Take on difficult questions.",
+        "body": "Use complex briefs as an opportunity to find a clearer direction."
+      }
+    ],
+    "awardsTitle": "Recognition",
+    "awards": [
+      {
+        "name": "Awwwards",
+        "count": 29
+      },
+      {
+        "name": "FWA",
+        "count": 19
+      },
+      {
+        "name": "CSS Design",
+        "count": 34
+      },
+      {
+        "name": "Webby",
+        "count": 2
+      }
+    ],
+    "bigMedia": {
+      "assetKey": "8ad3ef24f5",
+      "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "kind": "video",
+      "name": "REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "alt": ""
+    },
+    "statement": "A strong story makes a business easier to understand, remember and choose.",
+    "founder": {
+      "name": "Guillaume Hamon",
+      "role": "Founding Partner",
+      "portrait": {
+        "assetKey": "107973d791",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/aFwilXfc4bHWiuKK_Z1xCSpbqstJ98euH_test-gui-1-.avif?auto=format,compress",
+        "kind": "image",
+        "name": "aFwilXfc4bHWiuKK_Z1xCSpbqstJ98euH_test-gui-1-.avif",
+        "alt": "Guillaume Hamon",
+        "width": 1962,
+        "height": 2460
+      },
+      "summary": "The studio’s model connects clients directly with an international network of specialists and its founding team.",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/guillaume-hamon-9a1a4a121"
+        }
+      ]
+    },
+    "partners": [
+      {
+        "name": "Jack Milburn",
+        "role": "Partner & Brand Design Lead",
+        "portrait": {
+          "assetKey": "a1fe9e8807",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0dOD5bqstJ971U2_jack.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0dOD5bqstJ971U2_jack.jpg",
+          "alt": "Jack Milburn",
+          "width": 1110,
+          "height": 1384
+        }
+      },
+      {
+        "name": "Gabriel Stik",
+        "role": "Partner & Technical Director",
+        "portrait": {
+          "assetKey": "2bddef6d83",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0dODpbqstJ971U1_gabriel.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0dODpbqstJ971U1_gabriel.jpg",
+          "alt": "Gabriel Stik",
+          "width": 1108,
+          "height": 1384
+        }
+      },
+      {
+        "name": "Jeffrey Blum",
+        "role": "Partner & Business Development",
+        "portrait": {
+          "assetKey": "4fc6522543",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0dOEZbqstJ971U4_jeffrey.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0dOEZbqstJ971U4_jeffrey.jpg",
+          "alt": "Jeffrey Blum",
+          "width": 1665,
+          "height": 2076
+        }
+      },
+      {
+        "name": "Clément Brichon",
+        "role": "Partner & Creative Director",
+        "portrait": {
+          "assetKey": "6d593f8445",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0dODZbqstJ971U0_clement.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0dODZbqstJ971U0_clement.jpg",
+          "alt": "Clément Brichon",
+          "width": 1662,
+          "height": 2076
+        }
+      },
+      {
+        "name": "Jean-Michel Boujon",
+        "role": "Partner & Growth Marketing",
+        "portrait": {
+          "assetKey": "a58130b734",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0dOEJbqstJ971U3_jeanmichel.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0dOEJbqstJ971U3_jeanmichel.jpg",
+          "alt": "Jean-Michel Boujon",
+          "width": 1665,
+          "height": 2076
+        }
+      },
+      {
+        "name": "Henri Heymans",
+        "role": "Partner & Lead Creative Developer",
+        "portrait": {
+          "assetKey": "c83354e6a4",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z2GNNpbqstJ98mqU_6384a19b-fa1c-4ad1-aae0-e29e127ebeef_san-diego-office.jpg.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z2GNNpbqstJ98mqU_6384a19b-fa1c-4ad1-aae0-e29e127ebeef_san-diego-office.jpg.jpg",
+          "alt": "Henri Heymans",
+          "width": 2220,
+          "height": 2768
+        }
+      }
+    ],
+    "approachTitle": "Built around the brief",
+    "approach": [
+      {
+        "title": "One team, different perspectives.",
+        "body": "Specialists from different disciplines and locations form the team around each project."
+      },
+      {
+        "title": "Make complexity understandable.",
+        "body": "Research, collaboration and iteration turn a complicated proposition into a focused brand experience."
+      }
+    ],
+    "approachMedia": [
+      {
+        "assetKey": "7055754813",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0d2w5bqstJ971yO_acc20b623f8ad0c1d5071831725eb05c.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "acc20b623f8ad0c1d5071831725eb05c.png",
+        "alt": "",
+        "width": 1920,
+        "height": 1237
+      },
+      {
+        "assetKey": "1a6c5cb6bb",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0d2wJbqstJ971yN_164dad9031dec4bc9060a6ecd2db5f47.png?auto=format,compress?auto=compress,format",
+        "kind": "image",
+        "name": "164dad9031dec4bc9060a6ecd2db5f47.png",
+        "alt": "",
+        "width": 2880,
+        "height": 1800
+      }
+    ],
+    "teamTitle": "The right people\nfor the project.",
+    "teamGallery": [
+      {
+        "assetKey": "a1ef42acb8",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0eQrZbqstJ971-J_Maskgroup-1.jpg?auto=format,compress",
+        "kind": "image",
+        "name": "Z0eQrZbqstJ971-J_Maskgroup-1.jpg",
+        "alt": "REJOUICE team 1",
+        "width": 981,
+        "height": 906
+      },
+      {
+        "assetKey": "568036b59a",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0eQr5bqstJ971-L_Maskgroup-3.jpg?auto=format,compress",
+        "kind": "image",
+        "name": "Z0eQr5bqstJ971-L_Maskgroup-3.jpg",
+        "alt": "REJOUICE team 2",
+        "width": 981,
+        "height": 1140
+      },
+      {
+        "assetKey": "741d77d570",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0eQrpbqstJ971-K_Maskgroup-2.jpg?auto=format,compress",
+        "kind": "image",
+        "name": "Z0eQrpbqstJ971-K_Maskgroup-2.jpg",
+        "alt": "REJOUICE team 3",
+        "width": 981,
+        "height": 645
+      },
+      {
+        "assetKey": "8772b82ef9",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0eQsZbqstJ971-N_Maskgroup.jpg?auto=format,compress",
+        "kind": "image",
+        "name": "Z0eQsZbqstJ971-N_Maskgroup.jpg",
+        "alt": "REJOUICE team 4",
+        "width": 981,
+        "height": 879
+      },
+      {
+        "assetKey": "8fab06529b",
+        "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0eQsJbqstJ971-M_Maskgroup-4.jpg?auto=format,compress",
+        "kind": "image",
+        "name": "Z0eQsJbqstJ971-M_Maskgroup-4.jpg",
+        "alt": "REJOUICE team 5",
+        "width": 981,
+        "height": 1140
+      }
+    ],
+    "careers": {
+      "label": "Work with us",
+      "email": "jobs@rejouice.com"
+    },
+    "awardsCount": 90,
+    "principlesSummary": "These principles give the team a consistent way to approach different briefs, from the first conversation to the final detail.",
+    "collaborationStatement": "A direct working relationship keeps decisions clear, feedback useful and the team connected to the purpose of the project."
+  },
+  "services": {
+    "intro": "One team. Two ways to work together. Strategy and design for lasting growth.",
+    "capabilities": [
+      {
+        "number": "01",
+        "title": "Strategy",
+        "items": [
+          "Brand Audit",
+          "Qualitative Research",
+          "Quantitative Research",
+          "Discovery Workshop",
+          "Competitive Analysis",
+          "Brand Storytelling",
+          "Positioning",
+          "Brand Architecture",
+          "Naming",
+          "Key Messaging",
+          "Voice & Tone",
+          "Content Strategy",
+          "Copywriting"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "items": [
+          "Brand Identity",
+          "Brand Guidelines & Design Systems",
+          "Art Direction",
+          "User Experience (UX)",
+          "User Interface (UI)",
+          "Wireframe & Prototyping",
+          "Product Design",
+          "Mobile App",
+          "Website, E-Commerce & App Design",
+          "Motion Design",
+          "CGI & 3D",
+          "Content Creation"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Development",
+        "items": [
+          "Creative Development",
+          "Technical Architecture",
+          "Headless eCommerce",
+          "Front-End Development",
+          "Back-End Development",
+          "Application Development",
+          "API s Integrations",
+          "Quality Assurance"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Growth",
+        "items": [
+          "Conversion Rate Optimization (CRO)",
+          "Talent Strategy",
+          "Revenue Operations",
+          "Lifecycle Marketing",
+          "Media Buying",
+          "Data and Analytics",
+          "Technology"
+        ]
+      }
+    ],
+    "bigMedia": {
+      "assetKey": "8d7090e884",
+      "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cpAJbqstJ970d2_Oura_RecDiff03.mp4",
+      "kind": "video",
+      "name": "Oura_RecDiff03.mp4",
+      "alt": ""
+    },
+    "modelsTitle": "Choose a working model",
+    "models": [
+      {
+        "id": "classic",
+        "title": "Classic",
+        "subtitle": "Fee-based partnership",
+        "description": "A conventional project relationship with an agreed scope and cash compensation.",
+        "metrics": [
+          {
+            "logo": {
+              "assetKey": "6a0826ecfa",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+              "kind": "image",
+              "name": "Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+              "alt": "",
+              "width": 128,
+              "height": 26
+            },
+            "sector": "EV",
+            "value": "+400%",
+            "stages": [
+              "Before Rejouice® $500M Valuation",
+              "After Rejouice® $2.5B Valuation",
+              "Post IPO $30B Valuation"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "0d2d59647d",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+              "kind": "image",
+              "name": "Z2LlrpbqstJ98pJz_RAPPI.svg",
+              "alt": "",
+              "width": 224,
+              "height": 94
+            },
+            "sector": "FinTech",
+            "value": "+150%",
+            "stages": [
+              "Before Rejouice® $1B Valuation",
+              "After Rejouice® $2.5B Valuation",
+              "Series F $5.25B Valuation"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "2cdfe33f91",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+              "kind": "image",
+              "name": "Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+              "alt": "",
+              "width": 62,
+              "height": 20
+            },
+            "sector": "HealthTech",
+            "value": "+1000%",
+            "stages": [
+              "Before Rejouice® $70M Valuation",
+              "After Rejouice® $800M Valuation",
+              "Series D $5.2B Valuation"
+            ]
+          }
+        ],
+        "headline": "Build a clear brand.\nMove with confidence."
+      },
+      {
+        "id": "venture",
+        "title": "Venture",
+        "subtitle": "Cash and equity",
+        "description": "A partnership combining fees and equity, structured around the company and its stage of development.",
+        "metrics": [
+          {
+            "logo": {
+              "assetKey": "fe8a71d2e0",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+              "kind": "image",
+              "name": "Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+              "alt": "",
+              "width": 404,
+              "height": 39
+            },
+            "sector": "Construction",
+            "value": "+600%",
+            "stages": [
+              "Before Rejouice® $1M Seed",
+              "After Rejouice® $7.2M (Series A)"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "1e58e592e4",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+              "kind": "image",
+              "name": "Z2Fmb5bqstJ98mHM_tensr-white.svg",
+              "alt": "",
+              "width": 85,
+              "height": 23
+            },
+            "sector": "HealthTech",
+            "value": "+500%",
+            "stages": [
+              "Before Rejouice® $500K Pre-Seed",
+              "After Rejouice® $3M (Seed)"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "a0068c6edb",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GMlZbqstJ98mqG_ov-loop-white.svg",
+              "kind": "image",
+              "name": "Z2GMlZbqstJ98mqG_ov-loop-white.svg",
+              "alt": "",
+              "width": 92,
+              "height": 22
+            },
+            "sector": "Fintech",
+            "value": "+200%",
+            "stages": [
+              "Before Rejouice® $15M Valuation (Series B)",
+              "After Rejouice® $50M Valuation (Series C)"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "105dec9628",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LympbqstJ98pSE_moxion-white.svg",
+              "kind": "image",
+              "name": "Z2LympbqstJ98pSE_moxion-white.svg",
+              "alt": "",
+              "width": 645,
+              "height": 185
+            },
+            "sector": "Energy",
+            "value": "+900%",
+            "stages": [
+              "Before Rejouice® $10M Series A",
+              "After Rejouice® $100M Series B"
+            ]
+          },
+          {
+            "logo": {
+              "assetKey": "c955af28f4",
+              "sourceUrl": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLy5bqstJ98mpt_Proof.svg",
+              "kind": "image",
+              "name": "Z2GLy5bqstJ98mpt_Proof.svg",
+              "alt": "",
+              "width": 306,
+              "height": 78
+            },
+            "sector": "Sustainability",
+            "value": "+200%",
+            "stages": [
+              "Before Rejouice® $2M Seed",
+              "After Rejouice® $6M Pre-Series A"
+            ]
+          }
+        ],
+        "headline": "Room to grow.\nA shared stake in the outcome."
+      }
+    ],
+    "testimonialsTitle": "Client perspectives",
+    "testimonials": [
+      {
+        "name": "Fleur Heyns",
+        "role": "Co-founder & CEO at PROOF",
+        "nameParts": [
+          "Fleur Heyns",
+          "Co-founder & CEO at PROOF"
+        ],
+        "summary": "Fleur Heyns highlights a clear, memorable way to present the company’s data-led work.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "c0590d6eb0",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0csjJbqstJ970gi_2_xezmQUHZZozH1L4Cv1VKvg-11.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0csjJbqstJ970gi_2_xezmQUHZZozH1L4Cv1VKvg-11.jpg",
+          "alt": "Fleur Heyns",
+          "width": 1108,
+          "height": 876
+        }
+      },
+      {
+        "name": "Abdul Ovaice",
+        "role": "Creative Director at OURA RING",
+        "nameParts": [
+          "Abdul Ovaice",
+          "Creative Director at OURA RING"
+        ],
+        "summary": "Abdul Ovaice reports improved conversion following the Oura website launch.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "e86c8c65fd",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0csjZbqstJ970gj_abdul-wahid-ovaice-profile-picture3.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0csjZbqstJ970gj_abdul-wahid-ovaice-profile-picture3.jpg",
+          "alt": "Abdul Ovaice",
+          "width": 1110,
+          "height": 881
+        }
+      },
+      {
+        "name": "RJ Scaringe",
+        "role": "Founder & CEO at RIVIAN",
+        "nameParts": [
+          "RJ Scaringe",
+          "Founder & CEO at RIVIAN"
+        ],
+        "summary": "RJ Scaringe expresses satisfaction with the Rivian collaboration.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "5835c4842a",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0csi5bqstJ970gh_-1x-11.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0csi5bqstJ970gh_-1x-11.jpg",
+          "alt": "RJ Scaringe",
+          "width": 1106,
+          "height": 876
+        }
+      },
+      {
+        "name": "Alex Meek",
+        "role": "Co-founder & President at MOXION POWER",
+        "nameParts": [
+          "Alex Meek",
+          "Co-founder & President at MOXION POWER"
+        ],
+        "summary": "Alex Meek highlights the partnership and its completed work for Moxion Power.",
+        "attributionType": "paraphrase",
+        "portrait": {
+          "assetKey": "5d8ed9d48d",
+          "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0csjpbqstJ970gk_moxionpower.2023.04.portraits-1291.jpg?auto=format,compress",
+          "kind": "image",
+          "name": "Z0csjpbqstJ970gk_moxionpower.2023.04.portraits-1291.jpg",
+          "alt": "Alex Meek",
+          "width": 1110,
+          "height": 882
+        }
+      }
+    ],
+    "faqTitle": "Before we begin",
+    "faqs": [
+      {
+        "question": "How long does a Venture agreement take?",
+        "answer": "The process is comparable to a standard services agreement. A ready-to-proceed project can reach an agreement within a week."
+      },
+      {
+        "question": "Do the two models change the quality of the work?",
+        "answer": "The same delivery standard applies to both models; the commercial arrangement is what changes."
+      },
+      {
+        "question": "How are timing and budget decided?",
+        "answer": "Scope, priorities and the project’s starting point are discussed before a schedule and fee are agreed."
+      },
+      {
+        "question": "How is a cash-and-equity arrangement structured?",
+        "answer": "The conversation begins with a cash estimate, followed by a review of a possible equity component after due diligence. Terms are specific to each project."
+      }
+    ],
+    "contact": {
+      "label": "Discuss a project",
+      "path": "/contact"
+    }
+  },
+  "contact": {
+    "intro": "For founders, brands and teams looking for a creative and digital partner.",
+    "title": "Start a conversation",
+    "channels": [
+      {
+        "label": "New projects",
+        "email": "hello@rejouice.com"
+      },
+      {
+        "label": "Careers",
+        "email": "jobs@rejouice.com"
+      }
+    ],
+    "offices": [
+      {
+        "city": "San Diego",
+        "country": "USA",
+        "address": [
+          "4375 30th Street",
+          "California, 92104",
+          "USA"
+        ],
+        "timeZone": "America/Los_Angeles"
+      },
+      {
+        "city": "Paris",
+        "country": "France",
+        "address": [
+          "26 rue du Chalet",
+          "75010 Paris",
+          "France"
+        ],
+        "timeZone": "Europe/Paris"
+      }
+    ],
+    "workImage": {
+      "assetKey": "a4632b5873",
+      "sourceUrl": "https://images.prismic.io/rejouice-2024/Z0WNHq8jQArT1Td1_7d4177a9b98b03df2d62e7ef8a3966b8.jpeg?auto=format%2Ccompress&rect=81%2C293%2C2037%2C1147&w=2878&h=1620",
+      "kind": "image",
+      "name": "Z0WNHq8jQArT1Td1_7d4177a9b98b03df2d62e7ef8a3966b8.jpeg",
+      "alt": "Selected project",
+      "width": 2878,
+      "height": 1620
+    },
+    "next": {
+      "label": "Explore the projects",
+      "title": "Work",
+      "path": "/work"
+    }
+  },
+  "legal": {
+    "title": "Reference information",
+    "paragraphs": [
+      "This edition records a design reference from REJOUICE. The featured clients, projects, people and results belong to the source agency and its collaborators.",
+      "The implementation and condensed editorial descriptions are prepared for a later BAEV adaptation. Source assets retain their original ownership; inclusion here does not grant a license.",
+      "Newsletter and contact delivery services are not connected in this edition."
+    ],
+    "sourceTermsUrl": "https://www.rejouice.com/legal"
+  }
+}

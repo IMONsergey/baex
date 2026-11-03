@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-11-03T09:27:01.928950+00:00",
+  "sourceSite": "https://www.rejouice.com/",
+  "items": [
+    {
+      "owningProject": "connect-homes",
+      "sourcePage": "https://www.rejouice.com/work/connect-homes",
+      "assetKey": "b7ba3359f9",
+      "assetName": "02_connect_homes.mp4 (1080p).mp4",
+      "sourceUrl": "blob:https://rejouice-2024.prismic.io/44cdbaaf-77a6-4116-8731-ff1b15521e31",
+      "status": "unavailable-in-source",
+      "reason": "The published HTML and current public Prismic document contain an editor-local blob URL with a temporary asset ID. It is not a publicly retrievable media resource.",
+      "sourceDocumentId": "Z1xLxxIAACcAHITz",
+      "sourceDocumentLastPublication": "2025-01-08T16:15:43+0000",
+      "resolution": "Removed this unavailable item from the active gallery; no replacement media was substituted."
+    },
+    {
+      "owningProject": "connect-homes",
+      "sourcePage": "https://www.rejouice.com/work/connect-homes",
+      "assetKey": "4185d4fb74",
+      "assetName": "Frame 21188.jpg",
+      "sourceUrl": "blob:https://rejouice-2024.prismic.io/a8f53cee-4ee0-45bf-9283-3a725f2a085e",
+      "status": "unavailable-in-source",
+      "reason": "The published HTML and current public Prismic document contain an editor-local blob URL with a temporary asset ID. It is not a publicly retrievable media resource.",
+      "sourceDocumentId": "Z1xLxxIAACcAHITz",
+      "sourceDocumentLastPublication": "2025-01-08T16:15:43+0000",
+      "resolution": "Removed this unavailable item from the active gallery; no replacement media was substituted."
+    }
+  ]
+}

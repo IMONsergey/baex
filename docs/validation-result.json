@@ -1,0 +1,50 @@
+{
+  "completedDate": "2026-11-03",
+  "status": "passed",
+  "commands": {
+    "npm run check": 0,
+    "npm run build": 0
+  },
+  "content": {
+    "routes": 25,
+    "projects": 19,
+    "workSlides": 23,
+    "galleryItems": 203,
+    "internalLinks": 55,
+    "mediaReferences": 338,
+    "uniqueContentAssets": 323,
+    "runtimeCMSDependencies": 0
+  },
+  "assets": {
+    "checkedFiles": 412,
+    "checkedBytes": 250140547,
+    "badFiles": [],
+    "missingReferences": []
+  },
+  "production": {
+    "htmlRoutes": 25,
+    "temporaryQaPagesIncluded": false,
+    "mainJavaScriptKB": 601.39,
+    "mainJavaScriptGzipKB": 182.56,
+    "largestFileBytes": 25065715
+  },
+  "repositoryPackaging": {
+    "assembledMediaFiles": 2,
+    "localMediaParts": 5,
+    "maxPartBytes": 8388608,
+    "mediaBytesUnchanged": true,
+    "offlineReassemblyVerified": true
+  },
+  "browser": {
+    "desktopCssViewport": [1363, 936],
+    "responsiveIframeViewport": [390, 844],
+    "applicationErrorsObserved": 0,
+    "review": "../design-qa.md",
+    "limitations": [
+      "Representative browser interaction coverage; not every project gallery manually scrolled",
+      "No physical mobile device or Safari coverage",
+      "Reduced motion reviewed in code, not via OS emulation",
+      "No public deployment performed"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "3f65390b86dc",
+    "localPath": "inline-svg/3f65390b86dc.svg",
+    "viewBox": "0 0 68 12",
+    "class": "logo",
+    "bytes": 1667,
+    "sourcePages": [
+      "/",
+      "/services",
+      "/legal",
+      "/contact",
+      "/about",
+      "/work",
+      "/work/moxion-power",
+      "/work/gencell-website",
+      "/work/hyperframe",
+      "/work/tensor",
+      "/work/pinch-bank",
+      "/work/oura-ring",
+      "/work/du-chateau",
+      "/work/proof",
+      "/work/tenzr",
+      "/work/noovo",
+      "/work/list-across",
+      "/work/connect-homes",
+      "/work/intrepid",
+      "/work/unspun",
+      "/work/terminal-industries",
+      "/work/engineered-floors",
+      "/work/icomat",
+      "/work/ov-loop",
+      "/work/rivian"
+    ],
+    "context": "ct-active link-logo\" aria-title=\"Homepage\" data-v-62f3805e> "
+  },
+  {
+    "id": "4117eb125a3c",
+    "localPath": "inline-svg/4117eb125a3c.svg",
+    "viewBox": "0 0 17 17",
+    "class": null,
+    "bytes": 263,
+    "sourcePages": [
+      "/",
+      "/services",
+      "/legal",
+      "/contact",
+      "/about",
+      "/work",
+      "/work/moxion-power",
+      "/work/gencell-website",
+      "/work/hyperframe",
+      "/work/tensor",
+      "/work/pinch-bank",
+      "/work/oura-ring",
+      "/work/du-chateau",
+      "/work/proof",
+      "/work/tenzr",
+      "/work/noovo",
+      "/work/list-across",
+      "/work/connect-homes",
+      "/work/intrepid",
+      "/work/unspun",
+      "/work/terminal-industries",
+      "/work/engineered-floors",
+      "/work/icomat",
+      "/work/ov-loop",
+      "/work/rivian"
+    ],
+    "context": " class=\"cursor__wrapper\" data-v-1cd8f4c1 data-v-448f492b> "
+  },
+  {
+    "id": "5c1615c2e50e",
+    "localPath": "inline-svg/5c1615c2e50e.svg",
+    "viewBox": "0 0 1358 217",
+    "class": "logo",
+    "bytes": 1673,
+    "sourcePages": [
+      "/"
+    ],
+    "context": "64cf357 data-v-9fb53f58>  "
+  },
+  {
+    "id": "b30c5f217ce6",
+    "localPath": "inline-svg/b30c5f217ce6.svg",
+    "viewBox": "0 0 12 12",
+    "class": "icon",
+    "bytes": 240,
+    "sourcePages": [
+      "/"
+    ],
+    "context": "gy Agency.    "
+  },
+  {
+    "id": "d4cf2728e508",
+    "localPath": "inline-svg/d4cf2728e508.svg",
+    "viewBox": "0 0 110 135",
+    "class": null,
+    "bytes": 317,
+    "sourcePages": [
+      "/"
+    ],
+    "context": "class=\"reel-label link-active\" data-v-9fb53f58>Showreel  "
+  },
+  {
+    "id": "554dba0983c5",
+    "localPath": "inline-svg/554dba0983c5.svg",
+    "viewBox": "0 0 270 270",
+    "class": null,
+    "bytes": 298,
+    "sourcePages": [
+      "/"
+    ],
+    "context": "ottom__wrapper\" data-v-f44ff092>  "
+  },
+  {
+    "id": "86ea9c6f269c",
+    "localPath": "inline-svg/86ea9c6f269c.svg",
+    "viewBox": "0 0 1358 217",
+    "class": "letter",
+    "bytes": 1660,
+    "sourcePages": [
+      "/",
+      "/services",
+      "/legal",
+      "/contact",
+      "/about",
+      "/work"
+    ],
+    "context": "button>       "
+  }
+]
