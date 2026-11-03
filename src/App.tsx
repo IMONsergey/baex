@@ -46,6 +46,7 @@ export default function App(){
   const activeEntry = useRef(location.key);
   const restoring = useRef(true);
   const [reelOpen,setReelOpen] = useState(false);
+  const [reelOpener,setReelOpener] = useState<HTMLButtonElement | null>(null);
   const pathname = location.pathname.replace(/\/+$/, "") || "/";
   const projectRoute = pathname.startsWith("/work/");
 
@@ -158,7 +159,7 @@ export default function App(){
       <PageBoundary key={location.pathname} onReady={restoreRoute}>
         <Suspense fallback={<div className="route-loading" role="status" aria-label="Loading page"><span /></div>}>
           <Routes>
-            <Route path="/" element={<HomePage onOpenReel={()=>setReelOpen(true)} />} />
+            <Route path="/" element={<HomePage onOpenReel={opener=>{setReelOpener(opener);setReelOpen(true);}} />} />
             <Route path="/work" element={<WorkPage />} />
             <Route path="/work/:slug" element={<ProjectPage />} />
             <Route path="/about" element={<AboutPage />} />
@@ -173,7 +174,7 @@ export default function App(){
     </main>
     {!projectRoute && <Footer />}
     </MediaPlaybackProvider>
-    <Reel open={reelOpen} onClose={()=>setReelOpen(false)} />
+    <Reel open={reelOpen} returnFocusTo={reelOpener} onClose={()=>setReelOpen(false)} />
     <div ref={curtain} className="route-curtain" aria-hidden="true"><img src={brand.headerLogo} alt="" /></div>
   </>;
 }

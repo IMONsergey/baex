@@ -9,11 +9,12 @@ import "../styles/media.css";
 export interface ReelProps {
   open: boolean;
   onClose: () => void;
+  returnFocusTo?: HTMLElement | null;
 }
 
 const focusableSelector = "button:not([disabled]),a[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),video[controls],[tabindex]:not([tabindex='-1'])";
 
-export function Reel({ open, onClose }: ReelProps) {
+export function Reel({ open, onClose, returnFocusTo }: ReelProps) {
   const [present, setPresent] = useState(open);
   const [failed, setFailed] = useState(false);
   const [blocked, setBlocked] = useState(false);
@@ -114,7 +115,9 @@ export function Reel({ open, onClose }: ReelProps) {
   useEffect(() => {
     const root = overlay.current;
     if (!present || !root) return;
-    const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+    // Pointer activation need not focus the button (notably in Safari), and a
+    // click can focus its nested video. Keep the actual opener through exit.
+    const previousFocus = returnFocusTo ?? (document.activeElement instanceof HTMLElement ? document.activeElement : null);
     const previousBodyOverflow = document.body.style.overflow;
     const previousHtmlOverflow = document.documentElement.style.overflow;
     const previousPadding = document.body.style.paddingRight;
@@ -151,7 +154,7 @@ export function Reel({ open, onClose }: ReelProps) {
       document.body.style.paddingRight = previousPadding;
       if (previousFocus?.isConnected && !previousFocus.closest("[inert]")) previousFocus.focus({ preventScroll: true });
     };
-  }, [present, requestClose, focusEdge]);
+  }, [present, requestClose, focusEdge, returnFocusTo]);
 
   useEffect(() => {
     const element = video.current;

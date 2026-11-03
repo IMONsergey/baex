@@ -148,7 +148,7 @@ function GlanceRail() {
   </div>;
 }
 
-export function HomePage({ onOpenReel }: { onOpenReel: () => void }) {
+export function HomePage({ onOpenReel }: { onOpenReel: (opener: HTMLButtonElement) => void }) {
   const root = useRef<HTMLDivElement>(null);
   const hero = useRef<HTMLElement>(null);
   const reel = useRef<HTMLButtonElement>(null);
@@ -175,7 +175,7 @@ export function HomePage({ onOpenReel }: { onOpenReel: () => void }) {
       <h1 className="home-hero__wordmark"><Wordmark /></h1>
       <div className="home-hero__bottom"><p>{home.hero.left}</p><p>{home.hero.right}</p><button type="button" aria-label="Scroll to showreel" onClick={() => reel.current?.scrollIntoView({ behavior: reduced ? "auto" : "smooth" })}><img src={brand.downArrow} alt="" /></button></div>
     </section>
-    <button ref={reel} className="home-reel" type="button" onClick={onOpenReel} aria-label="Play full showreel" data-theme="dark">
+    <button ref={reel} className="home-reel" type="button" onClick={event => onOpenReel(event.currentTarget)} aria-label="Play full showreel" data-theme="dark">
       <Media media={mobile ? home.hero.mobileVideo : home.hero.desktopVideo} eager />
       <span>Showreel</span>
     </button>
