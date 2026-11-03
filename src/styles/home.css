@@ -118,7 +118,7 @@
 @media(hover:hover) and (pointer:fine){
  .featured-project__preview{display:block}
  .featured-project:hover .featured-project__image{filter:brightness(.65)}
- .featured-project:hover .featured-project__preview-inner{opacity:1;transform:translate(-50%,-50%) scale(1)}
+ .featured-project:hover .featured-project__preview-inner,.featured-project:focus-visible .featured-project__preview-inner{opacity:1;transform:translate(-50%,-50%) scale(1)}
  .featured-project:focus-visible .featured-project__image{filter:brightness(.75)}
 }
 @media(prefers-reduced-motion:reduce){.featured-project__preview{display:none}.home-hero__wordmark{will-change:auto}.glance-rail__group[aria-hidden=true]{display:none}}

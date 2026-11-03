@@ -17,19 +17,53 @@ function FeaturedProject({ item, index }: { item: typeof content.home.selected[n
   const link = useRef<HTMLAnchorElement>(null);
   const preview = useRef<HTMLDivElement>(null);
   const reduced = useReducedMotion();
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [previewCapable, setPreviewCapable] = useState(() => window.matchMedia("(hover: hover) and (pointer: fine)").matches);
   const project = getProject(item.projectSlug);
+  const centerPreview = () => {
+    if (!link.current || !preview.current) return;
+    gsap.killTweensOf(preview.current);
+    gsap.set(preview.current, { x: link.current.clientWidth / 2, y: link.current.clientHeight / 2 });
+  };
+  const leavePreview = () => {
+    const keyboardFocus = Boolean(link.current?.matches(":focus-visible"));
+    setHovered(false);
+    setFocused(keyboardFocus);
+    if (keyboardFocus) centerPreview();
+  };
   const move = (event: ReactPointerEvent<HTMLAnchorElement>) => {
-    if (!link.current || !preview.current || event.pointerType === "touch" || reduced) return;
+    if (!link.current || !preview.current || !previewCapable || event.pointerType === "touch" || reduced) return;
     const bounds = link.current.getBoundingClientRect();
     gsap.to(preview.current, { x: event.clientX - bounds.left, y: event.clientY - bounds.top, duration: .65, ease: "power3.out", overwrite: "auto" });
   };
+  useEffect(() => {
+    const query = window.matchMedia("(hover: hover) and (pointer: fine)");
+    const update = () => {
+      setPreviewCapable(query.matches);
+      if (!query.matches) { setHovered(false); setFocused(false); }
+    };
+    update();
+    query.addEventListener("change", update);
+    return () => query.removeEventListener("change", update);
+  }, []);
   useEffect(() => () => { if (preview.current) gsap.killTweensOf(preview.current); }, []);
   if (!project) return null;
-  return <Link ref={link} to={project.path} className={`featured-project${item.large ? " featured-project--large" : ""}`} onPointerMove={move} aria-label={`View ${project.title} case study`}>
+  return <Link ref={link} to={project.path} className={`featured-project${item.large ? " featured-project--large" : ""}`} onPointerMove={move}
+    onPointerEnter={event => { if (event.pointerType !== "touch" && previewCapable && !reduced) { setHovered(true); move(event); } }}
+    onPointerLeave={leavePreview}
+    onPointerCancel={leavePreview}
+    onFocus={event => {
+      if (!previewCapable || reduced || !event.currentTarget.matches(":focus-visible")) return;
+      centerPreview();
+      setFocused(true);
+    }}
+    onBlur={event => { if (!(event.relatedTarget instanceof Node) || !event.currentTarget.contains(event.relatedTarget)) setFocused(false); }}
+    aria-label={`View ${project.title} case study`}>
     <Media media={item.thumbnail} className="featured-project__image" />
     <img className="featured-project__logo" src={resolveMedia(item.logo)} alt={project.title} />
     <div ref={preview} className="featured-project__preview" aria-hidden="true">
-      <div className="featured-project__preview-inner"><Media media={item.hoverVideo} /><span>Case study {String(index + 1).padStart(2, "0")} <b>↗</b></span></div>
+      <div className="featured-project__preview-inner"><Media media={item.hoverVideo} active={previewCapable && !reduced && (hovered || focused)} /><span>Case study {String(index + 1).padStart(2, "0")} <b>↗</b></span></div>
     </div>
     <span className="featured-project__mobile-label">{project.title}<span>↗</span></span>
   </Link>;

@@ -3,7 +3,7 @@ import { mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-// Two videos are stored in byte-preserving parts to fit the upload transport.
+// One video is stored in byte-preserving parts to fit the upload transport.
 // Reassembly is local and offline; no media is downloaded during installation.
 const root = fileURLToPath(new URL("../", import.meta.url));
 const manifest = JSON.parse(await readFile(resolve(root, "media-parts/manifest.json"), "utf8"));

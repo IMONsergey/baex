@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "npm run prepare:media && vite",
     "build": "npm run prepare:media && tsc -b && vite build && node scripts/emit-routes.mjs",
-    "postinstall": "npm run prepare:media",
-    "prepare:media": "node scripts/prepare-media.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "verify:assets": "python3 scripts/sync-reference-assets.py --verify-only",
     "verify:content": "node scripts/verify-content.mjs",
-    "check": "npm run prepare:media && npm run typecheck && npm run verify:content && npm run verify:assets"
+    "check": "npm run prepare:media && npm run typecheck && npm run verify:content && npm run verify:assets",
+    "postinstall": "npm run prepare:media",
+    "prepare:media": "node scripts/prepare-media.mjs"
   },
   "engines": {
     "node": ">=22.12.0"

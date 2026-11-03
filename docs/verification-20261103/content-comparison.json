@@ -1,0 +1,3979 @@
+{
+  "source": "https://www.rejouice.com/",
+  "sourceBuildId": "f13646a8-8fd4-40d2-a21c-cc2ffeebf909",
+  "comparisonRepository": "/workspace/scratch/d3062f8fe7c1/baex",
+  "sourcePayloads": 25,
+  "checks": [
+    {
+      "field": "routes",
+      "passed": true,
+      "expected": [
+        "/",
+        "/about",
+        "/contact",
+        "/legal",
+        "/services",
+        "/work",
+        "/work/connect-homes",
+        "/work/du-chateau",
+        "/work/engineered-floors",
+        "/work/gencell-website",
+        "/work/hyperframe",
+        "/work/icomat",
+        "/work/intrepid",
+        "/work/list-across",
+        "/work/moxion-power",
+        "/work/noovo",
+        "/work/oura-ring",
+        "/work/ov-loop",
+        "/work/pinch-bank",
+        "/work/proof",
+        "/work/rivian",
+        "/work/tensor",
+        "/work/tenzr",
+        "/work/terminal-industries",
+        "/work/unspun"
+      ],
+      "actual": [
+        "/",
+        "/about",
+        "/contact",
+        "/legal",
+        "/services",
+        "/work",
+        "/work/connect-homes",
+        "/work/du-chateau",
+        "/work/engineered-floors",
+        "/work/gencell-website",
+        "/work/hyperframe",
+        "/work/icomat",
+        "/work/intrepid",
+        "/work/list-across",
+        "/work/moxion-power",
+        "/work/noovo",
+        "/work/oura-ring",
+        "/work/ov-loop",
+        "/work/pinch-bank",
+        "/work/proof",
+        "/work/rivian",
+        "/work/tensor",
+        "/work/tenzr",
+        "/work/terminal-industries",
+        "/work/unspun"
+      ]
+    },
+    {
+      "field": "work.projectOrder",
+      "passed": true,
+      "expected": [
+        "icomat",
+        "tensor",
+        "terminal-industries",
+        "rivian",
+        "du-chateau",
+        "oura-ring",
+        "intrepid",
+        "moxion-power",
+        "hyperframe",
+        "noovo",
+        "gencell-website",
+        "proof",
+        "tenzr",
+        "unspun",
+        "list-across",
+        "ov-loop",
+        "connect-homes",
+        "engineered-floors",
+        "pinch-bank"
+      ],
+      "actual": [
+        "icomat",
+        "tensor",
+        "terminal-industries",
+        "rivian",
+        "du-chateau",
+        "oura-ring",
+        "intrepid",
+        "moxion-power",
+        "hyperframe",
+        "noovo",
+        "gencell-website",
+        "proof",
+        "tenzr",
+        "unspun",
+        "list-across",
+        "ov-loop",
+        "connect-homes",
+        "engineered-floors",
+        "pinch-bank"
+      ]
+    },
+    {
+      "field": "work.slideTypes",
+      "passed": true,
+      "expected": [
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work"
+      ],
+      "actual": [
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_text",
+        "works_slide_work",
+        "works_slide_work",
+        "works_slide_work"
+      ]
+    },
+    {
+      "field": "work.thumbnails",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg",
+        "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+        "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png",
+        "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3xV4pbqstJ99GIi_Duchateau-Cover.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5X5bqstJ98aZ9_oura.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5W5bqstJ98aZ2_intreprid.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XZbqstJ98aZ6_moxion.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WpbqstJ98aZ1_hyperframe.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XpbqstJ98aZ8_noovo.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WZbqstJ98aZz_gencell-website.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3R385bqstJ986dE_Untitled-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3R3CZbqstJ986cq_Untitled-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5ZZbqstJ98aaI_unspun.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XJbqstJ98aZ4_list-across.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5YJbqstJ98aaA_ov-loop.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5V5bqstJ98aZx_connect-homes.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WJbqstJ98aZy_engineered-floors.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5YZbqstJ98aaB_pinch.jpg"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg",
+        "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+        "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png",
+        "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3xV4pbqstJ99GIi_Duchateau-Cover.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5X5bqstJ98aZ9_oura.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5W5bqstJ98aZ2_intreprid.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XZbqstJ98aZ6_moxion.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WpbqstJ98aZ1_hyperframe.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XpbqstJ98aZ8_noovo.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WZbqstJ98aZz_gencell-website.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3R385bqstJ986dE_Untitled-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z3R3CZbqstJ986cq_Untitled-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5ZZbqstJ98aaI_unspun.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5XJbqstJ98aZ4_list-across.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5YJbqstJ98aaA_ov-loop.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5V5bqstJ98aZx_connect-homes.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5WJbqstJ98aZy_engineered-floors.jpg",
+        "https://images.prismic.io/rejouice-2024/Z1r5YZbqstJ98aaB_pinch.jpg"
+      ]
+    },
+    {
+      "field": "/work/icomat.title",
+      "passed": true,
+      "expected": "ICOMAT",
+      "actual": "ICOMAT"
+    },
+    {
+      "field": "/work/icomat.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/abAKaVxvIZEnjhr7_Hero-CGI.jpg"
+    },
+    {
+      "field": "/work/icomat.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALKlxvIZEnjhsT_Icomat-Casestudy00Logo16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALXlxvIZEnjhsZ_Icomat-Casestudy0116x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abALd1xvIZEnjhsd_Diptych.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMJVxvIZEnjhsy_Icomat-Casestudy02Desktopwebsite16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abAMTVxvIZEnjhs3_Brand-Hero.jpg",
+        "https://images.prismic.io/rejouice-2024/abAV0VxvIZEnjhzM_Web6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMtlxvIZEnjhtV_Icomat-Casestudy053D16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMyFxvIZEnjhtX_Icomat-Casestudy07Branding16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abANPVxvIZEnjhuc_Brand-Hero-02.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAN5FxvIZEnjhus_Icomat-Casestudy08BrandGuidelinesFlash-16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOClxvIZEnjhut_Icomat-Casestudy04Videocut16x9_2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOIlxvIZEnjhuv_Icomat-Casestudy063D16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOQlxvIZEnjhuz_Icomat-Casestudy03MobileWebsite16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abAV3VxvIZEnjhzS_Web9.jpg",
+        "https://images.prismic.io/rejouice-2024/abAOY1xvIZEnjhu2_Brand-Hero03.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALKlxvIZEnjhsT_Icomat-Casestudy00Logo16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abALXlxvIZEnjhsZ_Icomat-Casestudy0116x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abALd1xvIZEnjhsd_Diptych.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMJVxvIZEnjhsy_Icomat-Casestudy02Desktopwebsite16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abAMTVxvIZEnjhs3_Brand-Hero.jpg",
+        "https://images.prismic.io/rejouice-2024/abAV0VxvIZEnjhzM_Web6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMtlxvIZEnjhtV_Icomat-Casestudy053D16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAMyFxvIZEnjhtX_Icomat-Casestudy07Branding16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abANPVxvIZEnjhuc_Brand-Hero-02.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAN5FxvIZEnjhus_Icomat-Casestudy08BrandGuidelinesFlash-16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOClxvIZEnjhut_Icomat-Casestudy04Videocut16x9_2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOIlxvIZEnjhuv_Icomat-Casestudy063D16x9.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/abAOQlxvIZEnjhuz_Icomat-Casestudy03MobileWebsite16x9.mp4",
+        "https://images.prismic.io/rejouice-2024/abAV3VxvIZEnjhzS_Web9.jpg",
+        "https://images.prismic.io/rejouice-2024/abAOY1xvIZEnjhu2_Brand-Hero03.jpg"
+      ]
+    },
+    {
+      "field": "/work/icomat.roles",
+      "passed": true,
+      "expected": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ],
+      "actual": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ]
+    },
+    {
+      "field": "/work/icomat.nextProject",
+      "passed": true,
+      "expected": "tensor",
+      "actual": "tensor"
+    },
+    {
+      "field": "/work/icomat.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg?rect=0,217,2720,1096",
+      "actual": "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg?rect=0,217,2720,1096"
+    },
+    {
+      "field": "/work/icomat.externalUrl",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "/work/icomat.awards",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "/work/icomat.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/tensor.title",
+      "passed": true,
+      "expected": "Tensor",
+      "actual": "Tensor"
+    },
+    {
+      "field": "/work/tensor.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aJfcaaTt2nPbaHC6_Hero-CGI.png",
+      "actual": "https://images.prismic.io/rejouice-2024/aJfcaaTt2nPbaHC6_Hero-CGI.png"
+    },
+    {
+      "field": "/work/tensor.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfdPaTt2nPbaHC8_TENSOR-CASESTUDY-02.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi3BKTt2nPbaH5z_TENSOR-CASESTUDY-02.mp4",
+        "https://images.prismic.io/rejouice-2024/aJfdrKTt2nPbaHC-_Brand-Hero.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfd1KTt2nPbaHC__TENSOR-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4kY55xUNkB17f0_TensorBrandGIFOct2025.mp4",
+        "https://images.prismic.io/rejouice-2024/aKRIGqTt2nPbac-B_Diptych3-gigapixel-standardv2-1x.jpg",
+        "https://images.prismic.io/rejouice-2024/aKRNZ6Tt2nPbadDG_OOH.jpg",
+        "https://images.prismic.io/rejouice-2024/aJjBPKTt2nPbaH7F_Brand-Copy.png",
+        "https://images.prismic.io/rejouice-2024/aKRN2KTt2nPbadDb_Brand-Static.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXtz7pReVYa4b3Q_TENSOR-HOMEPAGE-MULTIMODALSENSOR.mp4",
+        "https://images.prismic.io/rejouice-2024/aJfe3qTt2nPbaHDL_Diptychd.jpg",
+        "https://images.prismic.io/rejouice-2024/aJffGqTt2nPbaHDP_Brand-CGI.jpg",
+        "https://images.prismic.io/rejouice-2024/aJffGaTt2nPbaHDO_Web1.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4jD55xUNkB17eu_TENSOR-HOMEPAGE-TRANSITION-SCROLLANIMATION_1.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jPJ5xUNkB17e2_Web3.jpg",
+        "https://images.prismic.io/rejouice-2024/aO4jZ55xUNkB17fF_Web4-4.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJffqKTt2nPbaHDa_TENSOR-CASESTUDY-03.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jf55xUNkB17fQ_Web6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvtrpReVYa4b44_TENSOR-HOMEPAGE-09.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jyJ5xUNkB17fV_Web8.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi_rqTt2nPbaH6u_TENSOR-CASESTUDY-04-.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvHbpReVYa4b4T_TENSOR-HOMEPAGE-08.mp4"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfdPaTt2nPbaHC8_TENSOR-CASESTUDY-02.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi3BKTt2nPbaH5z_TENSOR-CASESTUDY-02.mp4",
+        "https://images.prismic.io/rejouice-2024/aJfdrKTt2nPbaHC-_Brand-Hero.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJfd1KTt2nPbaHC__TENSOR-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aKRHLqTt2nPbac9G_Brand-CGI3-gigapixel-standardv2-1x.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4kY55xUNkB17f0_TensorBrandGIFOct2025.mp4",
+        "https://images.prismic.io/rejouice-2024/aKRIGqTt2nPbac-B_Diptych3-gigapixel-standardv2-1x.jpg",
+        "https://images.prismic.io/rejouice-2024/aKRNZ6Tt2nPbadDG_OOH.jpg",
+        "https://images.prismic.io/rejouice-2024/aJjBPKTt2nPbaH7F_Brand-Copy.png",
+        "https://images.prismic.io/rejouice-2024/aKRN2KTt2nPbadDb_Brand-Static.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXtz7pReVYa4b3Q_TENSOR-HOMEPAGE-MULTIMODALSENSOR.mp4",
+        "https://images.prismic.io/rejouice-2024/aJfe3qTt2nPbaHDL_Diptychd.jpg",
+        "https://images.prismic.io/rejouice-2024/aJffGqTt2nPbaHDP_Brand-CGI.jpg",
+        "https://images.prismic.io/rejouice-2024/aJffGaTt2nPbaHDO_Web1.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aO4jD55xUNkB17eu_TENSOR-HOMEPAGE-TRANSITION-SCROLLANIMATION_1.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jPJ5xUNkB17e2_Web3.jpg",
+        "https://images.prismic.io/rejouice-2024/aO4jZ55xUNkB17fF_Web4-4.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJffqKTt2nPbaHDa_TENSOR-CASESTUDY-03.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jf55xUNkB17fQ_Web6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvtrpReVYa4b44_TENSOR-HOMEPAGE-09.mp4",
+        "https://images.prismic.io/rejouice-2024/aO4jyJ5xUNkB17fV_Web8.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aJi_rqTt2nPbaH6u_TENSOR-CASESTUDY-04-.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aRXvHbpReVYa4b4T_TENSOR-HOMEPAGE-08.mp4"
+      ]
+    },
+    {
+      "field": "/work/tensor.roles",
+      "passed": true,
+      "expected": [
+        "Brand Strategy",
+        "Naming",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design",
+        "Go-To-Market Strategy"
+      ],
+      "actual": [
+        "Brand Strategy",
+        "Naming",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design",
+        "Go-To-Market Strategy"
+      ]
+    },
+    {
+      "field": "/work/tensor.nextProject",
+      "passed": true,
+      "expected": "rivian",
+      "actual": "rivian"
+    },
+    {
+      "field": "/work/tensor.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg?rect=0,279,2160,870",
+      "actual": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg?rect=0,279,2160,870"
+    },
+    {
+      "field": "/work/tensor.externalUrl",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "/work/tensor.awards",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "/work/tensor.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/terminal-industries.title",
+      "passed": true,
+      "expected": "Terminal Industries",
+      "actual": "Terminal Industries"
+    },
+    {
+      "field": "/work/terminal-industries.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png",
+      "actual": "https://images.prismic.io/rejouice-2024/aIOHDVGsbswqTQTM_dwdw3-gigapixel-lowresolutionv2-2x1.png"
+    },
+    {
+      "field": "/work/terminal-industries.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOGmlGsbswqTQS9_TERMINAL-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOH31GsbswqTQTe_Frame1171277257.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOLQVGsbswqTQXI_TERMINAL-CASESTUDY-03.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOIf1GsbswqTQT4_Wireframe-73.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOI3FGsbswqTQUD_02_MacBook-Pro-Standard-Mockup-25-main23-gigapixel-lowresolutionv2-2x.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOKZ1GsbswqTQVu_TERMINAL-CASESTUDY-05.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOKJ1GsbswqTQVL_Wireframe-76.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIO9J1GsbswqTQ5Y_BL113-gigapixel-lowresolutionv2-2x2.mp4"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOGmlGsbswqTQS9_TERMINAL-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOH31GsbswqTQTe_Frame1171277257.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOLQVGsbswqTQXI_TERMINAL-CASESTUDY-03.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOIf1GsbswqTQT4_Wireframe-73.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOI3FGsbswqTQUD_02_MacBook-Pro-Standard-Mockup-25-main23-gigapixel-lowresolutionv2-2x.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOJ1VGsbswqTQUV_TERMINAL-CASESTUDY-02_2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIOKZ1GsbswqTQVu_TERMINAL-CASESTUDY-05.mp4",
+        "https://images.prismic.io/rejouice-2024/aIOKJ1GsbswqTQVL_Wireframe-76.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aIO9J1GsbswqTQ5Y_BL113-gigapixel-lowresolutionv2-2x2.mp4"
+      ]
+    },
+    {
+      "field": "/work/terminal-industries.roles",
+      "passed": true,
+      "expected": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ],
+      "actual": [
+        "Brand Strategy",
+        "Brand Identity",
+        "Art Direction",
+        "Copywriting",
+        "Content Creation",
+        "Motion Design & 3D Visualization",
+        "Web Design & Development"
+      ]
+    },
+    {
+      "field": "/work/terminal-industries.nextProject",
+      "passed": true,
+      "expected": "du-chateau",
+      "actual": "du-chateau"
+    },
+    {
+      "field": "/work/terminal-industries.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aIOPwlGsbswqTQai_1458_22_V32_SET_02_THE_CUT_01_Post1.png?rect=0,209,1882,758",
+      "actual": "https://images.prismic.io/rejouice-2024/aIOPwlGsbswqTQai_1458_22_V32_SET_02_THE_CUT_01_Post1.png?rect=0,209,1882,758"
+    },
+    {
+      "field": "/work/terminal-industries.externalUrl",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "/work/terminal-industries.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of The day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "AWWWARDS",
+          "entries": [
+            "Site of The Day",
+            "Developer Award",
+            "Site of The Month"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of The day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "AWWWARDS",
+          "entries": [
+            "Site of The Day",
+            "Developer Award",
+            "Site of The Month"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/terminal-industries.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/terminal-industries.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Leanne Kawahigashi",
+        "VP of Design"
+      ],
+      "actual": [
+        "Leanne Kawahigashi",
+        "VP of Design"
+      ]
+    },
+    {
+      "field": "/work/terminal-industries.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aIkcoVGsbswqTb5M_HeadshotFinal.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/aIkcoVGsbswqTb5M_HeadshotFinal.jpg"
+    },
+    {
+      "field": "/work/rivian.title",
+      "passed": true,
+      "expected": "Rivian",
+      "actual": "Rivian"
+    },
+    {
+      "field": "/work/rivian.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/aFMaEbNJEFaPYFQr_Rivian-cover.jpg"
+    },
+    {
+      "field": "/work/rivian.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbCbNJEFaPYFQx_RIVIAN-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aFMcJLNJEFaPYFRB_Rivian-02.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJbNJEFaPYFRD_Rivian-04.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJrNJEFaPYFRF_Rivian-05.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJ7NJEFaPYFRG_Rivian-06.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcKLNJEFaPYFRH_Rivian-07.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbI7NJEFaPYFQz_RIVIAN-CASESTUDY-02.mp4",
+        "https://images.prismic.io/rejouice-2024/aFMcKbNJEFaPYFRI_Rivian-09.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcKrNJEFaPYFRJ_Rivian-10.jpg",
+        "https://images.prismic.io/rejouice-2024/adaW0Z1ZCF7ES_Vy_Untitled-2p.png",
+        "https://images.prismic.io/rejouice-2024/adaW0p1ZCF7ES_V0_image-23-.png"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbCbNJEFaPYFQx_RIVIAN-CASESTUDY-01.mp4",
+        "https://images.prismic.io/rejouice-2024/aFMcJLNJEFaPYFRB_Rivian-02.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJbNJEFaPYFRD_Rivian-04.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJrNJEFaPYFRF_Rivian-05.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcJ7NJEFaPYFRG_Rivian-06.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcKLNJEFaPYFRH_Rivian-07.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/aFMbI7NJEFaPYFQz_RIVIAN-CASESTUDY-02.mp4",
+        "https://images.prismic.io/rejouice-2024/aFMcKbNJEFaPYFRI_Rivian-09.jpg",
+        "https://images.prismic.io/rejouice-2024/aFMcKrNJEFaPYFRJ_Rivian-10.jpg",
+        "https://images.prismic.io/rejouice-2024/adaW0Z1ZCF7ES_Vy_Untitled-2p.png",
+        "https://images.prismic.io/rejouice-2024/adaW0p1ZCF7ES_V0_image-23-.png"
+      ]
+    },
+    {
+      "field": "/work/rivian.roles",
+      "passed": true,
+      "expected": [
+        "Brand Strategy",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Brand Strategy",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/rivian.nextProject",
+      "passed": true,
+      "expected": "oura-ring",
+      "actual": "oura-ring"
+    },
+    {
+      "field": "/work/rivian.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg?rect=0,307,2200,886",
+      "actual": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg?rect=0,307,2200,886"
+    },
+    {
+      "field": "/work/rivian.externalUrl",
+      "passed": true,
+      "expected": "https://rivian.com",
+      "actual": "https://rivian.com"
+    },
+    {
+      "field": "/work/rivian.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of the day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of the day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/rivian.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/du-chateau.title",
+      "passed": true,
+      "expected": "Du Chateau",
+      "actual": "Du Chateau"
+    },
+    {
+      "field": "/work/du-chateau.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z3wvjZbqstJ99F7S_Duchateau-Cover.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z3wvjZbqstJ99F7S_Duchateau-Cover.jpg"
+    },
+    {
+      "field": "/work/du-chateau.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xRMJbqstJ99GG4_01-Duchateau-Video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HTf5bqstJ984SO_Frame21133.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HRb5bqstJ984SK_Duchateau-WebsiteDemox5.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HWh5bqstJ984Ss_Group1073714238.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HVPJbqstJ984Sm_01-WEBSITE-DUCHATEAU6d.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HTjpbqstJ984SP_Group1073714236.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HTsJbqstJ984SQ_Duchateau-WebsiteDemox6.mp4"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xRMJbqstJ99GG4_01-Duchateau-Video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HTf5bqstJ984SO_Frame21133.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HRb5bqstJ984SK_Duchateau-WebsiteDemox5.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HWh5bqstJ984Ss_Group1073714238.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HVPJbqstJ984Sm_01-WEBSITE-DUCHATEAU6d.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3HTjpbqstJ984SP_Group1073714236.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3HTsJbqstJ984SQ_Duchateau-WebsiteDemox6.mp4"
+      ]
+    },
+    {
+      "field": "/work/du-chateau.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/du-chateau.nextProject",
+      "passed": true,
+      "expected": "oura-ring",
+      "actual": "oura-ring"
+    },
+    {
+      "field": "/work/du-chateau.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg?rect=0,382,2720,1096",
+      "actual": "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg?rect=0,382,2720,1096"
+    },
+    {
+      "field": "/work/du-chateau.externalUrl",
+      "passed": true,
+      "expected": "https://duchateau-git-master-rejouice.vercel.app",
+      "actual": "https://duchateau-git-master-rejouice.vercel.app"
+    },
+    {
+      "field": "/work/du-chateau.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/du-chateau.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/oura-ring.title",
+      "passed": true,
+      "expected": "Oura Ring",
+      "actual": "Oura Ring"
+    },
+    {
+      "field": "/work/oura-ring.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg"
+    },
+    {
+      "field": "/work/oura-ring.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xbLZbqstJ99GKJ_01-OURA-Video2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z215hpbqstJ981qQ_Oura-01.png",
+        "https://images.prismic.io/rejouice-2024/Z218X5bqstJ981q6_Group3922.png",
+        "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z218opbqstJ981rL_Group3919.png",
+        "https://images.prismic.io/rejouice-2024/Z3FO0JbqstJ984Gf_Untitled-1.png",
+        "https://images.prismic.io/rejouice-2024/Z218yZbqstJ981rO_Frame21108s.png",
+        "https://images.prismic.io/rejouice-2024/Z3fSX5bqstJ99A_s_Oura-3d-render-01.png",
+        "https://images.prismic.io/rejouice-2024/Z2186pbqstJ981rQ_Group3919.png",
+        "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xbLZbqstJ99GKJ_01-OURA-Video2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z215hpbqstJ981qQ_Oura-01.png",
+        "https://images.prismic.io/rejouice-2024/Z218X5bqstJ981q6_Group3922.png",
+        "https://images.prismic.io/rejouice-2024/Z218g5bqstJ981rD_oura-abdul-ovaice-photography-cd-3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z218opbqstJ981rL_Group3919.png",
+        "https://images.prismic.io/rejouice-2024/Z3FO0JbqstJ984Gf_Untitled-1.png",
+        "https://images.prismic.io/rejouice-2024/Z218yZbqstJ981rO_Frame21108s.png",
+        "https://images.prismic.io/rejouice-2024/Z3fSX5bqstJ99A_s_Oura-3d-render-01.png",
+        "https://images.prismic.io/rejouice-2024/Z2186pbqstJ981rQ_Group3919.png",
+        "https://images.prismic.io/rejouice-2024/Z3fSYJbqstJ99A_t_Oura-3d-render-02.jpg"
+      ]
+    },
+    {
+      "field": "/work/oura-ring.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/oura-ring.nextProject",
+      "passed": true,
+      "expected": "intrepid",
+      "actual": "intrepid"
+    },
+    {
+      "field": "/work/oura-ring.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png?rect=0,261,3408,1373",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png?rect=0,261,3408,1373"
+    },
+    {
+      "field": "/work/oura-ring.externalUrl",
+      "passed": true,
+      "expected": "http://ouraring.com",
+      "actual": "http://ouraring.com"
+    },
+    {
+      "field": "/work/oura-ring.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/oura-ring.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/oura-ring.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Abdul Ovaice",
+        "Creative Director at Oura"
+      ],
+      "actual": [
+        "Abdul Ovaice",
+        "Creative Director at Oura"
+      ]
+    },
+    {
+      "field": "/work/oura-ring.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22DwZbqstJ981s9_7fcac628-7584-47b3-a3c7-ac619cdf95a3_Abdul.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22DwZbqstJ981s9_7fcac628-7584-47b3-a3c7-ac619cdf95a3_Abdul.avif"
+    },
+    {
+      "field": "/work/intrepid.title",
+      "passed": true,
+      "expected": "Intrepid",
+      "actual": "Intrepid"
+    },
+    {
+      "field": "/work/intrepid.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22E05bqstJ981tX_Intrepid-Cover.png"
+    },
+    {
+      "field": "/work/intrepid.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xSKJbqstJ99GHC_01-INTREPID-Video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22FnpbqstJ981tl_GH-INTREPID-04.png",
+        "https://images.prismic.io/rejouice-2024/Z22F-JbqstJ981ts_Frame1073714620.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GBpbqstJ981tt_GH-INTREPID2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22Gf5bqstJ981ty_GH-INTREPID3.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22GX5bqstJ981tv_Group3919.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GcpbqstJ981tw_GH-INTREPID4.mp4"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3xSKJbqstJ99GHC_01-INTREPID-Video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22FnpbqstJ981tl_GH-INTREPID-04.png",
+        "https://images.prismic.io/rejouice-2024/Z22F-JbqstJ981ts_Frame1073714620.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GBpbqstJ981tt_GH-INTREPID2.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22Gf5bqstJ981ty_GH-INTREPID3.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22GX5bqstJ981tv_Group3919.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22GcpbqstJ981tw_GH-INTREPID4.mp4"
+      ]
+    },
+    {
+      "field": "/work/intrepid.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/intrepid.nextProject",
+      "passed": true,
+      "expected": "moxion-power",
+      "actual": "moxion-power"
+    },
+    {
+      "field": "/work/intrepid.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png?rect=0,398,2804,1129",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png?rect=0,398,2804,1129"
+    },
+    {
+      "field": "/work/intrepid.externalUrl",
+      "passed": true,
+      "expected": "https://www.intrepidautomation.com/",
+      "actual": "https://www.intrepidautomation.com/"
+    },
+    {
+      "field": "/work/intrepid.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of the Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of the Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of the Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of the Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/intrepid.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/intrepid.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Merrin Muxlow",
+        "Head of Marketing"
+      ],
+      "actual": [
+        "Merrin Muxlow",
+        "Head of Marketing"
+      ]
+    },
+    {
+      "field": "/work/intrepid.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z4g5u5bqstJ99gpB_MerrinM_230622_022.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z4g5u5bqstJ99gpB_MerrinM_230622_022.jpg"
+    },
+    {
+      "field": "/work/moxion-power.title",
+      "passed": true,
+      "expected": "Moxion Power",
+      "actual": "Moxion Power"
+    },
+    {
+      "field": "/work/moxion-power.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22KFpbqstJ981ua_IMG_87781.png"
+    },
+    {
+      "field": "/work/moxion-power.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22K2ZbqstJ981uv_RJ-CS-MP01.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22LBJbqstJ981uy_Maskgroup.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LMZbqstJ981u1_RJ-CS-MP02.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22LaZbqstJ981u4_Frame21196.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LfJbqstJ981u9_RJ-CS-MP06_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22Lo5bqstJ981vL_Maskgroups.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LxJbqstJ981vX_RJ-CS-MP05_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22NBZbqstJ981vz_Frame21197.png",
+        "https://images.prismic.io/rejouice-2024/Z22MLZbqstJ981vr_Rectangle2305.png",
+        "https://images.prismic.io/rejouice-2024/Z3FRGZbqstJ984Gt_MP-lastcover.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FRtpbqstJ984Gy_MP-INDUSTRY.mp4",
+        "https://images.prismic.io/rejouice-2024/Z4hAu5bqstJ99grN_moxionpower.2023.04.onlocation-1147.fullresolution.jpg",
+        "https://images.prismic.io/rejouice-2024/Z4hBcZbqstJ99gru_moxionpower.2023.04.portraits-395.fullresolution.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22K2ZbqstJ981uv_RJ-CS-MP01.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22LBJbqstJ981uy_Maskgroup.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LMZbqstJ981u1_RJ-CS-MP02.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22LaZbqstJ981u4_Frame21196.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LfJbqstJ981u9_RJ-CS-MP06_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22Lo5bqstJ981vL_Maskgroups.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22LxJbqstJ981vX_RJ-CS-MP05_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22NBZbqstJ981vz_Frame21197.png",
+        "https://images.prismic.io/rejouice-2024/Z22MLZbqstJ981vr_Rectangle2305.png",
+        "https://images.prismic.io/rejouice-2024/Z3FRGZbqstJ984Gt_MP-lastcover.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FRtpbqstJ984Gy_MP-INDUSTRY.mp4",
+        "https://images.prismic.io/rejouice-2024/Z4hAu5bqstJ99grN_moxionpower.2023.04.onlocation-1147.fullresolution.jpg",
+        "https://images.prismic.io/rejouice-2024/Z4hBcZbqstJ99gru_moxionpower.2023.04.portraits-395.fullresolution.jpg"
+      ]
+    },
+    {
+      "field": "/work/moxion-power.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/moxion-power.nextProject",
+      "passed": true,
+      "expected": "hyperframe",
+      "actual": "hyperframe"
+    },
+    {
+      "field": "/work/moxion-power.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png?rect=0,646,3120,1257",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png?rect=0,646,3120,1257"
+    },
+    {
+      "field": "/work/moxion-power.externalUrl",
+      "passed": true,
+      "expected": "http://moxion-preprod.rejouice.io",
+      "actual": "http://moxion-preprod.rejouice.io"
+    },
+    {
+      "field": "/work/moxion-power.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA of the day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/moxion-power.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/moxion-power.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Alex Meek",
+        "Co-Founder & President"
+      ],
+      "actual": [
+        "Alex Meek",
+        "Co-Founder & President"
+      ]
+    },
+    {
+      "field": "/work/moxion-power.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z4hAWJbqstJ99grK_Screenshot2025-01-15at3.09.44PM.png?rect=1142,20,2020,1413",
+      "actual": "https://images.prismic.io/rejouice-2024/Z4hAWJbqstJ99grK_Screenshot2025-01-15at3.09.44PM.png?rect=1142,20,2020,1413"
+    },
+    {
+      "field": "/work/hyperframe.title",
+      "passed": true,
+      "expected": "Hyperframe",
+      "actual": "Hyperframe"
+    },
+    {
+      "field": "/work/hyperframe.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22P2JbqstJ981wT_Hyp03-2588x18001.png"
+    },
+    {
+      "field": "/work/hyperframe.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3G3BZbqstJ984QV_Hyperframe.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22QqJbqstJ981we_Homepage-1.png",
+        "https://images.prismic.io/rejouice-2024/Z22R05bqstJ981wp_Frame21234.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22SkJbqstJ981wy_02_hyper_video.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22StZbqstJ981w0_Group3901.png",
+        "https://images.prismic.io/rejouice-2024/Z22TAJbqstJ981w3_Group3909.png",
+        "https://images.prismic.io/rejouice-2024/Z22TZJbqstJ981w9_Group3890.png",
+        "https://images.prismic.io/rejouice-2024/Z22Tr5bqstJ981xE_202.png",
+        "https://images.prismic.io/rejouice-2024/Z22TuZbqstJ981xF_Group3908.png"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3G3BZbqstJ984QV_Hyperframe.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22QqJbqstJ981we_Homepage-1.png",
+        "https://images.prismic.io/rejouice-2024/Z22R05bqstJ981wp_Frame21234.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22SkJbqstJ981wy_02_hyper_video.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22StZbqstJ981w0_Group3901.png",
+        "https://images.prismic.io/rejouice-2024/Z22TAJbqstJ981w3_Group3909.png",
+        "https://images.prismic.io/rejouice-2024/Z22TZJbqstJ981w9_Group3890.png",
+        "https://images.prismic.io/rejouice-2024/Z22Tr5bqstJ981xE_202.png",
+        "https://images.prismic.io/rejouice-2024/Z22TuZbqstJ981xF_Group3908.png"
+      ]
+    },
+    {
+      "field": "/work/hyperframe.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/hyperframe.nextProject",
+      "passed": true,
+      "expected": "noovo",
+      "actual": "noovo"
+    },
+    {
+      "field": "/work/hyperframe.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg?rect=0,151,1360,548",
+      "actual": "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg?rect=0,151,1360,548"
+    },
+    {
+      "field": "/work/hyperframe.externalUrl",
+      "passed": true,
+      "expected": "https://www.hyperframe.com/",
+      "actual": "https://www.hyperframe.com/"
+    },
+    {
+      "field": "/work/hyperframe.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/hyperframe.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/noovo.title",
+      "passed": true,
+      "expected": "Noovo",
+      "actual": "Noovo"
+    },
+    {
+      "field": "/work/noovo.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z4r-tZbqstJ99l0w_DSC_2385_0da8e3604d-1-.webp",
+      "actual": "https://images.prismic.io/rejouice-2024/Z4r-tZbqstJ99l0w_DSC_2385_0da8e3604d-1-.webp"
+    },
+    {
+      "field": "/work/noovo.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FryZbqstJ984J9_NOOVO-VIDEO-WEBSITE.mp4",
+        "https://images.prismic.io/rejouice-2024/Z4r_G5bqstJ99l0y_DSC_2404_84077cabc5-1-.webp",
+        "https://images.prismic.io/rejouice-2024/Z3FzZpbqstJ984LG_DSC_1756.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0hsuZbqstJ973Qw_Maskgroup.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyWJbqstJ984K7_logo-reveal_03_video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z0htK5bqstJ973RF_noovo5.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0hs25bqstJ973Q2_noovo3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htLJbqstJ973RG_noovo6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FsipbqstJ984KC_REJOUICE-NOOVO_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z0htLZbqstJ973RH_noovo7.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htL5bqstJ973RJ_noovo9.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyRJbqstJ984K6_REJOUICE-NOOVO2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3FzZZbqstJ984LF_SectionCover.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FryZbqstJ984J9_NOOVO-VIDEO-WEBSITE.mp4",
+        "https://images.prismic.io/rejouice-2024/Z4r_G5bqstJ99l0y_DSC_2404_84077cabc5-1-.webp",
+        "https://images.prismic.io/rejouice-2024/Z3FzZpbqstJ984LG_DSC_1756.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0hsuZbqstJ973Qw_Maskgroup.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyWJbqstJ984K7_logo-reveal_03_video.mp4",
+        "https://images.prismic.io/rejouice-2024/Z0htK5bqstJ973RF_noovo5.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0hs25bqstJ973Q2_noovo3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htLJbqstJ973RG_noovo6.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FsipbqstJ984KC_REJOUICE-NOOVO_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z0htLZbqstJ973RH_noovo7.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htLpbqstJ973RI_noovo8.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0htL5bqstJ973RJ_noovo9.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FyRJbqstJ984K6_REJOUICE-NOOVO2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z3FzZZbqstJ984LF_SectionCover.jpg"
+      ]
+    },
+    {
+      "field": "/work/noovo.roles",
+      "passed": true,
+      "expected": [
+        "Naming",
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Naming",
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/noovo.nextProject",
+      "passed": true,
+      "expected": "gencell-website",
+      "actual": "gencell-website"
+    },
+    {
+      "field": "/work/noovo.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png?rect=0,464,3272,1318",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png?rect=0,464,3272,1318"
+    },
+    {
+      "field": "/work/noovo.externalUrl",
+      "passed": true,
+      "expected": "https://www.noovolife.com/",
+      "actual": "https://www.noovolife.com/"
+    },
+    {
+      "field": "/work/noovo.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/noovo.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/noovo.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Benoit Lafond",
+        "Co-founder & CEO"
+      ],
+      "actual": [
+        "Benoit Lafond",
+        "Co-founder & CEO"
+      ]
+    },
+    {
+      "field": "/work/noovo.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z4iRQJbqstJ99g5W_Screenshot2025-01-15at8.55.08PM.png?rect=156,150,617,628",
+      "actual": "https://images.prismic.io/rejouice-2024/Z4iRQJbqstJ99g5W_Screenshot2025-01-15at8.55.08PM.png?rect=156,150,617,628"
+    },
+    {
+      "field": "/work/gencell-website.title",
+      "passed": true,
+      "expected": "GenCell",
+      "actual": "GenCell"
+    },
+    {
+      "field": "/work/gencell-website.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22UbZbqstJ981xL_gencell.production-5301.png"
+    },
+    {
+      "field": "/work/gencell-website.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22UypbqstJ981xN_RJ-CS-GC01.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WoJbqstJ981xg_04.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WtpbqstJ981xh_RJ-CS-GC03.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WxpbqstJ981xi_RJ-CS-GC02_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22XFZbqstJ981xl_Frame21199.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22YJ5bqstJ981xu_Maskgroup.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22X1ZbqstJ981xp_Frame21235.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22UypbqstJ981xN_RJ-CS-GC01.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WoJbqstJ981xg_04.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WtpbqstJ981xh_RJ-CS-GC03.mp4",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22WxpbqstJ981xi_RJ-CS-GC02_1.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22XFZbqstJ981xl_Frame21199.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22YJ5bqstJ981xu_Maskgroup.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22X1ZbqstJ981xp_Frame21235.jpg"
+      ]
+    },
+    {
+      "field": "/work/gencell-website.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/gencell-website.nextProject",
+      "passed": true,
+      "expected": "proof",
+      "actual": "proof"
+    },
+    {
+      "field": "/work/gencell-website.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22dCpbqstJ981yz_Rectangle969.png?rect=0,320,2880,1160",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22dCpbqstJ981yz_Rectangle969.png?rect=0,320,2880,1160"
+    },
+    {
+      "field": "/work/gencell-website.externalUrl",
+      "passed": true,
+      "expected": "https://gencell-preprod.rejouice.io/",
+      "actual": "https://gencell-preprod.rejouice.io/"
+    },
+    {
+      "field": "/work/gencell-website.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Site of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDGN",
+          "entries": [
+            "Site of The Day"
+          ]
+        },
+        {
+          "name": "FWA",
+          "entries": [
+            "Site of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/gencell-website.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/gencell-website.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Ariel Machtey",
+        "Head of Marketing at GenCell"
+      ],
+      "actual": [
+        "Ariel Machtey",
+        "Head of Marketing at GenCell"
+      ]
+    },
+    {
+      "field": "/work/gencell-website.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23d65bqstJ982BP_6f21cdf6-d73e-4729-a094-4b9440765f16_gencell.management+portraits-193.low+resolution.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23d65bqstJ982BP_6f21cdf6-d73e-4729-a094-4b9440765f16_gencell.management+portraits-193.low+resolution.avif"
+    },
+    {
+      "field": "/work/proof.title",
+      "passed": true,
+      "expected": "Proof",
+      "actual": "Proof"
+    },
+    {
+      "field": "/work/proof.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z3Fv-5bqstJ984KU_Rectangle969.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z3Fv-5bqstJ984KU_Rectangle969.png"
+    },
+    {
+      "field": "/work/proof.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FuyJbqstJ984KO_Proof-VIDEO-WEBSITE3.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22dLJbqstJ981y0_Group4003.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22dXZbqstJ981y2_Frame21237.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22dqpbqstJ981y4_02_proof.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22dypbqstJ981y7_Group4004.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22ef5bqstJ981zG_Proof_ProductOverview.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22espbqstJ981zI_Group3931.png",
+        "https://images.prismic.io/rejouice-2024/Z22e05bqstJ981zJ_Group3979.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22e8ZbqstJ981zK_203.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22fSZbqstJ981zY_Proof_ProductOverview2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22fpJbqstJ981za_Group4006.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22fxpbqstJ981zb_Group4009.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22f3ZbqstJ981zc_d7a218a4-bf7b-4f82-8e1f-37f344e3d8df_banner3.png"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z3FuyJbqstJ984KO_Proof-VIDEO-WEBSITE3.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22dLJbqstJ981y0_Group4003.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22dXZbqstJ981y2_Frame21237.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22dqpbqstJ981y4_02_proof.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22dypbqstJ981y7_Group4004.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22ef5bqstJ981zG_Proof_ProductOverview.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22espbqstJ981zI_Group3931.png",
+        "https://images.prismic.io/rejouice-2024/Z22e05bqstJ981zJ_Group3979.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22e8ZbqstJ981zK_203.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22fSZbqstJ981zY_Proof_ProductOverview2.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22fpJbqstJ981za_Group4006.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22fxpbqstJ981zb_Group4009.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22f3ZbqstJ981zc_d7a218a4-bf7b-4f82-8e1f-37f344e3d8df_banner3.png"
+      ]
+    },
+    {
+      "field": "/work/proof.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/proof.nextProject",
+      "passed": true,
+      "expected": "tenzr",
+      "actual": "tenzr"
+    },
+    {
+      "field": "/work/proof.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif?rect=0,1081,8192,3300",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif?rect=0,1081,8192,3300"
+    },
+    {
+      "field": "/work/proof.externalUrl",
+      "passed": true,
+      "expected": "https://proof.io",
+      "actual": "https://proof.io"
+    },
+    {
+      "field": "/work/proof.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/proof.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/proof.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Fleur Heyns",
+        "Co-founder & CEO"
+      ],
+      "actual": [
+        "Fleur Heyns",
+        "Co-founder & CEO"
+      ]
+    },
+    {
+      "field": "/work/proof.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z4iVzZbqstJ99g6g_cef1d779d3b1ae1bdaa67a7271f9f9a2.jpeg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z4iVzZbqstJ99g6g_cef1d779d3b1ae1bdaa67a7271f9f9a2.jpeg"
+    },
+    {
+      "field": "/work/tenzr.title",
+      "passed": true,
+      "expected": "Tenzr",
+      "actual": "Tenzr"
+    },
+    {
+      "field": "/work/tenzr.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22gq5bqstJ981zj_5db57a45-d415-4bf2-8758-40a10c43def6_Tenzr-Patient.avif"
+    },
+    {
+      "field": "/work/tenzr.gallery",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z22gcZbqstJ981zh_Group3973.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22lwpbqstJ9810l_tenzr-cut_01.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22l5ZbqstJ9810m_Group3970.png",
+        "https://images.prismic.io/rejouice-2024/Z22maZbqstJ9810y_Scene_10_typo.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mdJbqstJ98100_Group3931.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mgJbqstJ98101_Group3971.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mjZbqstJ98103_203.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mmJbqstJ98105_Group3972.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mopbqstJ98106_Scene07_typo.png",
+        "https://images.prismic.io/rejouice-2024/Z22muZbqstJ98107_Group3921.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22m3ZbqstJ98109_tenzr-cut_02.mp4-1080p-.mp4"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z22gcZbqstJ981zh_Group3973.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22lwpbqstJ9810l_tenzr-cut_01.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22l5ZbqstJ9810m_Group3970.png",
+        "https://images.prismic.io/rejouice-2024/Z22maZbqstJ9810y_Scene_10_typo.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mdJbqstJ98100_Group3931.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mgJbqstJ98101_Group3971.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mjZbqstJ98103_203.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mmJbqstJ98105_Group3972.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22mopbqstJ98106_Scene07_typo.png",
+        "https://images.prismic.io/rejouice-2024/Z22muZbqstJ98107_Group3921.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22m3ZbqstJ98109_tenzr-cut_02.mp4-1080p-.mp4"
+      ]
+    },
+    {
+      "field": "/work/tenzr.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/tenzr.nextProject",
+      "passed": true,
+      "expected": "unspun",
+      "actual": "unspun"
+    },
+    {
+      "field": "/work/tenzr.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg?rect=0,382,2720,1096",
+      "actual": "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg?rect=0,382,2720,1096"
+    },
+    {
+      "field": "/work/tenzr.externalUrl",
+      "passed": true,
+      "expected": "https://tenzr-preprod.rejouice.io/",
+      "actual": "https://tenzr-preprod.rejouice.io/"
+    },
+    {
+      "field": "/work/tenzr.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/tenzr.testimonialPresent",
+      "passed": true,
+      "expected": false,
+      "actual": false
+    },
+    {
+      "field": "/work/unspun.title",
+      "passed": true,
+      "expected": "Unspun",
+      "actual": "Unspun"
+    },
+    {
+      "field": "/work/unspun.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg"
+    },
+    {
+      "field": "/work/unspun.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zqpbqstJ9815e_01_unspun.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22z7ZbqstJ9815l_Frame21139.jpg",
+        "https://images.prismic.io/rejouice-2024/Z220B5bqstJ9815n_Group3931.png",
+        "https://images.prismic.io/rejouice-2024/Z220S5bqstJ9815q_5-3-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z222-JbqstJ9816b_Frame21141.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223YJbqstJ9816s_Group3933.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223fZbqstJ9816y_Group3921.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223l5bqstJ98162_tiles.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zqpbqstJ9815e_01_unspun.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22z7ZbqstJ9815l_Frame21139.jpg",
+        "https://images.prismic.io/rejouice-2024/Z220B5bqstJ9815n_Group3931.png",
+        "https://images.prismic.io/rejouice-2024/Z220S5bqstJ9815q_5-3-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z222zpbqstJ9816a_3-4-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z222-JbqstJ9816b_Frame21141.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223K5bqstJ9816p_Group3935.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223YJbqstJ9816s_Group3933.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223fZbqstJ9816y_Group3921.jpg",
+        "https://images.prismic.io/rejouice-2024/Z223l5bqstJ98162_tiles.jpg"
+      ]
+    },
+    {
+      "field": "/work/unspun.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/unspun.nextProject",
+      "passed": true,
+      "expected": "list-across",
+      "actual": "list-across"
+    },
+    {
+      "field": "/work/unspun.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg?rect=0,344,3090,1245",
+      "actual": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg?rect=0,344,3090,1245"
+    },
+    {
+      "field": "/work/unspun.externalUrl",
+      "passed": true,
+      "expected": "https://unspun-preprod.rejouice.io",
+      "actual": "https://unspun-preprod.rejouice.io"
+    },
+    {
+      "field": "/work/unspun.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/unspun.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/unspun.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Beth Esponnette",
+        "Co-Founder at Unspun™"
+      ],
+      "actual": [
+        "Beth Esponnette",
+        "Co-Founder at Unspun™"
+      ]
+    },
+    {
+      "field": "/work/unspun.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23f45bqstJ982Bk_9d30a93a-64e1-47cc-b5c7-a955459fc04e_Beth.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23f45bqstJ982Bk_9d30a93a-64e1-47cc-b5c7-a955459fc04e_Beth.avif"
+    },
+    {
+      "field": "/work/list-across.title",
+      "passed": true,
+      "expected": "List Across",
+      "actual": "List Across"
+    },
+    {
+      "field": "/work/list-across.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z223-ZbqstJ98164_yellow_2.jpg"
+    },
+    {
+      "field": "/work/list-across.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227apbqstJ9817V_01_list_across.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z227lZbqstJ9817W_Group3955.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227rJbqstJ9817X_02_list_accross.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22715bqstJ9817Y_Group3951.jpg",
+        "https://images.prismic.io/rejouice-2024/Z2278JbqstJ9817c_Group3952.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228CpbqstJ9817d_Group3947.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228IJbqstJ9817e_1-LogIn.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228OJbqstJ9817f_Group3956.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z228SJbqstJ9817g_04_list_across.mp4-1080p-.mp4"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227apbqstJ9817V_01_list_across.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z227lZbqstJ9817W_Group3955.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z227rJbqstJ9817X_02_list_accross.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22715bqstJ9817Y_Group3951.jpg",
+        "https://images.prismic.io/rejouice-2024/Z2278JbqstJ9817c_Group3952.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228CpbqstJ9817d_Group3947.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228IJbqstJ9817e_1-LogIn.jpg",
+        "https://images.prismic.io/rejouice-2024/Z228OJbqstJ9817f_Group3956.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z228SJbqstJ9817g_04_list_across.mp4-1080p-.mp4"
+      ]
+    },
+    {
+      "field": "/work/list-across.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/list-across.nextProject",
+      "passed": true,
+      "expected": "ov-loop",
+      "actual": "ov-loop"
+    },
+    {
+      "field": "/work/list-across.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z228oZbqstJ9817i_Rectangle969.jpg?rect=0,544,2880,1160",
+      "actual": "https://images.prismic.io/rejouice-2024/Z228oZbqstJ9817i_Rectangle969.jpg?rect=0,544,2880,1160"
+    },
+    {
+      "field": "/work/list-across.externalUrl",
+      "passed": true,
+      "expected": "https://www.listacross.com/",
+      "actual": "https://www.listacross.com/"
+    },
+    {
+      "field": "/work/list-across.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/list-across.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/list-across.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Brandon McKenzie",
+        "Co-Founder & CEO"
+      ],
+      "actual": [
+        "Brandon McKenzie",
+        "Co-Founder & CEO"
+      ]
+    },
+    {
+      "field": "/work/list-across.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23gz5bqstJ982CG_fd83acd1-cd77-4d07-b470-ef3981f43e40_Brandon.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23gz5bqstJ982CG_fd83acd1-cd77-4d07-b470-ef3981f43e40_Brandon.avif"
+    },
+    {
+      "field": "/work/ov-loop.title",
+      "passed": true,
+      "expected": "OV Loop",
+      "actual": "OV Loop"
+    },
+    {
+      "field": "/work/ov-loop.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23DIZbqstJ9818r_23fcfc8d-ad26-4f2c-a55f-da974c467a14_ababab.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23DIZbqstJ9818r_23fcfc8d-ad26-4f2c-a55f-da974c467a14_ababab.avif"
+    },
+    {
+      "field": "/work/ov-loop.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23CNZbqstJ9818R_OVLOOP-01.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23Ca5bqstJ9818S_Frame3985.png",
+        "https://images.prismic.io/rejouice-2024/Z23Ch5bqstJ9818d_Logo_00-copy-Noise2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cl5bqstJ9818e_Group3931.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23CqpbqstJ9818f_Frame21209.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cu5bqstJ9818g_105742746.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cy5bqstJ9818h_Frame21210.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C15bqstJ9818j_Ecommerce1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C5JbqstJ9818k_Rectangle1015.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C9pbqstJ9818l_Group3989.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23DBJbqstJ9818m_Group3921.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23DEJbqstJ9818p_Group3988.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23CNZbqstJ9818R_OVLOOP-01.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23Ca5bqstJ9818S_Frame3985.png",
+        "https://images.prismic.io/rejouice-2024/Z23Ch5bqstJ9818d_Logo_00-copy-Noise2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cl5bqstJ9818e_Group3931.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23CqpbqstJ9818f_Frame21209.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cu5bqstJ9818g_105742746.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23Cy5bqstJ9818h_Frame21210.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C15bqstJ9818j_Ecommerce1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C5JbqstJ9818k_Rectangle1015.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23C9pbqstJ9818l_Group3989.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23DBJbqstJ9818m_Group3921.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23DEJbqstJ9818p_Group3988.jpg"
+      ]
+    },
+    {
+      "field": "/work/ov-loop.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/ov-loop.nextProject",
+      "passed": true,
+      "expected": "connect-homes",
+      "actual": "connect-homes"
+    },
+    {
+      "field": "/work/ov-loop.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg?rect=0,351,3150,1269",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg?rect=0,351,3150,1269"
+    },
+    {
+      "field": "/work/ov-loop.externalUrl",
+      "passed": true,
+      "expected": "https://www.ovloopbrand.com/",
+      "actual": "https://www.ovloopbrand.com/"
+    },
+    {
+      "field": "/work/ov-loop.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Special Kudos"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/ov-loop.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/ov-loop.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Will Graylin",
+        "CEO"
+      ],
+      "actual": [
+        "Will Graylin",
+        "CEO"
+      ]
+    },
+    {
+      "field": "/work/ov-loop.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23hbpbqstJ982CN_18ad2845-bb4f-49bc-8589-c8d56cc11538_willAvatar.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23hbpbqstJ982CN_18ad2845-bb4f-49bc-8589-c8d56cc11538_willAvatar.avif"
+    },
+    {
+      "field": "/work/connect-homes.title",
+      "passed": true,
+      "expected": "Connect Homes",
+      "actual": "Connect Homes"
+    },
+    {
+      "field": "/work/connect-homes.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23EApbqstJ9819L_4-2880x18003.jpg"
+    },
+    {
+      "field": "/work/connect-homes.gallery",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23HKZbqstJ9819h_01_connect_homes-mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23HTZbqstJ9819j_ConnectHomes_PaloAlto-9-1-2609x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23J9ZbqstJ9819y_f327fc4d-8e2c-4b3d-bf3a-f5ff03ad3478_ConnectHomes_CoolidgeAv_023-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23J9pbqstJ9819z_Group3964.png",
+        "https://images.prismic.io/rejouice-2024/Z23J8ZbqstJ9819w_Group3965.jpg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23HKZbqstJ9819h_01_connect_homes-mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23HTZbqstJ9819j_ConnectHomes_PaloAlto-9-1-2609x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23J9ZbqstJ9819y_f327fc4d-8e2c-4b3d-bf3a-f5ff03ad3478_ConnectHomes_CoolidgeAv_023-2880x1800.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23J9pbqstJ9819z_Group3964.png",
+        "https://images.prismic.io/rejouice-2024/Z23J8ZbqstJ9819w_Group3965.jpg"
+      ]
+    },
+    {
+      "field": "/work/connect-homes.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/connect-homes.nextProject",
+      "passed": true,
+      "expected": "engineered-floors",
+      "actual": "engineered-floors"
+    },
+    {
+      "field": "/work/connect-homes.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23LGpbqstJ98193_014.jpg?rect=0,479,4378,1763",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23LGpbqstJ98193_014.jpg?rect=0,479,4378,1763"
+    },
+    {
+      "field": "/work/connect-homes.externalUrl",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "/work/connect-homes.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site",
+            "Mobile Excellence"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        },
+        {
+          "name": "The FWA",
+          "entries": [
+            "FWA Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/connect-homes.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/connect-homes.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Jared Levy",
+        "CEO & Co-Founder"
+      ],
+      "actual": [
+        "Jared Levy",
+        "CEO & Co-Founder"
+      ]
+    },
+    {
+      "field": "/work/connect-homes.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23iRZbqstJ982CU_5960ec9e-d7de-4477-a773-bb8d832637c2_Jared+Levy.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23iRZbqstJ982CU_5960ec9e-d7de-4477-a773-bb8d832637c2_Jared+Levy.avif"
+    },
+    {
+      "field": "/work/engineered-floors.title",
+      "passed": true,
+      "expected": "Engineered Floors",
+      "actual": "Engineered Floors"
+    },
+    {
+      "field": "/work/engineered-floors.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z3FvvZbqstJ984KR_Ensignium.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z3FvvZbqstJ984KR_Ensignium.jpg"
+    },
+    {
+      "field": "/work/engineered-floors.gallery",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z23LlJbqstJ981-G_Group3976.png",
+        "https://images.prismic.io/rejouice-2024/Z23MXpbqstJ981-v_0191.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23MOJbqstJ981-Z_ef-curt_02-mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23M0pbqstJ981--_Frame21188.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23M65bqstJ981_N_105742746.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NKZbqstJ981_V_Frame21201.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NRZbqstJ981_Y_Group3982.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NZZbqstJ981_b_Group3978.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NlZbqstJ981_c_Group3981.jpg"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z23LlJbqstJ981-G_Group3976.png",
+        "https://images.prismic.io/rejouice-2024/Z23MXpbqstJ981-v_0191.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z23MOJbqstJ981-Z_ef-curt_02-mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z23M0pbqstJ981--_Frame21188.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23M65bqstJ981_N_105742746.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NKZbqstJ981_V_Frame21201.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NRZbqstJ981_Y_Group3982.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NZZbqstJ981_b_Group3978.jpg",
+        "https://images.prismic.io/rejouice-2024/Z23NlZbqstJ981_c_Group3981.jpg"
+      ]
+    },
+    {
+      "field": "/work/engineered-floors.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/engineered-floors.nextProject",
+      "passed": true,
+      "expected": "pinch-bank",
+      "actual": "pinch-bank"
+    },
+    {
+      "field": "/work/engineered-floors.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg?rect=0,324,2880,1160",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg?rect=0,324,2880,1160"
+    },
+    {
+      "field": "/work/engineered-floors.externalUrl",
+      "passed": true,
+      "expected": "https://engineeredfloors-preprod.rejouice.io",
+      "actual": "https://engineeredfloors-preprod.rejouice.io"
+    },
+    {
+      "field": "/work/engineered-floors.awards",
+      "passed": true,
+      "expected": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "name": "Awwwards",
+          "entries": [
+            "Honorable Mention",
+            "Site Of The Day",
+            "Developer Site"
+          ]
+        },
+        {
+          "name": "CSSDA",
+          "entries": [
+            "Website Of The Day"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "/work/engineered-floors.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/engineered-floors.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Lauryn Little",
+        "Website Manager"
+      ],
+      "actual": [
+        "Lauryn Little",
+        "Website Manager"
+      ]
+    },
+    {
+      "field": "/work/engineered-floors.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23jD5bqstJ982Ci_5c2f66b7-f6bd-4017-9099-e1e3325156a8_LaurynL.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23jD5bqstJ982Ci_5c2f66b7-f6bd-4017-9099-e1e3325156a8_LaurynL.avif"
+    },
+    {
+      "field": "/work/pinch-bank.title",
+      "passed": true,
+      "expected": "Pinch Bank",
+      "actual": "Pinch Bank"
+    },
+    {
+      "field": "/work/pinch-bank.hero",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z22wdJbqstJ9814o_pinch_2.jpg"
+    },
+    {
+      "field": "/work/pinch-bank.gallery",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z22xFZbqstJ98142_Group3940.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xH5bqstJ98144_01_pinch.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22xVZbqstJ9814__Frame21139.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yvpbqstJ9815L_Group3913.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xp5bqstJ9815C_02_pinch.mp4-1440p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22x-5bqstJ9815E_Group3942.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yCJbqstJ9815F_pinch_cover-2-scaled1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yFJbqstJ9815G_Group3914.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zBpbqstJ9815P_03_pinch.mp4-1440p-.mp4"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z22xFZbqstJ98142_Group3940.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xH5bqstJ98144_01_pinch.mp4-1080p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22xVZbqstJ9814__Frame21139.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yvpbqstJ9815L_Group3913.jpg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22xp5bqstJ9815C_02_pinch.mp4-1440p-.mp4",
+        "https://images.prismic.io/rejouice-2024/Z22x-5bqstJ9815E_Group3942.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yCJbqstJ9815F_pinch_cover-2-scaled1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z22yFJbqstJ9815G_Group3914.png",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z22zBpbqstJ9815P_03_pinch.mp4-1440p-.mp4"
+      ]
+    },
+    {
+      "field": "/work/pinch-bank.roles",
+      "passed": true,
+      "expected": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ],
+      "actual": [
+        "Strategy",
+        "Branding",
+        "Visual Identity",
+        "Art Direction",
+        "Copywriting",
+        "Web Design & Development",
+        "Motion Design & 3D Visualization",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "/work/pinch-bank.nextProject",
+      "passed": true,
+      "expected": "rivian",
+      "actual": "rivian"
+    },
+    {
+      "field": "/work/pinch-bank.nextImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z21ti5bqstJ981nS_Rivian-Header.png?rect=0,400,3316,1336",
+      "actual": "https://images.prismic.io/rejouice-2024/Z21ti5bqstJ981nS_Rivian-Header.png?rect=0,400,3316,1336"
+    },
+    {
+      "field": "/work/pinch-bank.externalUrl",
+      "passed": true,
+      "expected": "https://pinch-preprod.rejouice.io/",
+      "actual": "https://pinch-preprod.rejouice.io/"
+    },
+    {
+      "field": "/work/pinch-bank.awards",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "/work/pinch-bank.testimonialPresent",
+      "passed": true,
+      "expected": true,
+      "actual": true
+    },
+    {
+      "field": "/work/pinch-bank.testimonialIdentity",
+      "passed": true,
+      "expected": [
+        "Amit Zilberstein",
+        "Co-Founder of Pinch"
+      ],
+      "actual": [
+        "Amit Zilberstein",
+        "Co-Founder of Pinch"
+      ]
+    },
+    {
+      "field": "/work/pinch-bank.testimonialPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z23jqZbqstJ982Ct_9324dfaa-0b6c-4199-8a7c-4805ee43239a_Amit+Zilberstein.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/Z23jqZbqstJ982Ct_9324dfaa-0b6c-4199-8a7c-4805ee43239a_Amit+Zilberstein.avif"
+    },
+    {
+      "field": "home.selectedSlugs",
+      "passed": true,
+      "expected": [
+        "rivian",
+        "oura-ring",
+        "moxion-power"
+      ],
+      "actual": [
+        "rivian",
+        "oura-ring",
+        "moxion-power"
+      ]
+    },
+    {
+      "field": "home.selectedSize",
+      "passed": true,
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "actual": [
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "field": "home.selected[0].thumbnail",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg",
+      "actual": "https://images.prismic.io/rejouice-2024/Z1r5Y5bqstJ98aaF_rivian.jpg"
+    },
+    {
+      "field": "home.selected[0].hoverVideo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZfpbqstJ98kkB_RJ-HIGHLIGHT-Work-01.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZfpbqstJ98kkB_RJ-HIGHLIGHT-Work-01.mp4"
+    },
+    {
+      "field": "home.selected[0].logo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg"
+    },
+    {
+      "field": "home.selected[1].thumbnail",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z2AYnZbqstJ98i2G_oura-abdul-ovaice-photography-cd-21.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z2AYnZbqstJ98i2G_oura-abdul-ovaice-photography-cd-21.png"
+    },
+    {
+      "field": "home.selected[1].hoverVideo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZoJbqstJ98kkL_RJ-HIGHLIGHT-Work-02.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZoJbqstJ98kkL_RJ-HIGHLIGHT-Work-02.mp4"
+    },
+    {
+      "field": "home.selected[1].logo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg"
+    },
+    {
+      "field": "home.selected[2].thumbnail",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z2AYnJbqstJ98i2E_moxionpower.2023.04.onlocation-17821.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z2AYnJbqstJ98i2E_moxionpower.2023.04.onlocation-17821.png"
+    },
+    {
+      "field": "home.selected[2].hoverVideo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZvpbqstJ98kkM_RJ-HIGHLIGHT-Work-03.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BZvpbqstJ98kkM_RJ-HIGHLIGHT-Work-03.mp4"
+    },
+    {
+      "field": "home.selected[2].logo",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae9pbqstJ98i6h_mixion-logo-white.svg",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae9pbqstJ98i6h_mixion-logo-white.svg"
+    },
+    {
+      "field": "home.logos",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LneZbqstJ98pKu_Moxion.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z1r07ZbqstJ98aSL_8VCVCFirm.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Lo5ZbqstJ98pLj_HYPERFRAME.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAypbqstJ970Cs_Frame1073714684.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2HXc5bqstJ98naA_Proof.svg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LneZbqstJ98pKu_Moxion.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z1r07ZbqstJ98aSL_8VCVCFirm.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Lo5ZbqstJ98pLj_HYPERFRAME.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAypbqstJ970Cs_Frame1073714684.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2HXc5bqstJ98naA_Proof.svg"
+      ]
+    },
+    {
+      "field": "home.reel",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4"
+    },
+    {
+      "field": "home.glanceCount",
+      "passed": true,
+      "expected": 8,
+      "actual": 8
+    },
+    {
+      "field": "home.glance[0].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[0].size",
+      "passed": true,
+      "expected": "small",
+      "actual": "small"
+    },
+    {
+      "field": "home.glance[0].theme",
+      "passed": true,
+      "expected": "dark",
+      "actual": "dark"
+    },
+    {
+      "field": "home.glance[0].logos",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLyZbqstJ98mpr_MOXION.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlV5bqstJ98mF6_rappi-white.svg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLyZbqstJ98mpr_MOXION.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Ae95bqstJ98i6i_oura-logo-white.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlV5bqstJ98mF6_rappi-white.svg"
+      ]
+    },
+    {
+      "field": "home.glance[0].background",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[0].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[1].variant",
+      "passed": true,
+      "expected": "autoScrollValue",
+      "actual": "autoScrollValue"
+    },
+    {
+      "field": "home.glance[1].size",
+      "passed": true,
+      "expected": "full",
+      "actual": "full"
+    },
+    {
+      "field": "home.glance[1].theme",
+      "passed": true,
+      "expected": "dark",
+      "actual": "dark"
+    },
+    {
+      "field": "home.glance[1].logos",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "home.glance[1].background",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z1m0HZbqstJ98VgZ_oura-abdul-ovaice-3d-cd-031.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z1m0HZbqstJ98VgZ_oura-abdul-ovaice-3d-cd-031.png"
+    },
+    {
+      "field": "home.glance[1].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[1].items",
+      "passed": true,
+      "expected": [
+        "Technology",
+        "Finance",
+        "E-commerce",
+        "BioTech",
+        "Automotive",
+        "Healthcare",
+        "Real Estate",
+        "Fashion",
+        "Energy",
+        "Retail",
+        "Manufacturing",
+        "Software",
+        "Consumer Goods",
+        "Transportation",
+        "Hospitality",
+        "Defense",
+        "Logistics"
+      ],
+      "actual": [
+        "Technology",
+        "Finance",
+        "E-commerce",
+        "BioTech",
+        "Automotive",
+        "Healthcare",
+        "Real Estate",
+        "Fashion",
+        "Energy",
+        "Retail",
+        "Manufacturing",
+        "Software",
+        "Consumer Goods",
+        "Transportation",
+        "Hospitality",
+        "Defense",
+        "Logistics"
+      ]
+    },
+    {
+      "field": "home.glance[2].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[2].size",
+      "passed": true,
+      "expected": "small",
+      "actual": "small"
+    },
+    {
+      "field": "home.glance[2].theme",
+      "passed": true,
+      "expected": "light",
+      "actual": "light"
+    },
+    {
+      "field": "home.glance[2].logos",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzvpbqstJ98jdY_fwa-logo.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2E1SJbqstJ98lgU_Awwards-logotype-2018.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkCZbqstJ98mFM_Behance.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkFZbqstJ98mFO_Webby-Awards-Logo1.svg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzvpbqstJ98jdY_fwa-logo.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2E1SJbqstJ98lgU_Awwards-logotype-2018.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkCZbqstJ98mFM_Behance.svg",
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FkFZbqstJ98mFO_Webby-Awards-Logo1.svg"
+      ]
+    },
+    {
+      "field": "home.glance[2].background",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[2].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[3].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[3].size",
+      "passed": true,
+      "expected": "full",
+      "actual": "full"
+    },
+    {
+      "field": "home.glance[3].theme",
+      "passed": true,
+      "expected": "dark",
+      "actual": "dark"
+    },
+    {
+      "field": "home.glance[3].logos",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "home.glance[3].background",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z1m0-JbqstJ98Vh9_pergola-module-floor-1-360-grey-blue-bioclimatic-ceiling-and-curtains2.png",
+      "actual": "https://images.prismic.io/rejouice-2024/Z1m0-JbqstJ98Vh9_pergola-module-floor-1-360-grey-blue-bioclimatic-ceiling-and-curtains2.png"
+    },
+    {
+      "field": "home.glance[3].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[4].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[4].size",
+      "passed": true,
+      "expected": "small",
+      "actual": "small"
+    },
+    {
+      "field": "home.glance[4].theme",
+      "passed": true,
+      "expected": "dark",
+      "actual": "dark"
+    },
+    {
+      "field": "home.glance[4].logos",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "home.glance[4].background",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[4].link",
+      "passed": true,
+      "expected": "/services",
+      "actual": "/services"
+    },
+    {
+      "field": "home.glance[5].variant",
+      "passed": true,
+      "expected": "drive",
+      "actual": "drive"
+    },
+    {
+      "field": "home.glance[5].size",
+      "passed": true,
+      "expected": "small",
+      "actual": "small"
+    },
+    {
+      "field": "home.glance[5].theme",
+      "passed": true,
+      "expected": "light",
+      "actual": "light"
+    },
+    {
+      "field": "home.glance[5].logos",
+      "passed": true,
+      "expected": [],
+      "actual": []
+    },
+    {
+      "field": "home.glance[5].background",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[5].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[5].value",
+      "passed": true,
+      "expected": 150,
+      "actual": 150
+    },
+    {
+      "field": "home.glance[6].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[6].size",
+      "passed": true,
+      "expected": "medium",
+      "actual": "medium"
+    },
+    {
+      "field": "home.glance[6].theme",
+      "passed": true,
+      "expected": "dark",
+      "actual": "dark"
+    },
+    {
+      "field": "home.glance[6].logos",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0ck9pbqstJ970bM_rivian-white.svg"
+      ]
+    },
+    {
+      "field": "home.glance[6].background",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2lj25bqstJ98yZV_RJ-WIDGET-RIVIAN.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2lj25bqstJ98yZV_RJ-WIDGET-RIVIAN.mp4"
+    },
+    {
+      "field": "home.glance[6].link",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[7].variant",
+      "passed": true,
+      "expected": "defaultWidget",
+      "actual": "defaultWidget"
+    },
+    {
+      "field": "home.glance[7].size",
+      "passed": true,
+      "expected": "small",
+      "actual": "small"
+    },
+    {
+      "field": "home.glance[7].theme",
+      "passed": true,
+      "expected": "light",
+      "actual": "light"
+    },
+    {
+      "field": "home.glance[7].logos",
+      "passed": true,
+      "expected": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzLZbqstJ98jbf_noovo-logo.svg"
+      ],
+      "actual": [
+        "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2AzLZbqstJ98jbf_noovo-logo.svg"
+      ]
+    },
+    {
+      "field": "home.glance[7].background",
+      "passed": true,
+      "expected": null,
+      "actual": null
+    },
+    {
+      "field": "home.glance[7].link",
+      "passed": true,
+      "expected": "/work",
+      "actual": "/work"
+    },
+    {
+      "field": "about.bigMedia",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2BbT5bqstJ98kk6_REJOUICE-PORTFOLIO-LOOP-PROJECTS.mp4"
+    },
+    {
+      "field": "about.founderPortrait",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/aFwilXfc4bHWiuKK_Z1xCSpbqstJ98euH_test-gui-1-.avif",
+      "actual": "https://images.prismic.io/rejouice-2024/aFwilXfc4bHWiuKK_Z1xCSpbqstJ98euH_test-gui-1-.avif"
+    },
+    {
+      "field": "about.founderLinks",
+      "passed": true,
+      "expected": [
+        "https://www.linkedin.com/in/guillaume-hamon-9a1a4a121"
+      ],
+      "actual": [
+        "https://www.linkedin.com/in/guillaume-hamon-9a1a4a121"
+      ]
+    },
+    {
+      "field": "about.partnerNames",
+      "passed": true,
+      "expected": [
+        "Jack Milburn",
+        "Gabriel Stik",
+        "Jeffrey Blum",
+        "Clément Brichon",
+        "Jean-Michel Boujon",
+        "Henri Heymans"
+      ],
+      "actual": [
+        "Jack Milburn",
+        "Gabriel Stik",
+        "Jeffrey Blum",
+        "Clément Brichon",
+        "Jean-Michel Boujon",
+        "Henri Heymans"
+      ]
+    },
+    {
+      "field": "about.partnerRoles",
+      "passed": true,
+      "expected": [
+        "Partner & Brand Design Lead",
+        "Partner & Technical Director",
+        "Partner & Business Development",
+        "Partner & Creative Director",
+        "Partner & Growth Marketing",
+        "Partner & Lead Creative Developer"
+      ],
+      "actual": [
+        "Partner & Brand Design Lead",
+        "Partner & Technical Director",
+        "Partner & Business Development",
+        "Partner & Creative Director",
+        "Partner & Growth Marketing",
+        "Partner & Lead Creative Developer"
+      ]
+    },
+    {
+      "field": "about.partnerPortraits",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z0dOD5bqstJ971U2_jack.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dODpbqstJ971U1_gabriel.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dOEZbqstJ971U4_jeffrey.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dODZbqstJ971U0_clement.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dOEJbqstJ971U3_jeanmichel.jpg",
+        "https://images.prismic.io/rejouice-2024/Z2GNNpbqstJ98mqU_6384a19b-fa1c-4ad1-aae0-e29e127ebeef_san-diego-office.jpg.jpg"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z0dOD5bqstJ971U2_jack.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dODpbqstJ971U1_gabriel.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dOEZbqstJ971U4_jeffrey.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dODZbqstJ971U0_clement.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0dOEJbqstJ971U3_jeanmichel.jpg",
+        "https://images.prismic.io/rejouice-2024/Z2GNNpbqstJ98mqU_6384a19b-fa1c-4ad1-aae0-e29e127ebeef_san-diego-office.jpg.jpg"
+      ]
+    },
+    {
+      "field": "about.approachMedia",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z0d2w5bqstJ971yO_acc20b623f8ad0c1d5071831725eb05c.png",
+        "https://images.prismic.io/rejouice-2024/Z0d2wJbqstJ971yN_164dad9031dec4bc9060a6ecd2db5f47.png"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z0d2w5bqstJ971yO_acc20b623f8ad0c1d5071831725eb05c.png",
+        "https://images.prismic.io/rejouice-2024/Z0d2wJbqstJ971yN_164dad9031dec4bc9060a6ecd2db5f47.png"
+      ]
+    },
+    {
+      "field": "about.teamGallery",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z0eQrZbqstJ971-J_Maskgroup-1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQr5bqstJ971-L_Maskgroup-3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQrpbqstJ971-K_Maskgroup-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQsZbqstJ971-N_Maskgroup.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQsJbqstJ971-M_Maskgroup-4.jpg"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z0eQrZbqstJ971-J_Maskgroup-1.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQr5bqstJ971-L_Maskgroup-3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQrpbqstJ971-K_Maskgroup-2.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQsZbqstJ971-N_Maskgroup.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0eQsJbqstJ971-M_Maskgroup-4.jpg"
+      ]
+    },
+    {
+      "field": "about.awardsCount",
+      "passed": true,
+      "expected": 90,
+      "actual": 90
+    },
+    {
+      "field": "about.principlesCount",
+      "passed": true,
+      "expected": 3,
+      "actual": 3
+    },
+    {
+      "field": "about.approachCount",
+      "passed": true,
+      "expected": 2,
+      "actual": 2
+    },
+    {
+      "field": "services.bigMedia",
+      "passed": true,
+      "expected": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cpAJbqstJ970d2_Oura_RecDiff03.mp4",
+      "actual": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cpAJbqstJ970d2_Oura_RecDiff03.mp4"
+    },
+    {
+      "field": "services.capabilityCount",
+      "passed": true,
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "field": "services.capability[0].items",
+      "passed": true,
+      "expected": [
+        "Brand Audit",
+        "Qualitative Research",
+        "Quantitative Research",
+        "Discovery Workshop",
+        "Competitive Analysis",
+        "Brand Storytelling",
+        "Positioning",
+        "Brand Architecture",
+        "Naming",
+        "Key Messaging",
+        "Voice & Tone",
+        "Content Strategy",
+        "Copywriting"
+      ],
+      "actual": [
+        "Brand Audit",
+        "Qualitative Research",
+        "Quantitative Research",
+        "Discovery Workshop",
+        "Competitive Analysis",
+        "Brand Storytelling",
+        "Positioning",
+        "Brand Architecture",
+        "Naming",
+        "Key Messaging",
+        "Voice & Tone",
+        "Content Strategy",
+        "Copywriting"
+      ]
+    },
+    {
+      "field": "services.capability[1].items",
+      "passed": true,
+      "expected": [
+        "Brand Identity",
+        "Brand Guidelines & Design Systems",
+        "Art Direction",
+        "User Experience (UX)",
+        "User Interface (UI)",
+        "Wireframe & Prototyping",
+        "Product Design",
+        "Mobile App",
+        "Website, E-Commerce & App Design",
+        "Motion Design",
+        "CGI & 3D",
+        "Content Creation"
+      ],
+      "actual": [
+        "Brand Identity",
+        "Brand Guidelines & Design Systems",
+        "Art Direction",
+        "User Experience (UX)",
+        "User Interface (UI)",
+        "Wireframe & Prototyping",
+        "Product Design",
+        "Mobile App",
+        "Website, E-Commerce & App Design",
+        "Motion Design",
+        "CGI & 3D",
+        "Content Creation"
+      ]
+    },
+    {
+      "field": "services.capability[2].items",
+      "passed": true,
+      "expected": [
+        "Creative Development",
+        "Technical Architecture",
+        "Headless eCommerce",
+        "Front-End Development",
+        "Back-End Development",
+        "Application Development",
+        "API s Integrations",
+        "Quality Assurance"
+      ],
+      "actual": [
+        "Creative Development",
+        "Technical Architecture",
+        "Headless eCommerce",
+        "Front-End Development",
+        "Back-End Development",
+        "Application Development",
+        "API s Integrations",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "field": "services.capability[3].items",
+      "passed": true,
+      "expected": [
+        "Conversion Rate Optimization (CRO)",
+        "Talent Strategy",
+        "Revenue Operations",
+        "Lifecycle Marketing",
+        "Media Buying",
+        "Data and Analytics",
+        "Technology"
+      ],
+      "actual": [
+        "Conversion Rate Optimization (CRO)",
+        "Talent Strategy",
+        "Revenue Operations",
+        "Lifecycle Marketing",
+        "Media Buying",
+        "Data and Analytics",
+        "Technology"
+      ]
+    },
+    {
+      "field": "services.partnerships",
+      "passed": true,
+      "expected": [
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+          "sector": "EV",
+          "value": "+400%",
+          "stages": [
+            "Before Rejouice® $500M Valuation",
+            "After Rejouice® $2.5B Valuation",
+            "Post IPO $30B Valuation"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+          "sector": "FinTech",
+          "value": "+150%",
+          "stages": [
+            "Before Rejouice® $1B Valuation",
+            "After Rejouice® $2.5B Valuation",
+            "Series F $5.25B Valuation"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+          "sector": "HealthTech",
+          "value": "+1000%",
+          "stages": [
+            "Before Rejouice® $70M Valuation",
+            "After Rejouice® $800M Valuation",
+            "Series D $5.2B Valuation"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cA4ZbqstJ970C3_Rivian_logo_and_wordmark2.svg",
+          "sector": "EV",
+          "value": "+400%",
+          "stages": [
+            "Before Rejouice® $500M Valuation",
+            "After Rejouice® $2.5B Valuation",
+            "Post IPO $30B Valuation"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LlrpbqstJ98pJz_RAPPI.svg",
+          "sector": "FinTech",
+          "value": "+150%",
+          "stages": [
+            "Before Rejouice® $1B Valuation",
+            "After Rejouice® $2.5B Valuation",
+            "Series F $5.25B Valuation"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0cAzJbqstJ970Cv_Frame1073714686.svg",
+          "sector": "HealthTech",
+          "value": "+1000%",
+          "stages": [
+            "Before Rejouice® $70M Valuation",
+            "After Rejouice® $800M Valuation",
+            "Series D $5.2B Valuation"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "services.partnerships_venture",
+      "passed": true,
+      "expected": [
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+          "sector": "Construction",
+          "value": "+600%",
+          "stages": [
+            "Before Rejouice® $1M Seed",
+            "After Rejouice® $7.2M (Series A)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+          "sector": "HealthTech",
+          "value": "+500%",
+          "stages": [
+            "Before Rejouice® $500K Pre-Seed",
+            "After Rejouice® $3M (Seed)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GMlZbqstJ98mqG_ov-loop-white.svg",
+          "sector": "Fintech",
+          "value": "+200%",
+          "stages": [
+            "Before Rejouice® $15M Valuation (Series B)",
+            "After Rejouice® $50M Valuation (Series C)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LympbqstJ98pSE_moxion-white.svg",
+          "sector": "Energy",
+          "value": "+900%",
+          "stages": [
+            "Before Rejouice® $10M Series A",
+            "After Rejouice® $100M Series B"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLy5bqstJ98mpt_Proof.svg",
+          "sector": "Sustainability",
+          "value": "+200%",
+          "stages": [
+            "Before Rejouice® $2M Seed",
+            "After Rejouice® $6M Pre-Series A"
+          ]
+        }
+      ],
+      "actual": [
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2FlEpbqstJ98mFw_hyperframe-white.svg",
+          "sector": "Construction",
+          "value": "+600%",
+          "stages": [
+            "Before Rejouice® $1M Seed",
+            "After Rejouice® $7.2M (Series A)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2Fmb5bqstJ98mHM_tensr-white.svg",
+          "sector": "HealthTech",
+          "value": "+500%",
+          "stages": [
+            "Before Rejouice® $500K Pre-Seed",
+            "After Rejouice® $3M (Seed)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GMlZbqstJ98mqG_ov-loop-white.svg",
+          "sector": "Fintech",
+          "value": "+200%",
+          "stages": [
+            "Before Rejouice® $15M Valuation (Series B)",
+            "After Rejouice® $50M Valuation (Series C)"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2LympbqstJ98pSE_moxion-white.svg",
+          "sector": "Energy",
+          "value": "+900%",
+          "stages": [
+            "Before Rejouice® $10M Series A",
+            "After Rejouice® $100M Series B"
+          ]
+        },
+        {
+          "logo": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z2GLy5bqstJ98mpt_Proof.svg",
+          "sector": "Sustainability",
+          "value": "+200%",
+          "stages": [
+            "Before Rejouice® $2M Seed",
+            "After Rejouice® $6M Pre-Series A"
+          ]
+        }
+      ]
+    },
+    {
+      "field": "services.testimonialPortraits",
+      "passed": true,
+      "expected": [
+        "https://images.prismic.io/rejouice-2024/Z0csjJbqstJ970gi_2_xezmQUHZZozH1L4Cv1VKvg-11.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csjZbqstJ970gj_abdul-wahid-ovaice-profile-picture3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csi5bqstJ970gh_-1x-11.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csjpbqstJ970gk_moxionpower.2023.04.portraits-1291.jpg"
+      ],
+      "actual": [
+        "https://images.prismic.io/rejouice-2024/Z0csjJbqstJ970gi_2_xezmQUHZZozH1L4Cv1VKvg-11.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csjZbqstJ970gj_abdul-wahid-ovaice-profile-picture3.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csi5bqstJ970gh_-1x-11.jpg",
+        "https://images.prismic.io/rejouice-2024/Z0csjpbqstJ970gk_moxionpower.2023.04.portraits-1291.jpg"
+      ]
+    },
+    {
+      "field": "services.testimonialIdentities",
+      "passed": true,
+      "expected": [
+        [
+          "Fleur Heyns",
+          "Co-founder & CEO at PROOF"
+        ],
+        [
+          "Abdul Ovaice",
+          "Creative Director at OURA RING"
+        ],
+        [
+          "RJ Scaringe",
+          "Founder & CEO at RIVIAN"
+        ],
+        [
+          "Alex Meek",
+          "Co-founder & President at MOXION POWER"
+        ]
+      ],
+      "actual": [
+        [
+          "Fleur Heyns",
+          "Co-founder & CEO at PROOF"
+        ],
+        [
+          "Abdul Ovaice",
+          "Creative Director at OURA RING"
+        ],
+        [
+          "RJ Scaringe",
+          "Founder & CEO at RIVIAN"
+        ],
+        [
+          "Alex Meek",
+          "Co-founder & President at MOXION POWER"
+        ]
+      ]
+    },
+    {
+      "field": "services.faqCount",
+      "passed": true,
+      "expected": 4,
+      "actual": 4
+    },
+    {
+      "field": "contact.workImage",
+      "passed": true,
+      "expected": "https://images.prismic.io/rejouice-2024/Z0WNHq8jQArT1Td1_7d4177a9b98b03df2d62e7ef8a3966b8.jpeg?rect=81,293,2037,1147",
+      "actual": "https://images.prismic.io/rejouice-2024/Z0WNHq8jQArT1Td1_7d4177a9b98b03df2d62e7ef8a3966b8.jpeg?rect=81,293,2037,1147"
+    }
+  ],
+  "failedChecks": [],
+  "galleryCounts": [
+    {
+      "slug": "icomat",
+      "source": 15,
+      "available": 15,
+      "clone": 15
+    },
+    {
+      "slug": "tensor",
+      "source": 23,
+      "available": 23,
+      "clone": 23
+    },
+    {
+      "slug": "terminal-industries",
+      "source": 9,
+      "available": 9,
+      "clone": 9
+    },
+    {
+      "slug": "rivian",
+      "source": 11,
+      "available": 11,
+      "clone": 11
+    },
+    {
+      "slug": "du-chateau",
+      "source": 7,
+      "available": 7,
+      "clone": 7
+    },
+    {
+      "slug": "oura-ring",
+      "source": 10,
+      "available": 10,
+      "clone": 10
+    },
+    {
+      "slug": "intrepid",
+      "source": 7,
+      "available": 7,
+      "clone": 7
+    },
+    {
+      "slug": "moxion-power",
+      "source": 13,
+      "available": 13,
+      "clone": 13
+    },
+    {
+      "slug": "hyperframe",
+      "source": 9,
+      "available": 9,
+      "clone": 9
+    },
+    {
+      "slug": "noovo",
+      "source": 14,
+      "available": 14,
+      "clone": 14
+    },
+    {
+      "slug": "gencell-website",
+      "source": 7,
+      "available": 7,
+      "clone": 7
+    },
+    {
+      "slug": "proof",
+      "source": 13,
+      "available": 13,
+      "clone": 13
+    },
+    {
+      "slug": "tenzr",
+      "source": 11,
+      "available": 11,
+      "clone": 11
+    },
+    {
+      "slug": "unspun",
+      "source": 10,
+      "available": 10,
+      "clone": 10
+    },
+    {
+      "slug": "list-across",
+      "source": 9,
+      "available": 9,
+      "clone": 9
+    },
+    {
+      "slug": "ov-loop",
+      "source": 12,
+      "available": 12,
+      "clone": 12
+    },
+    {
+      "slug": "connect-homes",
+      "source": 7,
+      "available": 5,
+      "clone": 5
+    },
+    {
+      "slug": "engineered-floors",
+      "source": 9,
+      "available": 9,
+      "clone": 9
+    },
+    {
+      "slug": "pinch-bank",
+      "source": 9,
+      "available": 9,
+      "clone": 9
+    }
+  ],
+  "uncoveredSourceMedia": [
+    {
+      "location": "/.slices[6].primary.background_image",
+      "url": "https://images.prismic.io/rejouice-2024/Z1m1h5bqstJ98Vif_image2010.png?auto=format,compress",
+      "canonical": "https://images.prismic.io/rejouice-2024/Z1m1h5bqstJ98Vif_image2010.png"
+    },
+    {
+      "location": "/work/moxion-power.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/gencell-website.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/hyperframe.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/pinch-bank.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/oura-ring.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/proof.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/tenzr.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/noovo.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/list-across.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/connect-homes.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/intrepid.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/unspun.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/engineered-floors.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    },
+    {
+      "location": "/work/ov-loop.project_reel",
+      "url": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm",
+      "canonical": "https://rejouice-2024.cdn.prismic.io/rejouice-2024/Z0c5EpbqstJ970xG_frames_stack.webm"
+    }
+  ],
+  "summary": {
+    "checkedFields": 288,
+    "passedFields": 288,
+    "sourceGalleryItems": 205,
+    "availableGalleryItems": 203,
+    "cloneGalleryItems": 203,
+    "uniqueContentMedia": 323,
+    "uncoveredSourceMediaOccurrences": 15
+  }
+}

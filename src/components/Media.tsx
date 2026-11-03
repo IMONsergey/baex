@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import type { CSSProperties, MouseEventHandler } from "react";
 import { resolveMedia } from "../data";
 import type { MediaRef } from "../data";
 import assetDetails from "../data/asset-details.json";
+import { useMediaPlaybackSuspended } from "./MediaPlayback";
 import "../styles/media.css";
 
 export interface MediaDetails {
@@ -36,6 +37,8 @@ export interface MediaProps {
   media: MediaRef;
   className?: string;
   eager?: boolean;
+  /** False withholds the video source and stops playback (for hidden previews). */
+  active?: boolean;
   autoPlay?: boolean;
   controls?: boolean;
   style?: CSSProperties;
@@ -43,7 +46,7 @@ export interface MediaProps {
   onReady?: () => void;
 }
 
-function MediaAsset({ media, className = "", eager = false, autoPlay = true, controls = false, style, onClick, onReady }: MediaProps) {
+function MediaAsset({ media, className = "", eager = false, active = true, autoPlay = true, controls = false, style, onClick, onReady }: MediaProps) {
   const wrapper = useRef<HTMLDivElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const readyCallback = useRef(onReady);
@@ -51,6 +54,8 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
   const notifiedReady = useRef(false);
   const playGeneration = useRef(0);
   const desiredPlay = useRef(false);
+  const suspended = useMediaPlaybackSuspended();
+  const playbackAvailable = useRef(active && !suspended);
   const reduced = useReducedMotion();
   const localSource = resolveMedia(media);
   const details = getMediaDetails(media);
@@ -71,6 +76,7 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
   const [blocked, setBlocked] = useState(false);
   const [playing, setPlaying] = useState(false);
   const src = localSource ? `${localSource}${retryToken ? `?retry=${retryToken}` : ""}` : undefined;
+  const loadVideo = near && active;
 
   useEffect(() => {
     const node = wrapper.current;
@@ -132,30 +138,39 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
   }, []);
 
   const playSafely = useCallback((element: HTMLVideoElement) => {
+    if (!desiredPlay.current || !playbackAvailable.current || document.hidden || !element.getAttribute("src")) return;
     const generation = ++playGeneration.current;
     try {
       const result = element.play();
       result?.then(() => {
-        if (generation !== playGeneration.current || !desiredPlay.current || document.hidden) element.pause();
-        else setBlocked(false);
+        if (!desiredPlay.current || !playbackAvailable.current || document.hidden) element.pause();
+        else if (generation === playGeneration.current) setBlocked(false);
+        // A stale success must not pause a newer, still-authorized play request.
       }).catch((error: unknown) => {
         if (generation !== playGeneration.current || (error instanceof DOMException && error.name === "AbortError")) return;
-        if (desiredPlay.current && !document.hidden) setBlocked(true);
+        if (desiredPlay.current && playbackAvailable.current && !document.hidden) setBlocked(true);
       });
     } catch {
-      if (desiredPlay.current) setBlocked(true);
+      if (desiredPlay.current && playbackAvailable.current) setBlocked(true);
     }
   }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    playbackAvailable.current = active && !suspended;
     const element = video.current;
     if (!element || !isVideo) return;
-    const shouldPlay = near && visible && tabVisible && !failed && !manualPause && ((autoPlay && !reduced) || manualPlay);
+    const shouldPlay = active && !suspended && near && visible && tabVisible && !failed && !manualPause && ((autoPlay && !reduced) || manualPlay);
     desiredPlay.current = shouldPlay;
     if (shouldPlay) playSafely(element);
-    else { ++playGeneration.current; element.pause(); }
+    else {
+      ++playGeneration.current;
+      element.pause();
+      // React has removed src for an inactive preview. Reset its resource
+      // selection too, so a pointer leave cancels an in-flight video download.
+      if (!active) element.load();
+    }
     return () => { desiredPlay.current = false; ++playGeneration.current; element.pause(); };
-  }, [near, visible, tabVisible, failed, manualPause, manualPlay, autoPlay, reduced, isVideo, retryToken, playSafely]);
+  }, [active, suspended, near, visible, tabVisible, failed, manualPause, manualPlay, autoPlay, reduced, isVideo, retryToken, playSafely]);
 
   useEffect(() => {
     const element = video.current;
@@ -177,7 +192,7 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
 
   const togglePlayback = () => {
     const element = video.current;
-    if (!element) return;
+    if (!element || !playbackAvailable.current || !visible || document.hidden) return;
     if (!element.paused) {
       desiredPlay.current = false;
       ++playGeneration.current;
@@ -193,7 +208,7 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
     }
   };
 
-  const showToggle = isVideo && near && !failed && !controls && !onClick && !insideLink && !inactiveAncestor && (reduced || !autoPlay || blocked || manualPause);
+  const showToggle = isVideo && active && !suspended && near && !failed && !controls && !onClick && !insideLink && !inactiveAncestor && (reduced || !autoPlay || blocked || manualPause);
   const error = !localSource || failed;
   const intrinsicStyle: CSSProperties = width && height ? { aspectRatio: `${width} / ${height}` } : {};
 
@@ -203,6 +218,8 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
       className={`media media--${media.kind}${ready ? " is-ready" : ""}${error ? " has-error" : ""} ${className}`.trim()}
       style={{ ...intrinsicStyle, ...style }}
       data-media-key={media.assetKey}
+      data-media-active={active}
+      data-media-suspended={suspended}
       data-media-state={error ? "error" : ready ? "ready" : "loading"}
       aria-busy={!error && !ready}
       onClick={onClick}
@@ -221,16 +238,25 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
           onLoad={markReady} onError={() => setFailed(true)} />
       )}
       {localSource && isVideo && (
-        <video key={retryToken} ref={video} className="media__video" src={near ? src : undefined}
-          poster={near ? poster : undefined} width={width} height={height} preload={near ? "metadata" : "none"}
+        <video key={retryToken} ref={video} className="media__video" src={loadVideo ? src : undefined}
+          poster={loadVideo ? poster : undefined} width={width} height={height} preload={loadVideo ? "metadata" : "none"}
           muted loop playsInline controls={controls} tabIndex={controls ? 0 : -1} aria-label={media.alt}
           onLoadedMetadata={markReady} onLoadedData={markReady}
-          onPlaying={() => { setPlaying(true); setBlocked(false); markReady(); }}
+          onPlaying={(event) => {
+            if (!desiredPlay.current || !playbackAvailable.current || document.hidden) { event.currentTarget.pause(); return; }
+            setPlaying(true); setBlocked(false); markReady();
+          }}
           onPause={() => {
             setPlaying(false);
-            if (controls && desiredPlay.current && visible && !document.hidden) setManualPause(true);
+            if (controls && desiredPlay.current && playbackAvailable.current && visible && !document.hidden) setManualPause(true);
           }}
-          onPlay={() => {
+          onPlay={(event) => {
+            if (!playbackAvailable.current || !visible || document.hidden || (!controls && !desiredPlay.current)) {
+              desiredPlay.current = false;
+              ++playGeneration.current;
+              event.currentTarget.pause();
+              return;
+            }
             if (controls && !desiredPlay.current) { desiredPlay.current = true; setManualPause(false); setManualPlay(true); }
           }}
           onError={() => { setFailed(true); setPlaying(false); }}
@@ -245,7 +271,7 @@ function MediaAsset({ media, className = "", eager = false, autoPlay = true, con
       {error && (
         <div className="media__error" role="status">
           <span>{isVideo ? "Video unavailable." : "Image unavailable."}</span>
-          {localSource && !insideLink && !inactiveAncestor && !onClick && <button type="button" onClick={(event) => { event.preventDefault(); event.stopPropagation(); retry(); }}>Try again</button>}
+          {localSource && active && !suspended && !insideLink && !inactiveAncestor && !onClick && <button type="button" onClick={(event) => { event.preventDefault(); event.stopPropagation(); retry(); }}>Try again</button>}
         </div>
       )}
     </div>

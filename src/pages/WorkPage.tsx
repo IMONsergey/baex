@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 type ProjectSlide = Extract<WorkSlide, { type: "project" }>;
 type ViewMode = "full" | "list";
-type GalleryControls = { toggle: () => void; select: (index: number) => void };
+type GalleryControls = { toggle: () => void; select: (index: number, focus?: boolean) => void };
 
 const slides = content.work.slides;
 const projectSlides = slides.filter((slide): slide is ProjectSlide => slide.type === "project");
@@ -49,6 +49,7 @@ export function WorkPage() {
   const selectedRef = useRef(0);
   const targetOffset = useRef(0);
   const smoothedOffset = useRef(0);
+  const keyboardSelection = useRef<number | null>(null);
   const rowHeight = useRef(67);
   const drag = useRef({ id: -1, start: 0, last: 0, velocity: 0, moved: false });
   const suppressClickUntil = useRef(0);
@@ -68,6 +69,7 @@ export function WorkPage() {
     if (!root || !space || !view || !viewport || !names) return;
 
     modeRef.current = "full";
+    keyboardSelection.current = null;
     setMode("full");
     setHovered(null);
 
@@ -150,7 +152,10 @@ export function WorkPage() {
         const y = ((raw + total / 2) % total + total) % total - total / 2;
         gsap.set(node, { y: y - itemHeight / 2 });
       });
-      select(Math.round(-smoothedOffset.current / itemHeight));
+      // Keep keyboard focus, the preview and the selected row on the requested
+      // project while the visual list catches up with its eased position.
+      select(keyboardSelection.current ?? Math.round(-smoothedOffset.current / itemHeight));
+      if (Math.abs(targetOffset.current - smoothedOffset.current) < 0.5) keyboardSelection.current = null;
     };
 
     const context = gsap.context(() => {
@@ -180,18 +185,25 @@ export function WorkPage() {
       paintFull(Math.max(0, Math.min(window.scrollY - sectionTop(), (totalUnits - 1) * getHeight())));
 
       controls.current = {
-        select(index) {
+        select(index, focus = false) {
           const current = Math.round(-targetOffset.current / rowHeight.current);
           const desired = wrapIndex(index);
           let difference = desired - wrapIndex(current);
           if (difference > projectSlides.length / 2) difference -= projectSlides.length;
           if (difference < -projectSlides.length / 2) difference += projectSlides.length;
-          targetOffset.current -= difference * rowHeight.current;
+          targetOffset.current = -(current + difference) * rowHeight.current;
           if (reducedMotion) smoothedOffset.current = targetOffset.current;
+          if (focus) {
+            keyboardSelection.current = desired;
+            suppressClickUntil.current = 0;
+            select(desired);
+            rowLinks[desired]?.focus({ preventScroll: true });
+          }
         },
         toggle() {
           if (switching) return;
           switching = true;
+          keyboardSelection.current = null;
           setHovered(null);
           const duration = reducedMotion ? 0 : 1.2;
           listTween?.kill();
@@ -268,6 +280,7 @@ export function WorkPage() {
     const onWheel = (event: WheelEvent) => {
       if (modeRef.current !== "list" || event.ctrlKey) return;
       event.preventDefault();
+      keyboardSelection.current = null;
       const delta = event.deltaY * (event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? window.innerHeight : 1);
       targetOffset.current -= delta;
       setHovered(null);
@@ -275,7 +288,7 @@ export function WorkPage() {
     const onKey = (event: globalThis.KeyboardEvent) => {
       if (modeRef.current !== "list") return;
       const target = event.target as HTMLElement;
-      if (target.matches("input,textarea,select")) return;
+      if (target.closest("input,textarea,select,[contenteditable=''],[contenteditable='true']")) return;
       if (event.key === "Escape") {
         event.preventDefault();
         controls.current?.toggle();
@@ -284,7 +297,7 @@ export function WorkPage() {
         const current = Math.round(-targetOffset.current / rowHeight.current);
         const next = event.key === "Home" ? 0 : event.key === "End" ? projectSlides.length - 1
           : current + (event.key === "ArrowUp" || event.key === "PageUp" ? -1 : 1);
-        controls.current?.select(next);
+        controls.current?.select(next, true);
         setHovered(null);
       }
     };
@@ -301,6 +314,7 @@ export function WorkPage() {
       window.removeEventListener("wheel", onWheel);
       window.removeEventListener("keydown", onKey);
       controls.current = null;
+      keyboardSelection.current = null;
       unlock();
       modeRef.current = "full";
       context.revert();
@@ -320,6 +334,7 @@ export function WorkPage() {
 
   function pointerDown(event: PointerEvent<HTMLDivElement>) {
     if (modeRef.current !== "list" || event.button !== 0) return;
+    keyboardSelection.current = null;
     drag.current = { id: event.pointerId, start: event.clientY, last: event.clientY, velocity: 0, moved: false };
   }
   function pointerMove(event: PointerEvent<HTMLDivElement>) {
@@ -349,9 +364,19 @@ export function WorkPage() {
     pointer.id = -1;
   }
   function onListKey(event: KeyboardEvent<HTMLAnchorElement>) {
+    if (event.key === "Enter" && modeRef.current === "list") {
+      const selectedLink = listLayer.current?.querySelectorAll<HTMLAnchorElement>(".work-list-row > a")[selectedRef.current];
+      if (selectedLink && selectedLink !== event.currentTarget) {
+        event.preventDefault();
+        selectedLink.focus({ preventScroll: true });
+        selectedLink.click();
+      }
+      return;
+    }
     if (event.key === " ") {
       event.preventDefault();
-      controls.current?.select(selectedRef.current + (event.shiftKey ? -1 : 1));
+      controls.current?.select(selectedRef.current + (event.shiftKey ? -1 : 1), true);
+      setHovered(null);
     }
   }
 
@@ -370,7 +395,7 @@ export function WorkPage() {
                   <Link to={`/work/${slide.projectSlug}`} className="work-slide-link"
                     aria-label={`View ${getProject(slide.projectSlug)?.title ?? slide.projectSlug}`}
                     tabIndex={mode === "list" || (desktop && projectSlides.indexOf(slide) !== selected) ? -1 : undefined}>
-                    <div className="work-slide-media"><Media media={slide.thumbnail} eager={index < 2} /></div>
+                    <div className="work-slide-media"><Media media={slide.thumbnail} eager={index < 2} active={mode === "full"} /></div>
                     <div className="work-slide-heading"><h2 className="work-slide-title">{getProject(slide.projectSlug)?.title}</h2></div>
                     <span className="work-slide-number">{String(projectSlides.indexOf(slide) + 1).padStart(2, "0")}</span>
                   </Link>
@@ -384,7 +409,7 @@ export function WorkPage() {
             <div className="work-preview-layer" aria-hidden="true">
               {projectSlides.map((slide, index) => (
                 <div key={slide.projectSlug} className={`work-preview ${index === previewIndex ? "is-active" : ""}`}>
-                  <Media media={slide.thumbnail} />
+                  <Media media={slide.thumbnail} active={desktop && mode === "list" && index === previewIndex} />
                 </div>
               ))}
             </div>

@@ -3,7 +3,8 @@
   "status": "passed",
   "commands": {
     "npm run check": 0,
-    "npm run build": 0
+    "npm run build": 0,
+    "npm ci --prefer-offline --no-audit --no-fund": 0
   },
   "content": {
     "routes": 25,
@@ -13,7 +14,8 @@
     "internalLinks": 55,
     "mediaReferences": 338,
     "uniqueContentAssets": 323,
-    "runtimeCMSDependencies": 0
+    "runtimeCMSDependencies": 0,
+    "localFiles": 419
   },
   "assets": {
     "checkedFiles": 412,
@@ -24,20 +26,21 @@
   "production": {
     "htmlRoutes": 25,
     "temporaryQaPagesIncluded": false,
-    "mainJavaScriptKB": 601.39,
-    "mainJavaScriptGzipKB": 182.56,
-    "largestFileBytes": 25065715
-  },
-  "repositoryPackaging": {
-    "assembledMediaFiles": 2,
-    "localMediaParts": 5,
-    "maxPartBytes": 8388608,
-    "mediaBytesUnchanged": true,
-    "offlineReassemblyVerified": true
+    "mainJavaScriptKB": 604.17,
+    "mainJavaScriptGzipKB": 183.36,
+    "largestFileBytes": 25065715,
+    "mainJavaScriptFile": "index-D2B1RS-f.js",
+    "mainJavaScriptBytes": 604177
   },
   "browser": {
-    "desktopCssViewport": [1363, 936],
-    "responsiveIframeViewport": [390, 844],
+    "desktopCssViewport": [
+      1363,
+      936
+    ],
+    "responsiveIframeViewport": [
+      390,
+      844
+    ],
     "applicationErrorsObserved": 0,
     "review": "../design-qa.md",
     "limitations": [
@@ -45,6 +48,25 @@
       "No physical mobile device or Safari coverage",
       "Reduced motion reviewed in code, not via OS emulation",
       "No public deployment performed"
-    ]
+    ],
+    "recoveryReview": "verification-20261103/recovery-review.md"
+  },
+  "verificationPhase": "Final check after recovery, navigation and media fixes",
+  "sourceComparison": {
+    "checks": 288,
+    "passed": 288,
+    "report": "verification-20261103/content-comparison.json"
+  },
+  "repositoryPackaging": {
+    "mode": "Complete media files plus one MP4 assembled from verified local parts",
+    "localMediaParts": 2,
+    "assembledMediaFiles": 1,
+    "maxPartBytes": 8388608,
+    "mediaBytesUnchanged": true,
+    "offlineReassemblyVerified": true,
+    "reconciledPreviousCommit": "995a93e57c6bc737783f3ec05ad1ac7e9eea9277",
+    "reassembledFileSha256": "f97c3cd2c2ba6b1aea595e372f875ec0732cee09d71c64cb1be5e59ca7c25eff",
+    "reassembledFileGitBlob": "91615d1bba0dcda6840fe357900265da3115a30f",
+    "postinstallReassembledFiles": 1
   }
 }

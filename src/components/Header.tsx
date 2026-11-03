@@ -106,7 +106,7 @@ export function Header() {
   const menu = menuMounted ? (
     <div ref={dialog} className="mobile-menu-dialog" role="dialog" aria-modal="true" aria-label="Main menu" tabIndex={-1} id="mobile-navigation">
       <Link to="/" className="mobile-menu-brand" aria-label={`${content.site.name} home`} onClick={closeMenu}>
-        <img src={brand.headerLogo} alt="" width="68" height="12" />
+        {homeIntro ? <span>{content.site.tagline.split("\n")[0]}</span> : <img src={brand.headerLogo} alt="" width="68" height="12" />}
       </Link>
       <button ref={closeButton} type="button" className="mobile-menu-close" onClick={closeMenu} aria-label="Close menu">Close</button>
       <div className="mobile-menu-inner">
@@ -119,7 +119,7 @@ export function Header() {
           ))}</ul>
         </nav>
         <ul className="mobile-menu-socials">{content.site.socials.map((item) => (
-          <li key={item.url}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.label} <span aria-hidden="true">↗</span></a></li>
+          <li key={item.url}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.label}</a></li>
         ))}</ul>
       </div>
     </div>
