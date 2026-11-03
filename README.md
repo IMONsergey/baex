@@ -130,3 +130,5 @@ python3 scripts/sync-reference-assets.py
 Сравнения с исходным сайтом, история визуальных исправлений, проверенные взаимодействия и ограничения описаны в [design-qa.md](design-qa.md). В `docs/evidence/` сохранены снимки первичной проверки; они не обозначают новый захват после восстановления проекта.
 
 Повторная проверка истории, клавиатуры, мобильного меню и видеопревью записана в [recovery-review.md](docs/verification-20261103/recovery-review.md). Отдельная [сверка с текущим публичным контентом](docs/verification-20261103/content-review.md) содержит 288 успешных проверок структуры и медиа. Результат последней production-сборки и численные показатели находятся в [docs/validation-result.json](docs/validation-result.json); текущий этап проверки указан в Design QA.
+
+Свежая проверка из чистой копии GitHub и текущие снимки: [final-review](docs/verification-20261103/final-review/README.md). Проверен commit `c0db7fc429b2e95c54a43b72a360dec27236fc1a`, включая явный возврат фокуса после showreel.

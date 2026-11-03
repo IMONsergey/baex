@@ -1,0 +1,31 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> baex@0.1.0 build
+> npm run prepare:media && tsc -b && vite build && node scripts/emit-routes.mjs
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> baex@0.1.0 prepare:media
+> node scripts/prepare-media.mjs
+
+Large media ready: 1 files, 0 assembled locally.
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 56 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                               0.94 kB │ gzip:   0.48 kB
+dist/assets/work-CKbe5omF.css                12.22 kB │ gzip:   2.79 kB
+dist/assets/editorial-CoED8GuN.css           20.94 kB │ gzip:   4.32 kB
+dist/assets/index-C_n8JfJ8.css               24.59 kB │ gzip:   5.64 kB
+dist/assets/useEditorialMotion-Q75yFdRV.js    0.45 kB │ gzip:   0.34 kB
+dist/assets/LegalPage-CpS68QfV.js             0.87 kB │ gzip:   0.40 kB
+dist/assets/ContactPage-Deo1cL2E.js           2.23 kB │ gzip:   0.84 kB
+dist/assets/ProjectPage-CCxr-2r0.js           4.75 kB │ gzip:   1.46 kB
+dist/assets/ServicesPage-Huabn7-5.js          5.46 kB │ gzip:   1.44 kB
+dist/assets/AboutPage-CBdq8kZZ.js             5.78 kB │ gzip:   1.45 kB
+dist/assets/WorkPage-DLBERfnZ.js             10.49 kB │ gzip:   3.67 kB
+dist/assets/index-DA744yZb.js               604.26 kB │ gzip: 183.38 kB
+
+✓ built in 479ms
+Created 25 static route entry files in dist/.

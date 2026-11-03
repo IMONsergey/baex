@@ -26,11 +26,11 @@
   "production": {
     "htmlRoutes": 25,
     "temporaryQaPagesIncluded": false,
-    "mainJavaScriptKB": 604.17,
-    "mainJavaScriptGzipKB": 183.36,
+    "mainJavaScriptKB": 604.27,
+    "mainJavaScriptGzipKB": 180.6,
     "largestFileBytes": 25065715,
-    "mainJavaScriptFile": "index-D2B1RS-f.js",
-    "mainJavaScriptBytes": 604177
+    "mainJavaScriptFile": "index-DA744yZb.js",
+    "mainJavaScriptBytes": 604269
   },
   "browser": {
     "desktopCssViewport": [
@@ -49,9 +49,12 @@
       "Reduced motion reviewed in code, not via OS emulation",
       "No public deployment performed"
     ],
-    "recoveryReview": "verification-20261103/recovery-review.md"
+    "recoveryReview": "verification-20261103/recovery-review.md",
+    "finalReview": "verification-20261103/final-review/README.md",
+    "freshObservationEntries": 19,
+    "excludedExtensionLogEntries": 44
   },
-  "verificationPhase": "Final check after recovery, navigation and media fixes",
+  "verificationPhase": "Clean GitHub checkout, explicit reel trigger focus, fresh browser review and production build",
   "sourceComparison": {
     "checks": 288,
     "passed": 288,
@@ -68,5 +71,14 @@
     "reassembledFileSha256": "f97c3cd2c2ba6b1aea595e372f875ec0732cee09d71c64cb1be5e59ca7c25eff",
     "reassembledFileGitBlob": "91615d1bba0dcda6840fe357900265da3115a30f",
     "postinstallReassembledFiles": 1
+  },
+  "testedCodeCommit": "c0db7fc429b2e95c54a43b72a360dec27236fc1a",
+  "finalReview": {
+    "report": "verification-20261103/final-review/README.md",
+    "receipts": "verification-20261103/final-review/browser-checks.json",
+    "buildOutput": "verification-20261103/final-review/build.txt",
+    "sourceDesktopFresh": true,
+    "otherSourceScreenshots": "Earlier same-day captures, explicitly identified in report",
+    "result": "passed"
   }
 }

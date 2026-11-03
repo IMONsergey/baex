@@ -1,0 +1,61 @@
+{
+  "testedCodeCommit": "c0db7fc429b2e95c54a43b72a360dec27236fc1a",
+  "files": {
+    "README.md": {
+      "bytes": 7656,
+      "sha256": "cdb0cd05151beb469d56bef6d6bedb82fbe782cac776eb1ca8313c7ae9b5f8b7"
+    },
+    "browser-checks.json": {
+      "bytes": 15357,
+      "sha256": "81186239709f21666552513a2fd2b2147fe54e8d99b0fc8e377dac56cf0ddcd0"
+    },
+    "build.txt": {
+      "bytes": 1509,
+      "sha256": "939191eaeb963cbe927badaeda08f997023a83f71a58872144ad2fd93b3b01d5"
+    },
+    "home-desktop-verified.jpg": {
+      "bytes": 63533,
+      "sha256": "eae5b078c89ce120edf6ff39f563530c787e5595d6df8a80d76facb0e58d31ba"
+    },
+    "home-mobile-verified.jpg": {
+      "bytes": 60483,
+      "sha256": "5305af3cf902bf5b0ac3e21e3043396d44e873eaab2e3d8f796cc23df0e00114"
+    },
+    "implementation-home-desktop.jpg": {
+      "bytes": 49944,
+      "sha256": "67ceb3c54e5a2cf86c7c1390876fd5d7dec7178a88f88eb704b73eb94117aefc"
+    },
+    "mobile-icomat.jpg": {
+      "bytes": 58709,
+      "sha256": "52a15a47c8b882ccfb524f65f673ad0b6a969eb158f6849821ae625f32b1ccc2"
+    },
+    "mobile-menu.jpg": {
+      "bytes": 21664,
+      "sha256": "0d4e7ee6156bba143a20c75878785b7778679ea1e57df453687f6626b2ee679e"
+    },
+    "source-home-desktop.jpg": {
+      "bytes": 54827,
+      "sha256": "3ff759c7516cf33a043ee332fbd8bf92283ad53b2aed2c72124593cf0b5fb4dd"
+    },
+    "tensor-comparison.jpg": {
+      "bytes": 501797,
+      "sha256": "5417e583820f85bbcb562b231634efdf8f567da0c7c3717a21a2c99d32d34d04"
+    },
+    "tensor-desktop.jpg": {
+      "bytes": 146108,
+      "sha256": "3de696143edbc7e0e40e56cbdd37b0eee9a753a4dfd3b336685c889720db9cf8"
+    },
+    "work-full-desktop.jpg": {
+      "bytes": 56367,
+      "sha256": "c846e6ee39ab71c6cd5cde1929cd418c8b9dbb365c12f3999a73e3177f532c93"
+    },
+    "work-list-comparison.jpg": {
+      "bytes": 223043,
+      "sha256": "62453156e3ab554a09ec30f837193eb3611f88f028571ffb482b0d2cb797a8e4"
+    },
+    "work-list-desktop.jpg": {
+      "bytes": 63593,
+      "sha256": "92cfe933ce5ae7b7b9f36cb8cddbecb8bd9f20bc5fb87bfcdd9022f397b7f7b8"
+    }
+  }
+}
